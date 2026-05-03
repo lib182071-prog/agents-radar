@@ -1,111 +1,82 @@
 # AI Open Source Trends 2026-05-03
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-03 00:18 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-03 03:50 UTC
 
 ---
 
-# AI Open Source Trends Report — May 3, 2026
-
----
+# AI Open Source Trends Report — 2026-05-03
 
 ## 1. Today's Highlights
 
-Today's GitHub trending reveals explosive momentum around **Claude-centric agent infrastructure**, with [ruvnet/ruflo](https://github.com/ruvnet/ruflo) surging +1,299 stars as an enterprise-grade multi-agent orchestration platform specifically built for Claude. Financial AI agents are also commanding attention—[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) gained +2,225 stars with its LLM-powered multi-agent trading framework, signaling growing institutional interest in autonomous economic agents. The Rust-based coding agent harness [1jehuang/jcode](https://github.com/1jehuang/jcode) (+482 today) reflects continued investment in performant, systems-level AI tooling. Notably, browser automation for agents remains hot with [browserbase/skills](https://github.com/browserbase/skills) (+346), while the broader ecosystem shows consolidation around **MCP protocols**, **memory systems**, and **Claude Code integrations** as the dominant integration patterns.
-
----
+The open-source AI ecosystem today is dominated by **agentic orchestration frameworks and financial AI**, with explosive growth in multi-agent systems designed for production workflows. **TauricResearch/TradingAgents** (+2,225 stars today) signals a new wave of domain-specific AI agent frameworks targeting quantitative finance, while **ruvnet/ruflo** (+1,299 stars) emerges as a dedicated orchestration platform for Claude Code deployments. In the broader ecosystem, **CherryHQ/cherry-studio** (44,923 stars) and **HKUDS/nanobot** (41,534 stars) represent the maturation of lightweight, personal AI agents that compete with heavier enterprise alternatives. The continued dominance of **agent SDKs** (browserbase/skills, trycua/cua) and **memory/RAG infrastructure** (mem0ai/mem0, zilliztech/claude-context) underscores that the community is now focused on **durability, tool-use, and context management** rather than raw model training.
 
 ## 2. Top Projects by Category
 
-### 🔧 AI Infrastructure
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [ollama/ollama](https://github.com/ollama/ollama) | 170,576 total | Local LLM runtime now supporting Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma—remains the definitive on-premise inference stack |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 78,880 total | High-throughput inference engine critical for production serving; PagedAttention architecture continues to set efficiency benchmarks |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 160,189 total | Foundational model-definition framework; the de facto standard for multimodal model development and deployment |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 7,141 total | Emerging Rust framework for modular LLM applications—growing traction for memory-safe, high-performance agent backends |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | 18,503 total | Universal CLI Hub transforming any website or app into AI-agent-executable tools via AGENT.md standardization |
+### 🔧 AI Infrastructure (Frameworks, SDKs, Inference Engines, Dev Tools)
 
-### 🤖 AI Agents / Workflows
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 0 total, **+2,225 today** | Multi-agent LLM financial trading framework—today's top gainer, demonstrating autonomous economic agent viability |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 0 total, **+1,299 today** | Leading Claude-specific orchestration platform with distributed swarm intelligence, RAG, and native Claude Code/Codex integration |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 183,948 total | Pioneer autonomous agent project; ongoing evolution toward accessible AI infrastructure |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 64,527 total | Long-horizon SuperAgent harness with sandboxed execution, memory, and subagent coordination for multi-hour tasks |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72,527 total | AI-driven development environment; strong momentum in software engineering automation |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 22,016 total | AI workflow automation with ~400 MCP servers—emerging as key MCP ecosystem hub |
-| [leon-ai/leon](https://github.com/leon-ai/leon) | 17,205 total | Open-source personal assistant with extensible skill architecture |
+- **[ollama/ollama](https://github.com/ollama/ollama)** — ⭐170,588 — The leading local LLM runner, now supporting Kimi-K2.5, GLM-5, and DeepSeek models. Essential for on-device inference.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** — ⭐78,890 — High-throughput LLM inference engine, the default choice for production serving.
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** — ⭐160,190 — The universal model-definition framework for text, vision, audio, and multimodal models.
+- **[trycua/cua](https://github.com/trycua/cua)** — ⭐15,518 — Open-source infrastructure for Computer-Use Agents, providing sandboxed desktop environments for training and evaluation.
+- **[e2b-dev/E2B](https://github.com/e2b-dev/E2B)** — ⭐12,026 — Secure, enterprise-grade execution environments for AI agents with real-world tool access.
+- **[zilliztech/claude-context](https://github.com/zilliztech/claude-context)** — ⭐10,597 — Code search MCP server for Claude Code, turning entire codebases into agent context.
+- **[samchon/nestia](https://github.com/samchon/nestia)** — ⭐2,148 — NestJS helper with integrated AI chatbot development, bridging backend frameworks and LLM agents.
 
-### 📦 AI Applications
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 44,915 total | AI productivity studio with 300+ assistants and unified frontier LLM access—strong in APAC markets |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,973 total | WeChat-integrated super AI assistant with proactive planning, OS access, and multi-platform deployment (DeepSeek/OpenAI/Claude/Gemini) |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | 41,854 total | Claude Code-based job search system with 14 skill modes—vertical AI application showing agent specialization |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 91,723 total | Website accessibility layer for AI agents; core infrastructure for web automation |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 114,254 total | Web scraping/search API purpose-built for AI—essential data ingestion layer |
-| [trycua/cua](https://github.com/trycua/cua) | 15,509 total | Computer-Use Agent infrastructure with sandboxed desktop control (macOS/Linux/Windows) |
+### 🤖 AI Agents / Workflows (Multi-Agent Systems, Automation, Orchestration)
 
-### 🧠 LLMs / Training
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 48,736 total | Educational 64M-parameter LLM trained from scratch in 2 hours—democratizing foundational training knowledge |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 70,845 total | Unified fine-tuning for 100+ LLMs/VLMs; production-grade efficiency (ACL 2024) |
-| [llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) | 1,388 total | Regional LLM ecosystem tracking—indicative of geographic model diversification |
-| [galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining) | 213 total | Minimal, reliable foundation model pretraining library—emerging tooling for training stability |
-| [Picovoice/picollm](https://github.com/Picovoice/picollm) | 311 total | On-device inference with X-bit quantization—edge deployment optimization |
+- **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** — ⭐0 (+2,225 today) — Multi-agent LLM framework for financial trading. **Today's standout** for domain-specific agent deployment.
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — ⭐0 (+1,299 today) — Claude agent orchestration platform with distributed swarm intelligence, RAG integration, and native Claude Code/Codex support.
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — ⭐44,923 — AI productivity studio with smart chat, autonomous agents, and 300+ assistants — a unified front-end for frontier LLMs.
+- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** — ⭐30,586 — Frontend stack for building Agents & Generative UI in React and Angular. Creators of the AG-UI Protocol.
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — ⭐64,537 — Open-source long-horizon SuperAgent harness that researches, codes, and creates using sandboxes, memories, and subagents.
+- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** — ⭐183,947 — The original autonomous agent project, now a platform for accessible AI for everyone.
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** — ⭐72,531 — AI-driven development environment that automates coding workflows end-to-end.
+- **[leon-ai/leon](https://github.com/leon-ai/leon)** — ⭐17,205 — Open-source personal assistant with modular skill architecture, emphasizing privacy and local execution.
 
-### 🔍 RAG / Knowledge
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 139,888 total | Production-ready agentic workflow platform; dominant in enterprise RAG deployment |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 135,641 total | Core agent engineering platform; ecosystem standard for retrieval-augmented applications |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 54,611 total | Universal memory layer for AI agents—critical infrastructure for persistent agent context |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 49,099 total | Leading document agent and OCR platform; evolving beyond simple retrieval to complex document understanding |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 44,094 total | Cloud-native vector database for scalable ANN search; enterprise vector infrastructure |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 30,971 total | High-performance vector database with strong Rust-based performance characteristics |
-| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 26,060 total | Vectorless, reasoning-based RAG—potential paradigm shift reducing storage overhead |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 16,989 total | Agent memory in 6 lines of code; developer-experience focused memory abstraction |
+### 📦 AI Applications (Vertical Solutions, Specific Use Cases)
 
----
+- **[browserbase/skills](https://github.com/browserbase/skills)** — ⭐0 (+346 today) — Claude Agent SDK with a web browsing tool, enabling agents to interact with live websites.
+- **[1jehuang/jcode](https://github.com/1jehuang/jcode)** — ⭐0 (+482 today) — Coding Agent Harness in Rust, designed for performance-critical agent workflows.
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** — ⭐41,913 — AI-powered job search system built on Claude Code with 14 skill modes and PDF generation.
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐48,742 — Train a 64M-parameter LLM from scratch in just 2 hours — a major educational resource for model training.
+
+### 🧠 LLMs / Training (Model Weights, Training Frameworks, Fine-Tuning)
+
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** — ⭐70,848 — Unified efficient fine-tuning of 100+ LLMs and VLMs (ACL 2024 paper). The go-to tool for model adaptation.
+- **[0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)** — ⭐7,143 — Build modular, scalable LLM applications in Rust, gaining traction for performance-critical agent systems.
+- **[BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents)** — ⭐5,864 — Framework for building AI agents atomically, emphasizing composability and testability.
+- **[acon96/home-llm](https://github.com/acon96/home-llm)** — ⭐1,327 — Local LLM integration for Home Assistant, enabling private smart home control.
+- **[thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL)** — ⭐1,198 — Awesome list for Agentic Reinforcement Learning, tracking the emerging intersection of RL and agent systems.
+
+### 🔍 RAG / Knowledge (Vector Databases, Retrieval-Augmented Generation, Knowledge Management)
+
+- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** — ⭐49,100 — Leading document agent and OCR platform for building RAG pipelines.
+- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** — ⭐44,096 — High-performance cloud-native vector database for scalable ANN search.
+- **[qdrant/qdrant](https://github.com/qdrant/qdrant)** — ⭐30,974 — Rust-based vector search engine with massive-scale performance and cloud-native design.
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** — ⭐54,617 — Universal memory layer for AI agents, providing persistent context across sessions.
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — ⭐71,137 — Claude Code plugin that auto-captures and compresses session context for injection into future sessions.
+- **[topoteretes/cognee](https://github.com/topoteretes/cognee)** — ⭐16,991 — Memory for AI agents in 6 lines of code — a lightweight alternative for persistent agent context.
+- **[yichuan-w/LEANN](https://github.com/yichuan-w/LEANN)** — ⭐10,946 — [MLsys2026] RAG on everything with 97% storage savings for private on-device retrieval.
 
 ## 3. Trend Signal Analysis
 
-**Explosive Attention: Claude-Centric Agent Infrastructure**
+Today's data reveals **three dominant signals**:
 
-The most striking pattern today is the concentration of explosive growth around **Anthropic Claude integrations**. [ruvnet/ruflo](https://github.com/ruvnet/ruflo) (+1,299 stars) and [browserbase/skills](https://github.com/browserbase/skills) (+346) both explicitly target Claude, while [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) (172,090 stars) represents the accumulated ecosystem. This suggests Claude Code's release has triggered a **platform-specific gold rush** analogous to early ChatGPT plugin development, but with deeper IDE integration and autonomous execution capabilities.
+**1. Domain-Specific Agent Frameworks are Exploding.** The +2,225 stars for **TauricResearch/TradingAgents** in a single day signals that the community is hungry for specialized agent architectures beyond generic chat. Financial trading, with its real-time data streams, risk management, and multi-agent coordination requirements, is becoming a testing ground for production-grade agent systems. Similarly, **ruvnet/ruflo's** +1,299 stars shows that orchestration layers for Claude Code are a rapidly maturing category — developers want control over agent swarms, not just single-agent interactions.
 
-**Financial Agents as Emerging Vertical**
+**2. Memory and Context are the New Battleground.** The rise of **thedotmack/claude-mem** (71,137⭐) and **mem0ai/mem0** (54,617⭐) — both gaining massive traction — confirms that the community has moved beyond "can we build an agent?" to "can we make it remember?" The proliferation of MCP servers for code context (**zilliztech/claude-context**) and session compression tools indicates that **persistent, cross-session memory** is the key bottleneck for agent adoption.
 
-[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)'s +2,225 star surge indicates **autonomous economic agents** are transitioning from research curiosity to deployable infrastructure. Unlike generic coding agents, financial agents require specialized multi-agent coordination for risk management, regulatory compliance, and market simulation—creating higher barriers to entry and thus stronger moats for early movers.
+**3. The "Agent Harness" Pattern is Standardizing.** Projects like **1jehuang/jcode** (Rust-based), **browserbase/skills** (JavaScript-based), and **trycua/cua** (infrastructure for computer-use agents) all follow a pattern: provide a **secure sandbox + tool API + SDK** that agents can discover and use. This is a shift away from monolithic agents toward **composable, tool-first architectures**. The popularity of **CopilotKit** (30,586⭐) and its AG-UI Protocol further suggests that the frontend layer for agents is being standardized.
 
-**MCP Protocol Consolidation**
-
-The repeated appearance of "MCP" across [activepieces/activepieces](https://github.com/activepieces/activepieces), [zilliztech/claude-context](https://github.com/zilliztech/claude-context), and [apache/casbin-gateway](https://github.com/apache/casbin-gateway) confirms Model Context Protocol as the **emerging interoperability standard**. This mirrors OAuth's trajectory—initially proprietary, now foundational. The protocol's adoption by vector databases, security gateways, and workflow platforms suggests it's becoming the "USB-C for AI agents."
-
-**Rust in Agent Infrastructure**
-
-[1jehuang/jcode](https://github.com/1jehuang/jcode) (Rust, +482 today) and [rig](https://github.com/0xPlaygrounds/rig) (Rust, 7,141 stars) signal growing preference for systems languages in performance-critical agent components. Python remains dominant for research, but Rust is capturing production infrastructure—particularly where memory safety and low-latency tool execution matter.
-
-**Vectorless RAG Experimentation**
-
-[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) and [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) (97% storage savings) indicate **RAG architecture evolution** beyond dense vector retrieval. As context windows expand and reasoning models improve, hybrid approaches combining symbolic indexing with selective embedding may challenge pure vector database dominance.
-
----
+**Connection to recent events:** The Claude Code ecosystem (ruflo, browserbase/skills, claude-mem, claude-context) is clearly reacting to Anthropic's recent Claude Code and Codex releases. The mini-model trend (**minimind** at 48,742⭐) aligns with the industry's push toward smaller, efficient models for edge deployment.
 
 ## 4. Community Hot Spots
 
-- **🔗 [ruvnet/ruflo](https://github.com/ruvnet/ruflo)** — *Enterprise Claude orchestration with swarm intelligence*. The +1,299 daily velocity and explicit "Claude Code / Codex Integration" positioning makes this the most actionable early signal for developers building production multi-agent systems. Native RAG and distributed architecture suggest it's designed for scale, not demos.
-
-- **💰 [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** — *Financial multi-agent systems*. Today's highest star gain (+2,225) in a high-stakes vertical. The intersection of LLM reasoning, market simulation, and risk-constrained execution represents a frontier with immediate commercial applicability and regulatory complexity worth studying.
-
-- **🧠 [mem0ai/mem0](https://github.com/mem0ai/mem0) + [topoteretes/cognee](https://github.com/topoteretes/cognee)** — *Agent memory layer consolidation*. As agents extend from single-session chatbots to persistent coworkers, memory infrastructure becomes critical. These projects are competing to become the "Redis for agents"—a foundational layer with massive leverage.
-
-- **🌐 [browser-use/browser-use](https://github.com/browser-use/browser-use) + [trycua/cua](https://github.com/trycua/cua)** — *Computer-use agent infrastructure*. With OpenAI's Operator and Claude's computer use capabilities public, open-source alternatives for desktop/browser automation are essential for cost-sensitive and privacy-critical deployments. The sandboxing emphasis in cua addresses enterprise security requirements.
-
-- **⚡ [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) + [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN)** — *Post-vector RAG architectures*. If reasoning-based retrieval achieves production parity with lower infrastructure costs, this could disrupt the $B+ vector database market. Early experimentation here positions developers for potential architectural shifts as frontier models' reasoning capabilities improve.
+- **🤑 TradingAgents Framework** — The financial AI agent space is red-hot. Developers should watch this project for patterns in multi-agent coordination under real-time constraints. **(link)**
+- **🧠 Claude Code Ecosystem** — ruflo (orchestration), browserbase/skills (web browsing), claude-mem (session memory), and claude-context (code search) form a complete stack. This is the fastest-growing agent development platform today. **(link)**
+- **🔒 Agent Sandbox Infrastructure** — trycua/cua and e2b-dev/E2B are defining how agents interact with real desktops and APIs safely. Essential for any enterprise agent deployment. **(link)**
+- **💾 Universal Memory Layer** — mem0ai/mem0 and cognee are solving agent amnesia. If you're building agents that need to persist context across sessions, these are the libraries to track. **(link)**
+- **⚡ Rust in AI Agents** — rig (Rust LLM framework) and jcode (Rust coding agent) signal that Rust is entering the AI tooling space for performance-critical agent runs. Worth exploring for latency-sensitive workflows. **(link)**
 
 ---
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/lib182071-prog/agents-radar).*

@@ -1,104 +1,163 @@
 # AI 开源趋势日报 2026-05-03
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-03 00:18 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-03 03:50 UTC
+
+---
+
+以下是 2026-05-03 的 AI 开源趋势日报。
 
 ---
 
 # AI 开源趋势日报 | 2026-05-03
 
----
-
 ## 今日速览
 
-今日 AI 开源热点呈现**"智能体金融化"与"Claude 生态工具链爆发"**两大主线。Trending 榜单中，金融交易多智能体框架 `TradingAgents` 以单日 +2225 stars 登顶，Claude 专属编排平台 `ruflo` 紧随其后获 +1299 stars，显示垂直场景 Agent 正从概念验证走向生产级部署。主题搜索侧，AI Agent 类别持续扩容，`NousResearch/hermes-agent` 等头部项目已突破 12 万 stars，而 RAG 基础设施如 `dify`、`langchain` 保持稳健增长，向量数据库领域出现 `LEANN` 等存储优化创新方案。
-
----
+- 智能体（Agent）赛道持续爆发，今日 Trending 热榜中 4 个 AI 项目全部围绕多智能体或 Agent 工具，其中 **TradingAgents** 以 +2225 stars 登顶，专注金融交易场景。
+- Claude 生态工具集中涌现：`ruflo`（+1299 stars）提供 Agent 编排平台，`browserbase/skills`（+346 stars）封装网页浏览能力，`jcode`（+482 stars）是专为编码设计的 Agent harness。
+- 主题搜索中 RAG/向量数据库项目稳中有增，`anything-llm`（59K stars）与 `meilisearch`（57K stars）持续领跑，而 `mem0`（54K stars）作为通用记忆层新晋热门。
+- 微调与训练方向出现两大亮点：`LlamaFactory`（70K stars）以低门槛微调 100+ 模型成为刚需；`minimind`（48K stars）用 2 小时从零训练 64M 参数 LLM，大幅降低入门门槛。
+- 开源推理引擎格局未变，`ollama`（170K stars）集成最新 Kimi-K2.5、GLM-5 等模型，`vllm`（78K stars）保持高性能定位。
 
 ## 各维度热门项目
 
 ### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
 
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [ollama/ollama](https://github.com/ollama/ollama) | 170,576 | 本地大模型运行的事实标准，今日支持 Kimi-K2.5、GLM-5 等新模型，持续降低开发者私有化部署门槛 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 78,880 | 高吞吐 LLM 推理引擎，生产级 serving 的核心基础设施 |
-| [browserbase/skills](https://github.com/browserbase/skills) | 0 (+346 today) | **今日 Trending**：Claude Agent SDK 网页浏览工具，补全 Agent 联网能力的标准化组件 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | 18,503 | 通用 CLI Hub，将任意网站/Electron 应用转为标准化命令行接口，专为 AI Agent 发现与执行工具设计 |
-| [googleworkspace/cli](https://github.com/googleworkspace/cli) | 25,672 | Google Workspace 官方 CLI，内置 AI agent skills，企业办公自动化的新入口 |
+- **[ollama](https://github.com/ollama/ollama)** ⭐170,588  
+  本地 LLM 推理引擎，现已支持 Kimi-K2.5、GLM-5、MiniMax、DeepSeek 等最新模型，是个人开发者的首选。
+
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐78,890  
+  高吞吐、低延迟的 LLM 推理引擎，广泛用于生产环境，持续适配新架构。
+
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** ⭐160,190  
+  模型定义与训练框架，覆盖文本、视觉、音频、多模态，是 AI 研究的基础设施。
+
+- **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** ⭐135,649  
+  智能体工程平台，提供丰富的 LLM 链、工具调用、RAG 能力，社区生态庞大。
+
+- **[pytorch/pytorch](https://github.com/pytorch/pytorch)** ⭐99,591  
+  深度学习框架，GPU 加速动态神经网络，仍是 AI 训练和实验的主流选择。
+
+- **[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)** ⭐65,967  
+  经典机器学习库，与 LLM 结合做特征工程、分类、聚类等任务。
+
+- **[keras-team/keras](https://github.com/keras-team/keras)** ⭐64,059  
+  高级深度学习 API，适合快速原型和教学。
+
+- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** ⭐49,100  
+  文档代理与 OCR 平台，同时是 RAG 核心工具，今日因 `vector-db` 标签被广泛关注。
 
 ### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
 
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 0 (+2225 today) | **今日最热**：多智能体 LLM 金融交易框架，用协作式 Agent 模拟替代传统量化策略，标志 AI Agent 进入高频金融场景 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 0 (+1299 today) | **今日次热**：Claude 专属 Agent 编排平台，支持分布式蜂群智能与 RAG 集成，直接对标 LangChain 的 Claude 生态位 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 129,756 | "与你共同成长"的 Agent，NousResearch 在开源模型与 Agent 架构上的双重布局 |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 64,527 | 字节开源的长时程 SuperAgent，支持沙箱、记忆、子代理与消息网关，可处理分钟到小时级的复杂任务 |
-| [trycua/cua](https://github.com/trycua/cua) | 15,509 | 计算机使用 Agent（Computer-Use Agent）的开源基础设施，提供跨平台桌面控制沙箱与评测基准 |
-| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | 12,025 | 企业级 Agent 安全执行环境，为代码生成、数据分析等场景提供隔离沙箱 |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 22,016 | AI 工作流自动化平台，集成 ~400 个 MCP 服务器，Agent 与自动化流程的桥梁 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72,527 | AI 驱动软件开发，从代码生成到 PR 提交的端到端 Agent 工作流 |
+- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐183,947  
+  自主 AI 智能体先驱，持续迭代多 Agent 协作与任务规划能力。
+
+- **[langgenius/dify](https://github.com/langgenius/dify)** ⭐139,900  
+  生产级智能体工作流平台，支持可视化编排、工具集成、MCP 协议。
+
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** ⭐91,739  
+  让 AI 智能体操控浏览器的工具，自动化网页操作，与 Claude Code 深度绑定。
+
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** ⭐44,923  
+  AI 生产力工作室，集成智能聊天、自主智能体、300+ 助手，统一访问前沿 LLM。
+
+- **[activepieces/activepieces](https://github.com/activepieces/activepieces)** ⭐22,017  
+  包含 400+ MCP 服务器的 AI 工作流自动化平台，支持智能体与 MCP 集成。
+
+- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** ⭐30,586  
+  智能体 & 生成式 UI 前端栈，支持 React/Angular，是构建 Agent UI 的利器。
+
+- **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** ⭐0 (+2225 today)  
+  今日 Trend 第一，多智能体 LLM 金融交易框架，结合 Agent 与量化策略，引发社区热议。
+
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** ⭐0 (+1299 today)  
+  Claude 智能体编排平台，支持多智能体 swarm、RAG、Claude Code 原生集成，推动 Claude 生态。
 
 ### 📦 AI 应用（具体应用产品、垂直场景解决方案）
 
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 44,915 | AI 生产力工作室，聚合 300+ 助手与前沿 LLM，国产开源客户端的代表作 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43,973 | 基于大模型的超级 AI 助理，支持微信/飞书/钉钉等多平台接入，比 OpenClaw 更轻量的数字员工方案 |
-| [santifer/career-ops](https://github.com/santifer/career-ops) | 41,854 | 基于 Claude Code 的 AI 求职系统，14 种技能模式 + Go 仪表盘，垂直场景 Agent 的标杆 |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 41,527 | 超轻量级个人 AI Agent，港大出品，强调端侧部署与隐私保护 |
-| [nocobase/nocobase](https://github.com/nocobase/nocobase) | 22,262 | AI + 无代码平台，AI 在成熟基础设施上工作而非从零生成，平衡速度与可靠性 |
-| [1jehuang/jcode](https://github.com/1jehuang/jcode) | 0 (+482 today) | **今日 Trending**：Coding Agent Harness，Rust 编写的代码智能体 harness，性能导向的编程 Agent 新尝试 |
+- **[open-webui/open-webui](https://github.com/open-webui/open-webui)** ⭐135,245  
+  用户友好的 AI 交互界面，支持 Ollama/OpenAI API，个人和团队部署首选。
+
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** ⭐114,324  
+  专为 AI 设计的网页搜索与抓取 API，可将网页内容喂给 LLM，支持智能体数据获取。
+
+- **[OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)** ⭐66,894  
+  金融数据平台，面向分析师、量化人员和 AI 智能体，今日因 TradingAgents 热度联动。
+
+- **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** ⭐76,972  
+  轻量级 OCR 工具，将图片/PDF 转为结构化数据，与 RAG 系统无缝衔接。
+
+- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** ⭐56,689  
+  YOLO 系列视觉模型，用于目标检测、分割，AI 视觉应用基础。
+
+- **[deepfakes/faceswap](https://github.com/deepfakes/faceswap)** ⭐55,201  
+  深度伪造软件，技术普及度高，今日因教程和社区讨论重回热点。
+
+- **[jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** ⭐46,070  
+  AI 低代码平台，支持 0 代码搭建、AI 聊天、知识库、MCP 插件，降低开发门槛。
+
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** ⭐41,913  
+  AI 驱动的求职系统，基于 Claude Code 实现简历优化、批量投递，实用性强。
 
 ### 🧠 大模型/训练（模型权重、训练框架、微调工具）
 
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 160,189 | 模型定义框架的事实标准，覆盖文本/视觉/音频/多模态的推理与训练 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 183,948 | 早期 Agent 运动的开创者，持续迭代"人人可用 AI"的愿景 |
-| [ollama/ollama](https://github.com/ollama/ollama) | 170,576 | 本地模型运行枢纽，新模型支持的快速跟进能力是其核心竞争力 |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 70,845 | 100+ LLM/VLM 统一高效微调框架，ACL 2024 成果，降低模型定制门槛 |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 48,736 | 2 小时从零训练 64M 参数 LLM，教育向极简实现，理解大模型原理的最佳入门 |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 7,141 | Rust 生态的模块化 LLM 应用框架，系统级语言在 AI 基础设施中的新探索 |
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** ⭐70,848  
+  统一高效微调 100+ LLM 与 VLM，ACL 2024 工作，社区最受欢迎的微调框架。
+
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐48,742  
+  2 小时从零训练 64M 参数 LLM 的教程与代码，极大降低大模型入门门槛，今日热度飙升。
+
+- **[0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)** ⭐7,143  
+  Rust 编写的模块化 LLM 应用框架，注重性能与可扩展性，是 Rust 生态 AI 新星。
+
+- **[Picovoice/picollm](https://github.com/Picovoice/picollm)** ⭐311  
+  设备端 LLM 推理引擎，基于 X-Bit 量化，适合边缘部署。
+
+- **[galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining)** ⭐214  
+  可靠、可扩展的预训练库，专注于基础模型和世界模型，适合研究与实验。
 
 ### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
 
-| 项目 | Stars | 一句话说明 |
-|:---|:---|:---|
-| [langgenius/dify](https://github.com/langgenius/dify) | 139,888 | 生产级 Agentic 工作流开发平台，RAG 与 Agent 的完整工程化方案 |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 135,641 | Agent 工程平台，RAG Pipeline 的标准定义者之一 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 135,237 | 用户友好的 AI 界面，Ollama/OpenAI API 的统一入口，RAG 对话的平民化方案 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 54,611 | AI Agent 的通用记忆层，解决长期上下文与个性化记忆的核心痛点 |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 49,099 | 领先的文档 Agent 与 OCR 平台，复杂文档的 RAG 处理专家 |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 44,094 | 云原生高性能向量数据库，可扩展向量 ANN 搜索的基础设施 |
-| [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | 10,946 | **MLsys2026**：RAG 存储优化突破，97% 存储节省的端侧私有 RAG，向量数据库的"轻量化革命" |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 16,989 | 6 行代码实现的 AI Agent 记忆，记忆即服务的极简抽象 |
+- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** ⭐59,427  
+  全能 AI 生产力加速器，设备端运行、隐私优先，集成文档索引与 RAG。
 
----
+- **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** ⭐57,390  
+  闪电级搜索 API，支持 AI 混合搜索，适合网站和应用快速接入语义检索。
+
+- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** ⭐44,096  
+  云原生向量数据库，高并发、高可用，是 RAG 系统的标准存储层。
+
+- **[qdrant/qdrant](https://github.com/qdrant/qdrant)** ⭐30,974  
+  高性能向量搜索引擎，支持大规模 ANN 搜索，提供云服务。
+
+- **[lancedb/lancedb](https://github.com/lancedb/lancedb)** ⭐10,170  
+  嵌入式多模态检索库，开发者友好，简化多模态 AI 数据管理。
+
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐54,617  
+  通用 AI 智能体记忆层，自动压缩和注入上下文，今日因 `claude-mem` 联动受到关注。
+
+- **[FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)** ⭐52,498  
+  可视化构建 RAG 与智能体流程，无需编码，适合快速原型。
+
+- **[shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** ⭐108,448  
+  100+ 可运行的 AI Agent 与 RAG 应用集合，开发者克隆即可部署，实用参考集。
 
 ## 趋势信号分析
 
-**金融 Agent 爆发与垂直场景深化**：`TradingAgents` 的单日 +2225 stars 标志着 AI Agent 从通用助手向**高频、高风险、高价值垂直领域**的跨越。金融交易对实时性、可解释性、回测验证的严苛要求，使其成为 Agent 能力的"压力测试场"——该项目的成功将验证多智能体协作在复杂决策中的可靠性，并可能催生更多垂直领域（法律、医疗、供应链）的专用 Agent 框架。
+今日热榜呈现三大趋势：
 
-**Claude 生态工具链的独立成型**：`ruflo`（+1299）、`browserbase/skills`（+346）、`claude-mem`（71K stars）等形成围绕 Anthropic 的**专属工具矩阵**，与 OpenAI/Gemini 生态形成三足鼎立。值得注意的是，这些工具强调"企业级架构""分布式蜂群智能"，暗示 Claude 在企业市场的渗透深度已催生配套基础设施需求。
+1. **金融 + 多智能体成为新爆点**。`TradingAgents` 单日 +2225 stars，将 LLM Agent 能力引入金融交易领域，结合 `OpenBB` 等金融数据平台，预示 AI 在量化交易中的实用化进程加速。
+2. **Claude 生态快速成熟**。`ruflo`、`browserbase/skills`、`jcode` 均深度绑定 Claude Code/Codex，提供编排、浏览、编码等模块化能力，与 `activepieces` 等 MCP 平台形成互补，Claude 正在构建类似“App Store”的 Agent 工具链。
+3. **微调与训练平民化**。`minimind` 用 2 小时训练小模型，`LlamaFactory` 支持一键微调 100+ 模型，标志着从“用模型”到“训模型”的门槛大幅降低，社区开始关注模型定制而非仅调用 API。
 
-**向量数据库的"后规模"创新**：`LEANN` 以 97% 存储节省挑战传统向量数据库的"越大越好"路径，`PageIndex` 提出"无向量推理式 RAG"，显示检索层正从**暴力索引**向**智能压缩与推理增强**演进，与边缘 AI、端侧部署的大趋势深度耦合。
-
-**与行业事件的关联**：Claude 4 系列模型近期发布（推测时间线）、Kimi-K2.5/GLM-5 等国产模型迭代，直接推动了 `ollama` 支持更新与 `ruflo` 等 Claude 专属工具的爆发。同时，MCP（Model Context Protocol）作为 Agent 工具调用的标准化协议，在 `activepieces`（~400 MCP servers）、`langchain4j`（MCP support）中的高频出现，表明其正从 Anthropic 内部标准向行业通用协议演进。
-
----
+此外，RAG 领域 `mem0` 与 `claude-mem` 连续多日高关注度，强调**智能体长期记忆**是当前痛点，记忆层与向量数据库的融合将是下一阶段重点。
 
 ## 社区关注热点
 
-- **🔥 `TradingAgents`：金融多智能体的生产级验证** — 首个将 LLM Agent 直接投入金融交易场景的框架，其回测机制、风险控制与多 Agent 协作模式将成为量化与 AI 社区交叉验证的焦点，成功则开启"AI 对冲基金"开源化浪潮。
-
-- **🔥 `ruflo`：Claude 生态的"LangChain 时刻"** — 专为 Claude 设计的 Agent 编排层，若形成开发者粘性，可能重塑 Anthropic 的开发生态格局，值得观察其是否与 Anthropic 官方存在战略协同。
-
-- **🔥 `LEANN` / `PageIndex`：RAG 的存储与架构革命** — 向量数据库的存储成本与索引延迟是端侧部署的关键瓶颈，这两项技术分别从压缩算法与索引结构切入，可能改变 RAG 的部署经济学。
-
-- **🔥 `jcode`：Rust 重构 Coding Agent Harness** — 以系统级语言重写 Agent 执行层，追求极致性能，反映 Coding Agent 从"能用"到"快且稳"的进化压力，与 `deer-flow` 的长时程任务形成互补。
-
-- **🔥 MCP 协议的标准化扩散** — 从 `activepieces` 的 400+ 服务器到 `langchain4j` 的企业集成，MCP 正成为 Agent 工具调用的"HTTP 时刻"，建议开发者提前布局 MCP 技能开发。
+- 🚀 **TradingAgents** — 金融多智能体交易框架，代表 AI 在垂直行业的深度落地，值得关注其策略回测与风险控制能力。
+- 🧩 **Claude 生态工具** — `ruflo`、`browserbase/skills`、`jcode` 共同构建了 Claude Code 的 Agent 工具链，开发者可快速集成网页浏览、代码执行、多智能体编排。
+- 🧠 **minimind** — 零基础训练大模型的最佳实践，代码开源且教程详尽，适合希望理解 LLM 训练原理的开发者。
+- 📚 **mem0** — 通用 AI 记忆层，解决智能体长期记忆缺失问题，与 `claude-mem` 配合可实现会话上下文的智能压缩与检索。
+- 🔧 **anything-llm** — 设备优先的 RAG 工具，隐私安全、无需配置，是个人知识库搭建的首选方案，值得尝试。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+*本日报由 [agents-radar](https://github.com/lib182071-prog/agents-radar) 自动生成。*

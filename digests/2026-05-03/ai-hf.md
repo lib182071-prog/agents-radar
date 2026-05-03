@@ -1,16 +1,14 @@
 # Hugging Face 热门模型日报 2026-05-03
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-05-03 00:18 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-05-03 03:50 UTC
 
 ---
 
-# Hugging Face 热门模型日报 | 2026-05-03
-
----
+# Hugging Face 热门模型日报（2026-05-03）
 
 ## 今日速览
 
-本周 Hugging Face 热度由 **DeepSeek-V4 系列** 与 **Qwen3.6 生态** 主导，前者以 Pro 与 Flash 双版本包揽高赞高下载，后者凭借 27B/35B-A3B 多规格及活跃社区微调形成矩阵效应。Google Gemma-4-31B 以 777 万下载量成为实际使用最广的模型，印证多模态对话已成主流需求。社区量化与去审查微调异常活跃，Unsloth 与 HauhauCS 等贡献者持续降低模型部署门槛。值得注意的是，NVIDIA Nemotron-3 Nano Omni 系列推动"any-to-any"原生多模态架构进入实用阶段，而小米 MiMo-V2.5 的长上下文与 Agent 能力标志着端侧智能的进阶。
+本周 Hugging Face 榜单呈现三大亮点：**DeepSeek-V4 Pro** 以 3,420 点赞登顶，延续 DeepSeek 系列在文本生成领域的强势地位；**Google Gemma-4-31B-it** 凭借 7.7M 下载量成为社区最活跃多模态模型，同时被社区快速制作 uncensored 版；**Qwen3.6 家族**（27B/35B-A3B MoE）展现极强生态渗透力，官方与量化版（GGUF、DFlash）包揽多个高位。此外，**NVIDIA Nemotron-3 Nano Omni** 以“any-to-any”全模态架构亮相，**小米 MiMo-V2.5**、**月之暗面 Kimi-K2.6** 等国产多模态模型也跻身热门。社区微调（uncensored、abliterated）和量化（GGUF、NVFP4）活动持续活跃，成为模型传播的重要加速器。
 
 ---
 
@@ -18,71 +16,188 @@
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)** | deepseek-ai | 3,415 | 381,587 | 本周点赞冠军，DeepSeek 新一代旗舰对话模型，延续 MoE 架构优势，专业场景推理能力显著提升 |
-| **[deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)** | deepseek-ai | 921 | 345,885 | V4 系列轻量版，以接近 Pro 的下载量验证"性能-速度"平衡策略的市场认可度 |
-| **[XiaomiMiMo/MiMo-V2.5-Pro](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro)** | XiaomiMiMo | 381 | 9,914 | 小米端侧 Agent 模型进阶版，支持超长上下文与工具调用，瞄准设备原生智能 |
-| **[poolside/Laguna-XS.2](https://huggingface.co/poolside/Laguna-XS.2)** | poolside | 189 | 7,573 | 代码智能新秀 Laguna 系列迭代，专为软件工程工作流优化的轻量生成模型 |
-| **[inclusionAI/Ling-2.6-1T](https://huggingface.co/inclusionAI/Ling-2.6-1T)** | inclusionAI | 100 | 535 | 阿里系 Ling 系列万亿参数实验版本，探索超大规模稀疏架构的推理效率边界 |
-| **[ibm-granite/granite-4.1-8b](https://huggingface.co/ibm-granite/granite-4.1-8b)** | ibm-granite | 132 | 16,079 | IBM 企业级语言模型小参数版，强调可信 AI 与低资源部署，适合 B 端合规场景 |
-| **[ibm-granite/granite-4.1-30b](https://huggingface.co/ibm-granite/granite-4.1-30b)** | ibm-granite | 79 | 3,072 | Granite-4.1 大参数版本，30B 规模在代码生成与文档理解任务中表现突出 |
-| **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)** | moonshotai | 1,181 | 699,348 | 月之暗面 Kimi 系列更新，采用压缩张量技术优化长文本推理内存占用 |
+1. **deepseek-ai/DeepSeek-V4-Pro**  
+   [链接](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)  
+   **作者**：deepseek-ai | **点赞**：3,420 | **下载**：381,587  
+   *当前周赞最高的模型，DeepSeek V4 旗舰版，专注文本生成与对话，权重完全开源。*
+
+2. **deepseek-ai/DeepSeek-V4-Flash**  
+   [链接](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)  
+   **作者**：deepseek-ai | **点赞**：921 | **下载**：345,885  
+   *V4 系列的快速推理变体，兼顾性能与效率，下载量紧随 Pro 之后。*
+
+3. **mistralai/Mistral-Medium-3.5-128B**  
+   [链接](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B)  
+   **作者**：mistralai | **点赞**：224 | **下载**：8,492  
+   *Mistral 中量级 128B 模型，支持英法双语，面向企业级部署。*
+
+4. **poolside/Laguna-XS.2**  
+   [链接](https://huggingface.co/poolside/Laguna-XS.2)  
+   **作者**：poolside | **点赞**：192 | **下载**：7,573  
+   *专注代码生成的语言模型，Laguna 系列轻量版，标签含 vLLM 优化。*
+
+5. **inclusionAI/Ling-2.6-1T**  
+   [链接](https://huggingface.co/inclusionAI/Ling-2.6-1T)  
+   **作者**：inclusionAI | **点赞**：101 | **下载**：535  
+   *1T 参数级别的超大语言模型，Ling 系列新一代旗舰，采用 hybrid 架构。*
+
+6. **inclusionAI/Ling-2.6-flash**  
+   [链接](https://huggingface.co/inclusionAI/Ling-2.6-flash)  
+   **作者**：inclusionAI | **点赞**：146 | **下载**：943  
+   *Ling-2.6 的快速推理版本，bailing_hybrid 架构，适合低延迟场景。*
+
+7. **ibm-granite/granite-4.1-8b**  
+   [链接](https://huggingface.co/ibm-granite/granite-4.1-8b)  
+   **作者**：ibm-granite | **点赞**：133 | **下载**：16,079  
+   *IBM Granite 4.1 系列 8B 版本，专注企业级文本生成与语言理解。*
+
+8. **ibm-granite/granite-4.1-30b**  
+   [链接](https://huggingface.co/ibm-granite/granite-4.1-30b)  
+   **作者**：ibm-granite | **点赞**：79 | **下载**：3,072  
+   *Granite 4.1 的 30B 中量级模型，兼顾能力与部署成本。*
+
+9. **talkie-lm/talkie-1930-13b-it**  
+   [链接](https://huggingface.co/talkie-lm/talkie-1930-13b-it)  
+   **作者**：talkie-lm | **点赞**：204 | **下载**：0  
+   *新晋对话模型，13B 指令微调版，尽管下载数暂为 0，但关注度较高。*
+
+10. **talkie-lm/talkie-1930-13b-base**  
+    [链接](https://huggingface.co/talkie-lm/talkie-1930-13b-base)  
+    **作者**：talkie-lm | **点赞**：67 | **下载**：0  
+    *同一系列的基座模型，Apache-2.0 许可，聚焦英文场景。*
+
+---
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B)** | Qwen | 1,077 | 1,070,778 | Qwen3.6 视觉语言基础版，百万级下载验证其作为开源多模态基座的广泛采用 |
-| **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** | Qwen | 1,572 | 2,397,446 | Qwen3.6 MoE 架构旗舰，激活参数仅 3B 却实现 35B 性能，效率比引发社区热议 |
-| **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** | google | 2,480 | 7,776,034 | 本周下载量绝对王者，Google Gemma-4 指令版以近 800 万下载证明开源多模态模型的生产级渗透 |
-| **[nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16)** | nvidia | 198 | 37,418 | NVIDIA "any-to-any" 原生多模态推理模型，文本/图像/音频/视频统一编码解码，BF16 精度版 |
-| **[XiaomiMiMo/MiMo-V2.5](https://huggingface.co/XiaomiMiMo/MiMo-V2.5)** | XiaomiMiMo | 192 | 28,323 | MiMo 基础多模态版，集成视觉-语言-音频三模态理解，为端侧 Omni 能力铺路 |
-| **[sensenova/SenseNova-U1-8B-MoT](https://huggingface.co/sensenova/SenseNova-U1-8B-MoT)** | sensenova | 119 | 1,308 | 商汤 SenseNova 混合专家多模态模型，8B 总参数 MoT 架构探索稀疏激活的多模态融合 |
-| **[nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4)** | nvidia | 68 | 180,012 | Nemotron Omni 同系列 NVFP4 量化版，下载量反超 BF16 版 4 倍，验证硬件原生低精度格式的部署优势 |
+1. **google/gemma-4-31B-it**  
+   [链接](https://huggingface.co/google/gemma-4-31B-it)  
+   **作者**：google | **点赞**：2,481 | **下载**：7,776,034  
+   *Google 最新多模态指令模型，30B 级参数，下载量碾压全场，社区热度极高。*
+
+2. **Qwen/Qwen3.6-35B-A3B**  
+   [链接](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)  
+   **作者**：Qwen | **点赞**：1,574 | **下载**：2,397,446  
+   *Qwen3.6 系列的 MoE 版本（35B 总参/3B 激活），图像+文本对话，效率与能力平衡的标杆。*
+
+3. **moonshotai/Kimi-K2.6**  
+   [链接](https://huggingface.co/moonshotai/Kimi-K2.6)  
+   **作者**：moonshotai | **点赞**：1,183 | **下载**：699,348  
+   *月之暗面 Kimi 多模态升级版，图像-文本任务，支持压缩张量等优化。*
+
+4. **Qwen/Qwen3.6-27B**  
+   [链接](https://huggingface.co/Qwen/Qwen3.6-27B)  
+   **作者**：Qwen | **点赞**：1,081 | **下载**：1,070,778  
+   *Qwen3.6 标准 27B 模型，image-text-to-text 任务，下载数破百万。*
+
+5. **XiaomiMiMo/MiMo-V2.5-Pro**  
+   [链接](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro)  
+   **作者**：XiaomiMiMo | **点赞**：382 | **下载**：9,914  
+   *小米 MiMo 系列 Pro 版，主打长上下文与 Agent 能力，多模态理解增强。*
+
+6. **XiaomiMiMo/MiMo-V2.5**  
+   [链接](https://huggingface.co/XiaomiMiMo/MiMo-V2.5)  
+   **作者**：XiaomiMiMo | **点赞**：192 | **下载**：28,323  
+   *小米多模态基座模型，支持视觉-语言和音频输入，家族化发展。*
+
+7. **nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16**  
+   [链接](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16)  
+   **作者**：nvidia | **点赞**：199 | **下载**：37,418  
+   *NVIDIA 第三代全模态（any-to-any）模型，30B A3B MoE 架构，支持推理。*
+
+8. **nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4**  
+   [链接](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4)  
+   **作者**：nvidia | **点赞**：71 | **下载**：180,012  
+   *同上模型的 4-bit 浮点量化版，推理效率大幅提升，下载量已超原版。*
+
+9. **sensenova/SenseNova-U1-8B-MoT**  
+   [链接](https://huggingface.co/sensenova/SenseNova-U1-8B-MoT)  
+   **作者**：sensenova | **点赞**：120 | **下载**：1,308  
+   *商汤 SenseNova 8B 全模态模型（MoT），支持多种输入输出。*
+
+10. **SeeSee21/Z-Anime**  
+    [链接](https://huggingface.co/SeeSee21/Z-Anime)  
+    **作者**：SeeSee21 | **点赞**：73 | **下载**：859  
+    *文本到图像生成模型，专注动漫风格，支持 diffusers 和 GGUF。*
+
+---
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** | openai | 1,211 | 99,399 | OpenAI 官方隐私实体识别过滤器，token 分类架构，企业数据合规 pipeline 的关键组件 |
-| **[AngelSlim/Hy-MT1.5-1.8B-1.25bit](https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit)** | AngelSlim | 78 | 487 | 混元翻译模型极端量化实验，1.25bit 权重压缩探索翻译任务的精度-体积极限 |
-| **[ibm-granite/granite-embedding-97m-multilingual-r2](https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2)** | ibm-granite | 68 | 1,598 | Granite 多语言嵌入模型 R2 版，ModernBERT + 多框架导出，企业 RAG 系统的轻量检索核心 |
-| **[facebook/sapiens2](https://huggingface.co/facebook/sapiens2)** | facebook | 110 | 0 | Meta 人体中心视觉模型二代，专注人体姿态/分割/深度估计，零下载或因刚发布或需特定渠道获取 |
+1. **openai/privacy-filter**  
+   [链接](https://huggingface.co/openai/privacy-filter)  
+   **作者**：openai | **点赞**：1,212 | **下载**：99,399  
+   *OpenAI 发布的隐私过滤模型（token-classification），用于识别和屏蔽敏感信息，ONNX 优化。*
+
+2. **ibm-granite/granite-embedding-97m-multilingual-r2**  
+   [链接](https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2)  
+   **作者**：ibm-granite | **点赞**：68 | **下载**：1,598  
+   *IBM 多语言嵌入模型，97M 参数，基于 ModernBERT 架构，支持 Sentence-Transformers、ONNX。*
+
+3. **AngelSlim/Hy-MT1.5-1.8B-1.25bit**  
+   [链接](https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit)  
+   **作者**：AngelSlim | **点赞**：78 | **下载**：487  
+   *1.8B 参数翻译模型，1.25bit 极致量化（Hunyuan 架构），适合边缘部署。*
+
+---
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
 
-| 模型 | 作者 | 点赞 | 下载 | 一句话说明 |
-|:---|:---|---:|---:|:---|
-| **[unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)** | unsloth | 542 | 983,535 | Unsloth 官方 Qwen3.6-27B GGUF 量化，近百万下载成为本地部署该模型的首选格式 |
-| **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** | unsloth | 895 | 2,001,316 | MoE 模型 GGUF 量化标杆，200 万下载证明 Unsloth 在复杂架构量化上的技术领先性 |
-| **[HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 262 | 303,358 | 社区激进去审查微调版，30 万下载反映特定场景对安全对齐绕过版本的强需求 |
-| **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 528 | 766,075 | MoE 版激进去审查微调，点赞与下载双高，成为社区微调生态中争议与流量并存的典型 |
-| **[z-lab/Qwen3.6-27B-DFlash](https://huggingface.co/z-lab/Qwen3.6-27B-DFlash)** | z-lab | 205 | 17,016 | 社区优化的"动态 Flash"注意力变体，探索长序列推理的内存效率新路径 |
-| **[dealignai/Gemma-4-31B-JANG_4M-CRACK](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK)** | dealignai | 1,441 | 199,500 | Gemma-4 的 MLX 平台去审查/消融版本，苹果芯片本地运行 + 安全限制解除的双重卖点 |
-| **[unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF](https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF)** | unsloth | 92 | 37,663 | Unsloth 将 NVIDIA Omni 多模态模型转制 GGUF，突破性地让 any-to-any 架构进入本地 GPU 部署 |
+1. **unsloth/Qwen3.6-35B-A3B-GGUF**  
+   [链接](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)  
+   **作者**：unsloth | **点赞**：895 | **下载**：2,001,316  
+   *Qwen3.6 MoE 的 GGUF 量化版，由 unsloth 制作，下载量已超 200 万，社区最热量化模型之一。*
+
+2. **unsloth/Qwen3.6-27B-GGUF**  
+   [链接](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)  
+   **作者**：unsloth | **点赞**：545 | **下载**：983,535  
+   *Qwen3.6 27B 的 GGUF 版，与 MoE 版形成高低搭配，广泛用于本地推理。*
+
+3. **HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive**  
+   [链接](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)  
+   **作者**：HauhauCS | **点赞**：530 | **下载**：766,075  
+   *Qwen3.6 MoE 的去限制（uncensored）微调版，GGUF 格式，下载近 77 万。*
+
+4. **HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive**  
+   [链接](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive)  
+   **作者**：HauhauCS | **点赞**：264 | **下载**：303,358  
+   *同上，27B 版本的 uncensored 版，GGUF 量化。*
+
+5. **dealignai/Gemma-4-31B-JANG_4M-CRACK**  
+   [链接](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK)  
+   **作者**：dealignai | **点赞**：1,444 | **下载**：199,500  
+   *Gemma-4-31B 的 uncensored/abliterated 微调版，同时提供 MLX 和 safetensors 格式，周赞超 1,400。*
+
+6. **z-lab/Qwen3.6-27B-DFlash**  
+   [链接](https://huggingface.co/z-lab/Qwen3.6-27B-DFlash)  
+   **作者**：z-lab | **点赞**：206 | **下载**：17,016  
+   *Qwen3.6 27B 的 DFlash 蒸馏+量化版，优化推理速度。*
+
+7. **unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF**  
+   [链接](https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF)  
+   **作者**：unsloth | **点赞**：92 | **下载**：37,663  
+   *NVIDIA Nemotron-3 全模态模型的 GGUF 量化版，方便本地部署。*
+
+8. **nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4**  
+   [链接](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4)  
+   **作者**：nvidia | **点赞**：71 | **下载**：180,012  
+   *官方提供的 4-bit 浮点量化版本，已在上面多模态中列出，此处再次强调其量化属性。*
 
 ---
 
 ## 生态信号
 
-**模型家族格局**：Qwen 与 DeepSeek 形成"双极"——前者以 3.6 代多规格矩阵（27B/35B-A3B）+ 繁荣社区生态占据广度，后者以 V4 系列技术标杆定位收割专业口碑。Google Gemma-4 凭 777 万下载证明"大厂开源基座"仍具最强渗透力，但社区二次创作（如 dealignai 的 CRACK 版）正分流其流量入口。
-
-**开源权重演进**：闭源厂商（OpenAI）转向发布专用工具组件（privacy-filter）而非核心模型，暗示其战略从"模型开源"收缩至"基础设施开源"；反之，DeepSeek、Qwen、小米等中国厂商持续全权重开源，并快速迭代至 V4/3.6/K2.6 代际，形成对 Mistral、Meta 的追赶乃至局部超越。
-
-**量化与微调活动**：GGUF 已成为事实标准——Unsloth 双版本合计 300 万下载，且成功覆盖 MoE 与 Omni 等复杂架构。激进去审查微调（HauhauCS）与硬件专属优化（MLX for Apple Silicon、NVFP4 for NVIDIA）构成社区创新的两大主线，反映用户侧"性能解锁"与"场景适配"的深层需求。
+- **家族势头**：**Qwen3.6** 家族（27B、35B-A3B）和 **Gemma-4** 是本周两大爆款生态。Qwen 凭借官方+社区微调+量化多版本覆盖，形成“原版→GGUF→uncensored→DFlash”全链条；Gemma-4 则以超高下载量（7.7M）和 uncensored 版高热（点赞 1,444）成为开源多模态新标杆。**DeepSeek V4** 虽在点赞数领先，但下载量相对平稳，生态拓展潜力待观察。
+- **开源 vs 闭源**：除 OpenAI 发布轻量级隐私过滤器外，头部模型均为开源权重。Google、NVIDIA、小米、月之暗面等大厂继续拥抱开源，且模型规模和能力持续升级（1T 参数、MoE、全模态）。闭源模型（如 GPT 系列）缺席榜单，开源生态加速侵蚀商业模型的关注度。
+- **量化与微调**：**unsloth** 成为众望所归的量化引擎，其制作的 GGUF 版下载量总和超过 300 万。**HauhauCS** 和 **dealignai** 则以 uncensored/abliterated 作为差异化切入点，迅速积累人气。值得注意的是，**NVFP4** 量化（NVIDIA 官方）已出现在 large-scale 模型上，预示未来硬件级量化将成为新趋势。
 
 ---
 
 ## 值得探索
 
-| 模型 | 理由 |
-|:---|:---|
-| **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)** | 777 万下载量本身就是信号——若需验证多模态对话模型的生产就绪度，此模型拥有最广泛的实战检验基础；其 image-text-to-text 能力覆盖文档理解、UI 交互、教育辅导等高价值场景，且 Google 生态工具链成熟 |
-| **[nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16)** | "any-to-any" 架构代表多模态的终极形态——非拼接式、非编码器分离式，而是统一空间下的原生推理；30B-A3B 的 MoE 设计控制推理成本，适合研究下一代多模态系统架构，或构建真正的"全能助手"原型 |
-| **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)** | 200 万下载的 MoE 量化模型，是验证"本地高效运行大模型"假设的最佳实验对象；若能在消费级 GPU 上跑出 35B 等效性能，将直接改写边缘 AI 的成本结构，建议重点测试其长上下文与工具调用稳定性 |
+1. **deepseek-ai/DeepSeek-V4-Pro** — 本周点赞王，代表 DeepSeek 最新文本生成能力，适合评测基准或作为对话系统的基座。
+2. **Qwen/Qwen3.6-35B-A3B** — MoE 架构 + 多模态 + 高下载量（240 万），是研究高效多模态融合和 MoE 稀疏推理的优质样本。
+3. **nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16** — 全模态（any-to-any）新范式，30B MoE 结构，探索多模态融合的边界，官方同时提供量化版方便实验。
 
 ---
-
----
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+*本日报由 [agents-radar](https://github.com/lib182071-prog/agents-radar) 自动生成。*
