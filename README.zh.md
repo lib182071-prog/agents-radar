@@ -19,6 +19,16 @@
 | [Lobste.rs](https://lobste.rs) | JSON API | 7 天内 AI/ML 标签内容 |
 | [Anthropic](https://anthropic.com) + [OpenAI](https://openai.com) | Sitemap | 通过 `lastmod` 差异检测新文章 |
 
+### 中文平台可发布选题雷达（MVP）
+
+在保留原有技术日报输出的同时，项目会额外基于 `Hacker News + GitHub Trending + Product Hunt + Dev.to` 生成中文选题池（结构化 JSON + Markdown）。用于辅助内容创作，不会自动发布到任何平台。
+
+- 输出文件：
+  - `digests/YYYY-MM-DD/topic-radar.json`（机器可读，字段含标题、平台、变现角度、评分等）
+  - `digests/YYYY-MM-DD/topic-radar.md`（人工阅读版，《今日中文平台可发布选题池》）
+- 若某个源无数据会自动跳过，不影响主流程。
+- `PRODUCTHUNT_TOKEN` 未配置时，会跳过 Product Hunt 源，不影响其它数据源和选题雷达生成。
+
 ## Web UI
 
 **[https://duanyytop.github.io/agents-radar](https://duanyytop.github.io/agents-radar)**
@@ -228,6 +238,7 @@ openclaw_peers:
 | `TELEGRAM_BOT_TOKEN` | 可选 | Telegram bot token，从 [@BotFather](https://t.me/BotFather) 获取。设置后每次 digest 完成自动推送通知 |
 | `TELEGRAM_CHAT_ID` | 可选 | 接收通知的 Telegram 频道 / 群组 / 用户 ID |
 | `FEISHU_WEBHOOK_URLS` | 可选 | 飞书自定义机器人 Webhook URL，多个用英文逗号分隔。设置后每次 digest 完成自动推送卡片通知到所有群 |
+| `PRODUCTHUNT_TOKEN` | 可选 | Product Hunt API token。用于补充中文选题雷达来源；未配置时仅跳过 Product Hunt 数据源 |
 
 > `GITHUB_TOKEN` 由 GitHub Actions 自动提供，无需手动添加。使用 `github-copilot` 作为 Provider 时，同一 `GITHUB_TOKEN` 也用于 LLM 调用。
 

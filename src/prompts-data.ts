@@ -14,6 +14,92 @@ import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
 import type { Lang } from "./i18n.ts";
+
+export function buildTopicRadarPrompt(input: {
+  dateStr: string;
+  hn: HnData;
+  trending: TrendingData;
+  ph: PhData;
+  devto: DevtoData;
+}): string {
+  const hnItems = input.hn.fetchSuccess
+    ? input.hn.stories
+        .slice(0, 20)
+        .map(
+          (s, i) =>
+            `${i + 1}. ${s.title}\n   url: ${s.url}\n   source: hn\n   points: ${s.points}, comments: ${s.comments}`,
+        )
+        .join("\n\n")
+    : "(no data)";
+
+  const trendingItems =
+    input.trending.trendingRepos.length || input.trending.searchRepos.length
+      ? [
+          ...input.trending.trendingRepos
+            .slice(0, 20)
+            .map(
+              (r, i) =>
+                `${i + 1}. ${r.fullName}\n   title: ${r.fullName}\n   url: ${r.url}\n   source: github-trending\n   stars: ${r.totalStars}, todayStars: ${r.todayStars}`,
+            ),
+          ...input.trending.searchRepos
+            .slice(0, 20)
+            .map(
+              (r, i) =>
+                `${i + 21}. ${r.fullName}\n   title: ${r.fullName}\n   url: ${r.url}\n   source: github-search\n   stars: ${r.stargazersCount}, topic: ${r.searchQuery}`,
+            ),
+        ].join("\n\n")
+      : "(no data)";
+
+  const phItems = input.ph.fetchSuccess
+    ? input.ph.products
+        .slice(0, 20)
+        .map(
+          (p, i) =>
+            `${i + 1}. ${p.name} — ${p.tagline}\n   url: ${p.website || p.url}\n   source: producthunt\n   votes: ${p.votesCount}, comments: ${p.commentsCount}`,
+        )
+        .join("\n\n")
+    : "(no data)";
+
+  const devtoItems = input.devto.fetchSuccess
+    ? input.devto.articles
+        .slice(0, 20)
+        .map(
+          (a, i) =>
+            `${i + 1}. ${a.title}\n   url: ${a.url}\n   source: devto\n   reactions: ${a.positiveReactionsCount}, comments: ${a.commentsCount}`,
+        )
+        .join("\n\n")
+    : "(no data)";
+
+  return `你是“中文平台可发布选题雷达”编辑。请基于以下候选数据，生成适合中文内容平台发布的选题池（仅中文输出）。\n
+日期：${input.dateStr}\n
+【Hacker News】\n${hnItems}\n
+【GitHub Trending / Search】\n${trendingItems}\n
+【Product Hunt】\n${phItems}\n
+【Dev.to】\n${devtoItems}\n
+输出要求（必须严格遵守）：
+1) 只返回合法 JSON，不要 markdown，不要解释，不要代码块。
+2) JSON 顶层格式：{"topics":[...]}。
+3) topics 每个元素必须包含以下字段：
+   - source
+   - original_title
+   - url
+   - title_cn
+   - summary_cn
+   - content_angle
+   - platform
+   - monetization_angle
+   - xiaohongshu_title
+   - cover_text
+   - video_hook
+   - score
+   - reason
+4) score 必须是 0-100 的整数。
+5) platform 用字符串数组，如 ["小红书","抖音"]。
+6) 不得编造输入中不存在的事实；若信息不足，可保守描述并在 reason 说明“信息有限”。
+7) 禁止夸大、禁止“保证收益/必爆/躺赚”等承诺性表达。
+8) 每条都要保留可追溯的原始链接 url。
+9) 去重后输出 8-20 条高质量选题，按 score 从高到低。`;
+}
 export function buildTrendingPrompt(data: TrendingData, dateStr: string, lang: Lang = "zh"): string {
   const trendingSection =
     data.trendingFetchSuccess && data.trendingRepos.length > 0

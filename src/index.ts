@@ -38,6 +38,7 @@ import {
   saveArxivReport,
   saveHfReport,
   saveCommunityReport,
+  saveTopicRadarReport,
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
 import { fetchTrendingData, type TrendingData } from "./trending.ts";
@@ -417,6 +418,7 @@ async function main(): Promise<void> {
     saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
+    saveTopicRadarReport(hnData, trendingData, phData, devtoData, utcStr, dateStr),
   ]);
 
   // 5. Generate highlights for Telegram notification
