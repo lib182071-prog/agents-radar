@@ -71,7 +71,7 @@ function parseTopicRadarJson(raw: string): TopicRadarItem[] {
     .trim();
   const parsed = JSON.parse(cleaned) as { topics?: unknown };
   if (!parsed.topics || !Array.isArray(parsed.topics)) return [];
-  return parsed.topics
+  const normalized = parsed.topics
     .map((t) => t as Partial<TopicRadarItem>)
     .filter((t) => t.title_cn && t.url)
     .map((t) => ({
@@ -95,8 +95,13 @@ function parseTopicRadarJson(raw: string): TopicRadarItem[] {
         t.publish_priority === "不建议"
           ? t.publish_priority
           : "备用",
-      xhs_body: String(t.xhs_body ?? ""),
-      xhs_tags: Array.isArray(t.xhs_tags) ? t.xhs_tags.map(String) : [],
+      xhs_body: String(t.xhs_body ?? "").slice(0, 1200),
+      xhs_tags: Array.isArray(t.xhs_tags)
+        ? t.xhs_tags
+            .map(String)
+            .map((tag) => (tag.startsWith("#") ? tag : `#${tag}`))
+            .slice(0, 8)
+        : [],
       comment_hook: String(t.comment_hook ?? ""),
       video_script: String(t.video_script ?? ""),
       verification_note: String(t.verification_note ?? ""),
@@ -108,6 +113,17 @@ function parseTopicRadarJson(raw: string): TopicRadarItem[] {
       if (p !== 0) return p;
       return b.score - a.score;
     });
+
+  // Hard guardrail: at most 3 topics can remain >= 90 each day.
+  let highScoreCount = 0;
+  for (const item of normalized) {
+    if (item.score >= 90) {
+      highScoreCount++;
+      if (highScoreCount > 3) item.score = 89;
+    }
+  }
+
+  return normalized;
 }
 
 export async function saveTopicRadarReport(

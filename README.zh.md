@@ -34,6 +34,9 @@
   - `comment_hook`：评论区引导语
   - `video_script`：30-60 秒短视频口播稿
   - `verification_note`：发布前需要核实的事实点
+- 评分与排序规则：
+  - 每日最多 3 条 `score >= 90`
+  - `topic-radar.md` 按发布优先级分组排序：今天必发 → 值得发 → 备用 → 不建议（组内按 score 降序）
 - 若某个源无数据会自动跳过，不影响主流程。
 - `PRODUCTHUNT_TOKEN` 未配置时，会跳过 Product Hunt 源，不影响其它数据源和选题雷达生成。
 
