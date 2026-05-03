@@ -163,6 +163,7 @@ export const REPORT_LABELS: Record<string, string> = {
   "ai-hf-en": "Hugging Face Trending Models Digest",
   "ai-community": "技术社区 AI 动态日报",
   "ai-community-en": "Tech Community AI Digest",
+  "topic-radar": "中文选题雷达",
   "ai-weekly": "AI 工具生态周报",
   "ai-weekly-en": "AI Tools Weekly Digest",
   "ai-monthly": "AI 工具生态月报",
@@ -179,6 +180,7 @@ export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
   "ai-arxiv": t("ArXiv 研究", "ArXiv Research"),
   "ai-hf": t("HF 模型", "HF Models"),
   "ai-community": t("技术社区", "Tech Community"),
+  "topic-radar": t("中文选题雷达", "Chinese Topic Radar"),
   "ai-weekly": t("AI 工具生态周报", "AI Tools Weekly"),
   "ai-monthly": t("AI 工具生态月报", "AI Tools Monthly"),
 };

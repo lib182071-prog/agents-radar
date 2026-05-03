@@ -21,6 +21,7 @@ import {
   buildArxivPrompt,
   buildHfPrompt,
   buildCommunityPrompt,
+  buildTopicRadarPrompt,
 } from "./prompts-data.ts";
 import { callLlm, saveFile, LLM_TOKENS_WEB } from "./report.ts";
 import { createGitHubIssue } from "./github.ts";
@@ -32,6 +33,110 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+
+export interface TopicRadarItem {
+  source: string;
+  original_title: string;
+  url: string;
+  title_cn: string;
+  summary_cn: string;
+  content_angle: string;
+  platform: string[];
+  monetization_angle: string;
+  xiaohongshu_title: string;
+  cover_text: string;
+  video_hook: string;
+  score: number;
+  reason: string;
+}
+
+function parseTopicRadarJson(raw: string): TopicRadarItem[] {
+  const cleaned = raw
+    .replace(/```json?\n?/g, "")
+    .replace(/```/g, "")
+    .trim();
+  const parsed = JSON.parse(cleaned) as { topics?: unknown };
+  if (!parsed.topics || !Array.isArray(parsed.topics)) return [];
+  return parsed.topics
+    .map((t) => t as Partial<TopicRadarItem>)
+    .filter((t) => t.title_cn && t.url)
+    .map((t) => ({
+      source: String(t.source ?? "unknown"),
+      original_title: String(t.original_title ?? ""),
+      url: String(t.url ?? ""),
+      title_cn: String(t.title_cn ?? ""),
+      summary_cn: String(t.summary_cn ?? ""),
+      content_angle: String(t.content_angle ?? ""),
+      platform: Array.isArray(t.platform) ? t.platform.map(String) : [],
+      monetization_angle: String(t.monetization_angle ?? ""),
+      xiaohongshu_title: String(t.xiaohongshu_title ?? ""),
+      cover_text: String(t.cover_text ?? ""),
+      video_hook: String(t.video_hook ?? ""),
+      score: Math.max(0, Math.min(100, Math.trunc(Number(t.score ?? 0)))),
+      reason: String(t.reason ?? ""),
+    }))
+    .sort((a, b) => b.score - a.score);
+}
+
+export async function saveTopicRadarReport(
+  hnData: HnData,
+  trendingData: TrendingData,
+  phData: PhData,
+  devtoData: DevtoData,
+  utcStr: string,
+  dateStr: string,
+): Promise<void> {
+  const hasData =
+    hnData.fetchSuccess ||
+    trendingData.trendingRepos.length > 0 ||
+    trendingData.searchRepos.length > 0 ||
+    phData.fetchSuccess ||
+    devtoData.fetchSuccess;
+  if (!hasData) {
+    console.log("  [topic-radar] No source data available, skipping report.");
+    return;
+  }
+
+  console.log("  [topic-radar] Calling LLM for Chinese topic radar...");
+  try {
+    const raw = await callLlm(
+      buildTopicRadarPrompt({ dateStr, hn: hnData, trending: trendingData, ph: phData, devto: devtoData }),
+    );
+    const topics = parseTopicRadarJson(raw);
+    if (!topics.length) {
+      console.log("  [topic-radar] Empty topics after parsing, skipping save.");
+      return;
+    }
+
+    const jsonContent =
+      JSON.stringify({ generatedAt: `${utcStr} UTC`, date: dateStr, topics }, null, 2) + "\n";
+    console.log(`  Saved ${saveFile(jsonContent, dateStr, "topic-radar.json")}`);
+
+    const mdRows = topics
+      .map(
+        (t, i) =>
+          `## ${i + 1}. ${t.title_cn}\n\n` +
+          `- 评分：**${t.score}**\n` +
+          `- 来源：${t.source}\n` +
+          `- 原始标题：${t.original_title}\n` +
+          `- 原始链接：${t.url}\n` +
+          `- 中文摘要：${t.summary_cn}\n` +
+          `- 内容角度：${t.content_angle}\n` +
+          `- 适合平台：${t.platform.join(" / ")}\n` +
+          `- 变现方式：${t.monetization_angle}\n` +
+          `- 小红书标题：${t.xiaohongshu_title}\n` +
+          `- 封面文案：${t.cover_text}\n` +
+          `- 短视频钩子：${t.video_hook}\n` +
+          `- 评分理由：${t.reason}`,
+      )
+      .join("\n\n---\n\n");
+
+    const md = `# 今日中文平台可发布选题池 ${dateStr}\n\n> 生成时间: ${utcStr} UTC | 共 ${topics.length} 条\n\n---\n\n${mdRows}\n`;
+    console.log(`  Saved ${saveFile(md, dateStr, "topic-radar.md")}`);
+  } catch (err) {
+    console.error(`  [topic-radar] Report generation failed: ${err}`);
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Web report
