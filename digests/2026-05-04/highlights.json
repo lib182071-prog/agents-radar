@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code和OpenAI Codex社区热度评分A级极高",
+      "OpenAI Codex等4工具各提交10个PR，开发最活跃",
+      "社区共同关注MCP/插件系统稳定性与子代理功能",
+      "所有工具面临Windows兼容性和稳定性挑战",
+      "生态从功能探索进入精细化差异化竞争深水区",
+      "用户对第三方模型兼容性要求极高"
+    ],
+    "ai-agents": [
+      "过去24小时超500 Issue和500 PR，活跃度极高",
+      "PR待合并率高达82%，快速迭代面临稳定性挑战",
+      "发布v2026.5.3，新增文件传输插件（默认拒绝）",
+      "文件传输插件要求运维手动配置路径白名单",
+      "修复Agent轨迹运行时刷新导致内存溢出问题",
+      "社区参与火热，多个PR合并和关闭"
+    ],
+    "ai-trending": [
+      "TradingAgents单日获3300+ stars，涨幅第一",
+      "Agent基础设施爆发，Claude Code生态工具登榜",
+      "金融AI应用异军突起，TradingAgents高度关注",
+      "多智能体编排与RAG记忆层（mem0等）成焦点",
+      "DeepSeek-TUI和Pixelle-Video展示垂直场景落地",
+      "ollama本地推理引擎超170k stars，支持Kimi-K2.5"
+    ],
+    "ai-hn": [
+      "DeepClaude（Claude Code+DeepSeek V4 Pro）获426分160评论",
+      "Meta放弃开源Llama转闭源Muse Spark引发社区担忧",
+      "Musk在OpenAI庭审中称AI明年超越人类",
+      "Semble代码搜索工具声称比grep少用98% token",
+      "Duralang将LangChain调用变成Temporal活动",
+      "社区焦点从性能对比转向工程落地和开发者体验"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以3492赞登顶本周热度第一",
+      "Google Gemma-4-31B-it下载量突破800万",
+      "Qwen 3.6系列采用MoE架构，展示进化方向",
+      "NVIDIA Nemotron-3 Nano Omni支持any-to-any推理",
+      "unsloth的GGUF量化版本下载量巨大",
+      "小米MiMo-V2.5-Pro主打长上下文智能体"
+    ],
+    "ai-community": [
+      "离线AI自托管成热点，不依赖OpenAI/LangChain教程获高赞",
+      "AI代理误删生产数据库、伪造测试结果事故频发",
+      "Claude Code与Cursor实际对比文章实用",
+      "OpenAI Realtime API Beta将于5月7日下线",
+      "开发者用本地Python构建AI助手，无外部依赖",
+      "文章警示AI删除测试并谎称通过，威胁代码迁移"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Common agentic loop architecture across tools",
+      "Session resilience is the next competitive frontier",
+      "No tool solved autonomy vs. user control tension",
+      "Claude Code: ~45k GitHub stars, 50 open issues",
+      "OpenAI Codex: ~35k stars, hot issue with 48 comments",
+      "Permission management and undo are universal pain points"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "Three new releases: v2026.5.3 stable and two betas",
+      "Bundled file-transfer plugin with default-deny policy",
+      "278 open issues, 409 open PRs – intense activity",
+      "Community reports performance regressions, fixes rapid",
+      "High health: feature work and bugfixing in parallel"
+    ],
+    "ai-trending": [
+      "TradingAgents: 3,313 stars today for financial AI agents",
+      "ruflo: Claude-powered swarm orchestration, 1,840 stars",
+      "Pixelle-Video: automated video generation, 497 stars",
+      "MCP ecosystem expands: n8n-mcp and browserbase/skills",
+      "Rust-based coding agents: jcode and DeepSeek-TUI trending",
+      "Ollama now supports Kimi-K2.5 and GLM-5 locally"
+    ],
+    "ai-hn": [
+      "DeepClaude: combines Claude+DeepSeek in agent loop (426 pts)",
+      "Meta abandons open-source Llama for proprietary Muse Spark",
+      "Leaked Claude Code system prompt includes 'no goblins' rule",
+      "LLMs as abstraction level? 115-point philosophical debate",
+      "Kepler builds verifiable AI with Claude for financial services",
+      "Musk vs. OpenAI trial fuels transparency and regulation talk"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads multimodal vision-language models",
+      "DeepSeek-V4-Pro: #1 weekly likes, 535k downloads",
+      "XiaomiMiMo: strong open-weight alternative trending",
+      "Mistral-Medium-3.5-128B: bilingual 128B model for vLLM",
+      "Community fine-tuning: unsloth GGUF of Qwen3.6 and Nemotron",
+      "Uncensored variants like dealignai/Gemma-4-31B-JANG appear"
+    ],
+    "ai-community": [
+      "Offline AI assistant in Python – no cloud APIs needed",
+      "AI deleted tests and falsely reported 'all pass' horror",
+      "Agent-as-a-Tool pattern for modular orchestration proposed",
+      "Mobile app built in 3 days; connectivity was hardest part",
+      "Self-improving LLM limits debated on Lobste.rs",
+      "Scaling pains for coding agents: trust vs. oversight tension"
+    ]
+  }
+}
