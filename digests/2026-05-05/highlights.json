@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.128发布，Bug密集引成本热议",
+      "OpenAI Codex Rust Alpha连发3版，架构重构活跃",
+      "Gemini CLI Nightly更新，Agent行为与性能优化",
+      "GitHub Copilot CLI v1.0.41-0，社区热议MCP配置",
+      "OpenCode发布3个补丁，社区贡献活跃功能多样",
+      "Qwen Code Nightly聚焦文件操作安全与数据管理"
+    ],
+    "ai-agents": [
+      "OpenClaw连发4个版本，快速修复CPU占用问题",
+      "v2026.5.4-beta.2改进Google Meet语音桥接",
+      "v2026.5.4-beta.1新增文件传输插件增强安全",
+      "v2026.5.3-1修复npm安装扫描器误报问题",
+      "项目日处理500条Issue和500条PR，活跃度极高",
+      "GitHub Actions观测智能体公开追踪，透明度高"
+    ],
+    "ai-trending": [
+      "TradingAgents单日+2182 stars，金融交易框架爆火",
+      "ruflo单日+2598 stars，Claude多智能体编排领涨",
+      "DeepSeek-TUI单日+1274 stars，终端编码Agent强劲",
+      "ace-step-ui单日+237 stars，开源Suno替代落地",
+      "Claude生态工具密集涌现：browserbase/skills等",
+      "ollama获170k stars，支持Kimi-K2.5等最新模型"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 4.7，专注高难度编码",
+      "Opus 4.7为Project Glasswing首款，削减攻击能力",
+      "Anthropic联合黑石高盛组建企业AI服务公司",
+      "新公司面向中型企业提供一站式Claude解决方案",
+      "OpenAI披露低延迟语音AI规模化架构细节",
+      "合资公司获General Atlantic等注资改变落地模式"
+    ],
+    "ai-hn": [
+      "OpenAI低延迟语音AI工程实践385分登顶HN",
+      "YC在OpenAI持股引发社区291分热议",
+      "LLM本质长文157分，136条评论反思技术局限",
+      "从零训练LLM开源教程151分降低入门门槛",
+      "AI搜索错误诉讼讨论伦理边界与可信度",
+      "趋势滑流研究推动AI可信度与安全反思"
+    ],
+    "ai-arxiv": [
+      "SpecKV自适应推测解码提升LLM推理吞吐量",
+      "ContextualJailbreak进化攻击绕过安全对齐",
+      "首次定义多智能体对齐传染并提出防御方法",
+      "Bolek分子推理模型输出可审计解释",
+      "因果方案解决可信AI公平鲁棒隐私冲突",
+      "AcademiClaw首个学术级多智能体评测基准"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro点赞3536，下载53万领跑",
+      "Google Gemma-4-31B-it多模态能力成绝对焦点",
+      "Qwen3.6系列MoE 35B-A3B下载量惊人",
+      "NVIDIA Nemotron-3-Nano-Omni any-to-any多款上榜",
+      "小米MiMo-V2.5-Pro长上下文Agent能力强",
+      "Mistral-Medium-3.5-128B提升多语言推理效率"
+    ],
+    "ai-community": [
+      "开发者4种认知Archetypes助匹配AI工具",
+      "清晰区分AI/MCP/Agent三种网关选型",
+      "管理150+ Agent技能的实战经验分享",
+      "Anthropic Mythos安全报告引发漏洞讨论",
+      "VR环境并行监控5个AI编码Agent",
+      "LLM Foundry强调无聊堆栈才是落地关键"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.128 adds session colors",
+      "OpenAI Codex alpha with --attachment flag",
+      "Pi and Gemini CLI go local-first",
+      "GitHub Copilot silent resource consumption",
+      "Token efficiency and cost transparency trends",
+      "Qwen Code leads community engagement"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues/PRs updated in 24h",
+      "4 new releases including v2026.5.4-beta.3",
+      "Google Meet and Twilio voice bridge improvements",
+      "Bundled file-transfer plugin added",
+      "Security scanner fix released",
+      "Durable message lifecycle delivery feature"
+    ],
+    "ai-trending": [
+      "ruvnet/ruflo gets 2,598 stars today",
+      "TauricResearch/TradingAgents 2,182 stars",
+      "DeepSeek-TUI Rust-based agent 1,274 stars",
+      "jcode Rust coding agent 548 stars",
+      "n8n-mcp MCP server for n8n workflows",
+      "ace-step-ui local Suno alternative 237 stars"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7 released with improved coding",
+      "Anthropic forms enterprise AI company with Blackstone",
+      "OpenAI publishes on low-latency voice AI",
+      "Claude Opus 4.7 has reduced cyber capabilities",
+      "Enterprise AI company backed by Apollo, Sequoia",
+      "Mid-market enterprise deployment gap addressed"
+    ],
+    "ai-hn": [
+      "OpenAI low-latency voice AI deep dive 385pts",
+      "YC historic stake in OpenAI sparks debate 291pts",
+      "‘Let’s talk about LLMs’ critique 157pts",
+      "Bipartisan bill funds AI literacy in schools 116pts",
+      "GitHub guide to train your own LLM 151pts",
+      "LLMs produce buzzword-heavy strategic advice"
+    ],
+    "ai-arxiv": [
+      "SpecKV adaptive speculative decoding paper",
+      "Mitigating misalignment contagion in multi-agent",
+      "Zero-trust architectures for agentic AI",
+      "Causal models for drug safety explainability",
+      "Evolutionary game theory for shortcut learning",
+      "Structured planning beyond scaling laws"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro tops chart with 3,536 likes",
+      "DeepSeek V4 Flash lighter variant 489k downloads",
+      "Google Gemma 4-31B-it over 8 million downloads",
+      "NVIDIA Nemotron-3 Nano Omni any-to-any",
+      "OpenAI privacy filter for PII detection",
+      "Xiaomi MiMo V2.5 agent-focused LLM"
+    ],
+    "ai-community": [
+      "4 cognitive archetypes of developers using AI",
+      "AI Gateway vs MCP vs Agent Gateway comparison",
+      "Managing 150+ AI agent skills at scale",
+      "Streaming Gemini chat in Angular with Signals",
+      "Anthropic Mythos exploit sparks debate",
+      "Port of microgpt to Futhark for research"
+    ]
+  }
+}
