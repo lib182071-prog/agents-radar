@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.132发布修复文件编辑兼容性",
+      "OpenCode v1.14.40发布推出Agent市场",
+      "Gemini CLI引入AST感知工具",
+      "Copilot CLI v1.0.42/43修复计费异常",
+      "Kimi Code CLI关注MCP连接健壮性",
+      "Pi工具关注中文支持与扩展加载性能"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.6紧急修复回滚Codex OAuth",
+      "PR #78810增加语音桥接视频帧发送",
+      "PR #78610修复Tavily工具凭据解析",
+      "合并关闭151个PR但349个待合并",
+      "社区活跃度极高（500+ issues/PR）",
+      "GPT-5.5 OAuth中断风险提醒"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI单日暴涨6175 stars",
+      "ruvnet/ruflo多智能体编排新增2192 stars",
+      "virattt/dexter金融深度研究智能体登榜",
+      "PriorLabs/TabPFN表格数据基础模型",
+      "local-deep-research本地研究工具532 stars",
+      "Anthropic发布金融Agent模板"
+    ],
+    "ai-web": [
+      "Anthropic发布10个金融Agent模板",
+      "Anthropic与SpaceX达成300MW算力合作",
+      "Claude Code速率限制翻倍",
+      "OpenAI新增8篇内容含GPT系列更新",
+      "OpenAI推出B2B数据产品",
+      "Anthropic打通Microsoft 365生态"
+    ],
+    "ai-hn": [
+      "Anthropic与xAI/SpaceX算力合作登顶",
+      "OpenAI总裁当庭朗读日记引热议",
+      "Unsloth与NVIDIA合作加速LLM训练",
+      "Richard Dawkins称AI已具备意识",
+      "LAWS论文将LLM推理转为缓存查找",
+      "Claude Agent做梦保存记忆"
+    ],
+    "ai-arxiv": [
+      "DiT异常Token影响图像生成质量",
+      "长上下文建模不可能三角被证明",
+      "首个token置信度检测幻觉低开销",
+      "奖励模型偏好攻击性回复",
+      "动力系统预测低成本幻觉检测",
+      "贝叶斯框架下一最佳视点选择"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro周点赞3688下载94万",
+      "DeepSeek-V4-Flash下载75万",
+      "Qwen3.6系列多模态模型爆发",
+      "Google Gemma 4系列多模态",
+      "NVIDIA Nemotron 3 MoE架构",
+      "Ling-2.6-1T万亿参数开源模型"
+    ],
+    "ai-community": [
+      "Build Your Own AI Butler定时代理教程",
+      "6502汇编上跑AI推理",
+      "Agentic Engineering取代Vibe Coding",
+      "双层验证器过滤AI Slop",
+      "MCP类比为AI界USB-C",
+      "AI路由器降低API成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "MCP becomes dominant integration standard",
+      "Cross-platform reliability remains pain point",
+      "Billing friction and token transparency concerns",
+      "4+ releases across tools in 24 hours",
+      "Enterprise adoption pressure increases",
+      "Claude Code v2.1.132 shipped"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.6 hotfix reverts OAuth change",
+      "500 issues and 500 PRs in 24 hours",
+      "315 issues closed (63%)",
+      "151 PRs merged or closed",
+      "WeChat plugin issues under investigation",
+      "Gateway WebSocket stability problems"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI gains 6,175 stars",
+      "ruflo multi-agent orchestration +2,192 stars",
+      "dexter autonomous financial agent trending",
+      "Kronos foundation model for financial markets",
+      "local-deep-research for private RAG +532 stars",
+      "ollama leads AI infra with 170,910 stars"
+    ],
+    "ai-web": [
+      "Anthropic releases 10 finance agent templates",
+      "SpaceX compute deal with Anthropic",
+      "OpenAI hints at GPT-5.5 Instant",
+      "OpenAI supercomputer networking project",
+      "OpenAI new advertising products",
+      "\"Agents for financial services\" article"
+    ],
+    "ai-hn": [
+      "Anthropic compute deal with SpaceX/xAI",
+      "Higher Claude usage limits announced",
+      "Musk-OpenAI trial dominates legal drama",
+      "Greg Brockman diary entries read to jury",
+      "Richard Dawkins concludes AI is conscious",
+      "Community split on centralized compute"
+    ],
+    "ai-arxiv": [
+      "Impossibility triangle of long-context modeling",
+      "Predictive-causal gap across 2,695 configs",
+      "Hallucination detection via single-token confidence",
+      "Dynamical system approach to hallucination",
+      "Wasserstein gradient flow for drifting models",
+      "Proximal projection for doubly sparse regularization"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 3,688 likes",
+      "Qwen3.6 family dominates downloads",
+      "Gemma-4-31B-it explodes to 8.6M downloads",
+      "Uncensored fine-tunes gain popularity",
+      "New video-generation models trending",
+      "NVIDIA Nemotron-3-Nano-Omni released"
+    ],
+    "ai-community": [
+      "Build your own AI butler agent tutorial",
+      "Agentic engineering vs vibe coding debate",
+      "AI vs non-AI project comparison",
+      "SEO agent finds missed bugs",
+      "Minimal LLM in 1500 bytes of assembly",
+      "Do AI summaries damage critical thinking?"
+    ]
+  }
+}

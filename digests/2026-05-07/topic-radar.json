@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-05-07 09:44 UTC",
+  "date": "2026-05-07",
+  "topics": [
+    {
+      "source": "Hacker News",
+      "original_title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title_cn": "Anthropic与SpaceX达成计算协议，Claude使用限制大幅提升",
+      "summary_cn": "Anthropic宣布与SpaceX及其xAI部门达成计算合作，将利用Colossus 1数据中心全部算力，同时提高Claude Code的每日使用限制。",
+      "content_angle": "科技动态/商业合作",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站"
+      ],
+      "monetization_angle": "可制作信息图或视频解读AI算力军备竞赛，吸引科技爱好者关注",
+      "xiaohongshu_title": "AI巨头抢算力！Anthropic联手SpaceX，Claude要起飞了",
+      "cover_text": "Anthropic x SpaceX 算力联盟",
+      "video_hook": "Claude背后到底有多少算力？这次直接搬来了SpaceX的超级计算机！",
+      "score": 92,
+      "reason": "高热度（459 points, 420 comments），涉及两大科技明星公司，话题性强，适合中文平台传播"
+    },
+    {
+      "source": "GitHub Trending",
+      "original_title": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "title_cn": "DeepSeek TUI终端工具一夜获得6000+星标",
+      "summary_cn": "基于DeepSeek模型的终端交互界面工具，今日新增6175个star，成为GitHub热门项目，支持命令行操作大模型。",
+      "content_angle": "开源项目推荐/效率工具",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "可制作安装使用教程，或对比其他AI终端工具，吸引开发者人群",
+      "xiaohongshu_title": "程序员狂喜！这个AI终端工具一夜爆火，6000+star",
+      "cover_text": "DeepSeek TUI ｜ 命令行玩转AI",
+      "video_hook": "还在用网页版聊天？这个终端工具让AI效率翻倍！",
+      "score": 88,
+      "reason": "GitHub日增星极高（6175），代表开发者社区强关注，适合技术类自媒体"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "Richard Dawkins concludes AI is conscious, even if it doesn't know it",
+      "url": "https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt",
+      "title_cn": "理查德·道金斯宣布AI具有意识，尽管它自己不知道",
+      "summary_cn": "著名进化生物学家理查德·道金斯根据与Claude等模型的交互，得出结论认为当前AI已经具备意识，但可能无法自我觉察。",
+      "content_angle": "科技哲学/伦理争议",
+      "platform": [
+        "小红书",
+        "知乎",
+        "抖音"
+      ],
+      "monetization_angle": "适合做成观点类短视频或深度图文，引发讨论，获取流量",
+      "xiaohongshu_title": "科学家说AI已经有意识了？道金斯最新观点引爆争议",
+      "cover_text": "AI意识觉醒？道金斯表态",
+      "video_hook": "连进化论的捍卫者都承认AI有意识了，你信吗？",
+      "score": 85,
+      "reason": "24 points但有30条评论，话题极具争议性和传播性，适合中文内容"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat",
+      "url": "https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/",
+      "title_cn": "暗钱运动：OpenAI和Palantir资助网红抹黑中国AI",
+      "summary_cn": "据Wired调查，一个由OpenAI和Palantir支持的超级政治行动委员会正在付费让TikTok网红发布内容，将中国AI渲染为安全威胁。",
+      "content_angle": "行业黑幕/地缘政治",
+      "platform": [
+        "知乎",
+        "小红书",
+        "B站"
+      ],
+      "monetization_angle": "可做深度解读或评论，分析中美AI博弈，吸引关注国际科技话题的用户",
+      "xiaohongshu_title": "曝OpenAI砸钱请网红黑中国AI？真相令人震惊",
+      "cover_text": "暗钱操控AI舆论",
+      "video_hook": "你以为的“中国AI威胁论”竟然是一场精心策划的营销？",
+      "score": 83,
+      "reason": "Wired调查报道，涉及敏感但高关注度话题，适合中文平台传播（需注意表述平衡）"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "Discord group guessed the URL to Anthropic's Mythos model before CISA used it",
+      "url": "https://www.msn.com/en-us/technology/cybersecurity/discord-group-guessed-the-url-to-anthropic-s-most-dangerous-ai-and-used-it-before-cisa-did/ar-AA22enqY",
+      "title_cn": "Discord群组猜出Anthropic“最危险AI”Mythos的URL，比美国网络安全局还快",
+      "summary_cn": "一个Discord社区通过猜测URL的方式，在CISA（美国网络安全与基础设施安全局）之前就访问到了Anthropic内部的高危模型Mythos，引发安全担忧。",
+      "content_angle": "网络安全/事件分析",
+      "platform": [
+        "B站",
+        "知乎",
+        "抖音"
+      ],
+      "monetization_angle": "适合制作安全科普或事件回顾视频，标题党潜力大",
+      "xiaohongshu_title": "最危险AI被黑客猜中网址？Anthropic闹大乌龙",
+      "cover_text": "Discord大神破解AI安全锁",
+      "video_hook": "一个随机猜测的链接，竟然打开了一扇通向最危险AI的大门！",
+      "score": 82,
+      "reason": "涉及安全事件与AI边界，有戏剧性，容易引发讨论"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "OpenAI president forced to read his personal diary entries to jury",
+      "url": "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/",
+      "title_cn": "OpenAI总裁被迫在法庭上朗读个人日记，解释“贪婪”措辞",
+      "summary_cn": "在Elon Musk诉OpenAI的官司中，OpenAI总裁Greg Brockman被要求当庭朗读自己的日记条目，以解释其关于财富和商业动机的表述。",
+      "content_angle": "法律八卦/商业内幕",
+      "platform": [
+        "抖音",
+        "小红书",
+        "B站"
+      ],
+      "monetization_angle": "适合做成吃瓜短视频或图文，利用名人效应和戏剧性情节",
+      "xiaohongshu_title": "OpenAI总裁日记被当众朗读！Musk的复仇太狠了",
+      "cover_text": "法庭上的日记曝光",
+      "video_hook": "你能想象在法庭上被逼着读自己日记的感受吗？OpenAI总裁直接社死！",
+      "score": 78,
+      "reason": "85 points, 90 comments，八卦与法律交织，适合大众传播"
+    },
+    {
+      "source": "Dev.to",
+      "original_title": "Why Agentic Engineering Must Replace Vibe Coding",
+      "url": "https://dev.to/shrsv/why-agentic-engineering-must-replace-vibe-coding-339f",
+      "title_cn": "为什么Agentic工程必须替代“氛围编程”",
+      "summary_cn": "作者认为当前流行的“Vibe Coding”（靠感觉写代码）不可靠，应该转向更系统化的Agentic Engineering方法，利用AI代理自动化编码流程。",
+      "content_angle": "技术观点/编程方法论",
+      "platform": [
+        "知乎",
+        "B站",
+        "小红书"
+      ],
+      "monetization_angle": "可制作对比视频或图文，讨论AI辅助编程的未来趋势，容易引发程序员共鸣",
+      "xiaohongshu_title": "拒绝Vibe Coding！未来编程的终极答案来了",
+      "cover_text": "Agent Engineering vs Vibe Coding",
+      "video_hook": "还在靠感觉写代码？这种编程方式即将被淘汰！",
+      "score": 76,
+      "reason": "16 reactions，话题紧贴AI编程前沿，适合技术社群"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "Claude Managed Agents can engage in a 'dreaming' process to preserve memories",
+      "url": "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/",
+      "title_cn": "Claude Managed Agent通过“做梦”过程保留记忆",
+      "summary_cn": "Anthropic为Claude的Managed Agent引入一种类似人类梦境的功能，让代理在空闲时重放和巩固记忆，以提升长期一致性。",
+      "content_angle": "AI功能解读/技术科普",
+      "platform": [
+        "B站",
+        "小红书",
+        "知乎"
+      ],
+      "monetization_angle": "适合制作趣味科普视频，解释AI“做梦”的原理和意义",
+      "xiaohongshu_title": "刚刚！Claude学会做梦了，AI记忆黑科技",
+      "cover_text": "AI也会做梦？",
+      "video_hook": "AI开始做梦了！Claude的新功能会让它更接近人类吗？",
+      "score": 75,
+      "reason": "7 points但内容新颖有趣，有传播潜力"
+    },
+    {
+      "source": "GitHub Trending",
+      "original_title": "cheahjs/free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "title_cn": "免费LLM API资源汇总项目爆火，省钱开发者必看",
+      "summary_cn": "该项目整理了各种免费的LLM API接口资源，今日新增198个star，适合预算有限的开发者和个人项目。",
+      "content_angle": "资源推荐/开发工具",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "可直接列出最实用的免费API，或做对比评测，吸引开发者关注",
+      "xiaohongshu_title": "白嫖党福利！这20个免费AI API我全都试过了",
+      "cover_text": "免费LLM API合集",
+      "video_hook": "不用花钱也能用上顶级AI模型？这份免费API清单请收好！",
+      "score": 74,
+      "reason": "实用性强，开发者社区刚需，适合做资源分享内容"
+    },
+    {
+      "source": "Dev.to",
+      "original_title": "Build Your Own AI Butler - A Scheduled Agent That Runs Itself!",
+      "url": "https://dev.to/aws/build-your-own-ai-butler-a-scheduled-agent-that-runs-itself-3dmk",
+      "title_cn": "搭建你自己的AI管家：一个能定时自主运行的智能代理",
+      "summary_cn": "AWS官方博客教程，教你如何构建一个可定时的AI代理，自动执行任务，如提醒、数据收集等。",
+      "content_angle": "教程/实战",
+      "platform": [
+        "B站",
+        "知乎",
+        "小红书"
+      ],
+      "monetization_angle": "适合制作保姆级教程视频，或写成图文笔记，引导用户实操",
+      "xiaohongshu_title": "手把手教你造AI管家，比Siri聪明100倍",
+      "cover_text": "AI管家搭建教程",
+      "video_hook": "想让AI每天早上自动帮你整理日程？这个教程一次教会你！",
+      "score": 73,
+      "reason": "32 reactions，AWS官方出品，有指导价值且实用"
+    },
+    {
+      "source": "GitHub Trending",
+      "original_title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "title_cn": "ruflo：新一代AI工作流引擎，今日获2192星标",
+      "summary_cn": "ruflo是一个开源AI工作流编排框架，支持可视化构建Agent流程，今天在GitHub上获得大量关注。",
+      "content_angle": "开源项目推荐/技术前沿",
+      "platform": [
+        "知乎",
+        "B站",
+        "小红书"
+      ],
+      "monetization_angle": "可与Dify等同类工具对比，或制作快速上手视频",
+      "xiaohongshu_title": "又一AI编排工具火了！ruflo上手体验，程序员狂赞",
+      "cover_text": "ruflo AI工作流",
+      "video_hook": "又一个让AI自动工作的神器出现了，传统编程可能要哭了！",
+      "score": 72,
+      "reason": "日增2192星标，热度较高，技术圈关注"
+    },
+    {
+      "source": "GitHub Trending",
+      "original_title": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "title_cn": "本地化深度研究工具：不联网也能用AI做研究",
+      "summary_cn": "这个开源项目让你在本地运行AI模型进行深度研究，保护隐私且不依赖云端，今日新增532星标。",
+      "content_angle": "工具推荐/隐私保护",
+      "platform": [
+        "小红书",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "适合强调隐私安全和离线可用性，制作对比或教程",
+      "xiaohongshu_title": "拒绝数据泄露！这个本地AI研究工具比ChatGPT还香",
+      "cover_text": "本地AI研究助手",
+      "video_hook": "所有数据不上传云端，这个AI研究工具才是真正的隐私卫士！",
+      "score": 70,
+      "reason": "解决隐私痛点，有实用价值，适合推荐"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "Making LLM Training Faster with Unsloth and NVIDIA",
+      "url": "https://unsloth.ai/blog/nvidia-collab",
+      "title_cn": "Unsloth与NVIDIA合作，大幅加速LLM训练速度",
+      "summary_cn": "Unsloth团队宣布与NVIDIA合作，利用新优化技术将大模型微调速度提升多倍，并开源部分工具。",
+      "content_angle": "技术突破/效率提升",
+      "platform": [
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "适合技术分析文章或视频，介绍优化原理和实操效果",
+      "xiaohongshu_title": "训练AI模型快10倍？NVIDIA新合作曝光",
+      "cover_text": "Unsloth x NVIDIA 训练加速",
+      "video_hook": "你的AI模型训练还是太慢？这套方案让你效率翻倍！",
+      "score": 68,
+      "reason": "35 points，技术干货，适合硬核程序员"
+    },
+    {
+      "source": "Dev.to",
+      "original_title": "AI vs Non-AI: Building the Same Project Twice",
+      "url": "https://dev.to/nandofm/ai-vs-non-ai-building-the-same-project-twice-4073",
+      "title_cn": "AI vs 纯手工：用和不用AI开发同一个项目，差距有多大？",
+      "summary_cn": "作者分别用AI辅助和纯手工方式构建同一个项目，对比时间、质量和体验。",
+      "content_angle": "实战对比/经验分享",
+      "platform": [
+        "B站",
+        "知乎",
+        "小红书"
+      ],
+      "monetization_angle": "适合做对比实验视频，直观展示AI编码效率，引发讨论",
+      "xiaohongshu_title": "同样的项目，用AI做和不用的区别，结果出乎意料",
+      "cover_text": "AI编码 vs 人工编码",
+      "video_hook": "同一个项目，用AI写和手写到底差多少？我亲自测试了！",
+      "score": 66,
+      "reason": "15 reactions，5 comments，有对比价值，内容形式好"
+    },
+    {
+      "source": "Hacker News",
+      "original_title": "Setting up a Sun Ray server on OpenIndiana Hipster 2025.10",
+      "url": "https://catstret.ch/202605/srss-hipster202510/",
+      "title_cn": "在OpenIndiana上搭建Sun Ray服务器教程",
+      "summary_cn": "一篇极客向的教程，详细讲解如何在OpenIndiana系统上安装配置Sun Ray服务器，适合复古硬件和Solaris爱好者。",
+      "content_angle": "极客教程/怀旧技术",
+      "platform": [
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "小众但精准，适合硬核技术频道，但需考虑受众规模",
+      "xiaohongshu_title": "硬核！在11年前的系统上跑Sun Ray，这才是真极客",
+      "cover_text": "Sun Ray复古搭建",
+      "video_hook": "你知道Sun Ray吗？这个上古神器居然还能在最新系统上跑！",
+      "score": 55,
+      "reason": "136 points但话题极客向，中文平台受众较小，评分较低"
+    }
+  ]
+}
