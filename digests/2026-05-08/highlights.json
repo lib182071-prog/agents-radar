@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.133发布，工作树特性",
+      "OpenAI Codex 5个版本，新增Vim模式",
+      "Gemini CLI修复Alpine崩溃与MCP死锁",
+      "Kimi Code推出思考链与macOS截图",
+      "Pi支持组织迁移，本地LLM呼声高涨",
+      "Qwen Code修复401认证与大型文件编辑死锁"
+    ],
+    "ai-agents": [
+      "24小时500 Issues和500 PRs，极度活跃",
+      "OpenClaw发布v2026.5.7补丁修复插件发布",
+      "修复Gateway稳定性与WebSocket连接中断",
+      "最热Issue #77668获21条评论",
+      "高产出高关注，但稳定性仍待收敛",
+      "修复PI原生API提供者流被跳过的回归"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI单日斩获5799 stars",
+      "agent-skills和goose均超3000 stars",
+      "PageIndex无向量推理RAG首日943 stars",
+      "local-deep-research在3090达95%准确率",
+      "dflash利用Block Diffusion加速推理",
+      "9router无限免费AI编程路由器"
+    ],
+    "ai-web": [
+      "Anthropic开源Petri 3.0安全对齐工具",
+      "发布10个金融行业专用Agent模板",
+      "自然语言自编码器NLA可读模型思维",
+      "OpenAI推出新语音API模型",
+      "MCP协议作为基础设施重提",
+      "英国AISI使用Petri评估模型安全"
+    ],
+    "ai-hn": [
+      "自然语言自编码器获249分81评论",
+      "Mozilla用Mythos发现271个零误报漏洞",
+      "GPT-5.5涨价引发热议",
+      "加拿大隐私监管指控OpenAI违规",
+      "OpenAI语音API新模型讨论",
+      "AI代理沙箱化权限管控需求迫切"
+    ],
+    "ai-arxiv": [
+      "UniPool全局专家池降低MoE参数量",
+      "EMO预训练使MoE模块按能力分化",
+      "优化器一致性缓解灾难性遗忘",
+      "注意力沉没的方差差异数学解释",
+      "递归智能体委派子任务扩展推理",
+      "ScaleLogic框架研究RL提升推理边界"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro领跑热度榜",
+      "Gemma-4-31B-it下载量达850万",
+      "Qwen3.6-35B-A3B成为性价比之王",
+      "小米MiMo-V2.5-Pro长上下文Agent",
+      "OmniVoice语音模型下载224万",
+      "Laguna-XS.2专注软件工程代码生成"
+    ],
+    "ai-community": [
+      "Google Cloud多智能体记忆本地测试",
+      "Graph RAG结合MCP实现动态检索",
+      "Anthropic租Elon Musk数据中心影响定价",
+      "Mojo 1.0.0 beta发布引关注",
+      "Agent授权Token Exchange开放标准",
+      "Gemma 4离线模型部署讨论活跃"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.133 released today",
+      "Authentication failures most disruptive pain point",
+      "Community demands local model flexibility",
+      "Established vs newer tools divide emerging",
+      "Convergence on worktrees, hooks, slash commands",
+      "8 active projects shipping releases this week"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "v2026.5.7 released with retry fixes",
+      "Regression reports on gateway stability",
+      "Fix PRs for event-loop starvation",
+      "Community in responsive firefighting mode",
+      "Balancing regressions against feature development"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI explodes to +5,799 stars",
+      "TabPFN signals foundation models for tabular data",
+      "PageIndex pioneers vectorless reasoning-based RAG",
+      "Anthropic financial-services gains +1,343 stars",
+      "addyosmani/agent-skills hits +3,062 stars",
+      "Local-first, agent-centric, specialized AI tooling"
+    ],
+    "ai-web": [
+      "Anthropic publishes Natural Language Autoencoders",
+      "NLA converts model activations to readable text",
+      "Five substantive articles on May 7, 2026",
+      "Anthropic Institute formal research agenda released",
+      "Enterprise push: 10 finance agent templates",
+      "OpenAI adds Trusted Contact and voice models"
+    ],
+    "ai-hn": [
+      "NLA interprets Claude's thoughts: 249 points",
+      "Mozilla-Mythos finds 271 zero-false-positive bugs",
+      "Claude Code RCE vulnerability draws criticism",
+      "IMF warns new AI models risk systemic shock",
+      "GPT-4o allegedly leaks password in conversation",
+      "ChatGPT memory feature raises surveillance concerns"
+    ],
+    "ai-arxiv": [
+      "UniPool globally shared expert pool for MoE",
+      "EMO pretraining induces emergent modularity",
+      "Agentic AI for scientific discovery matures",
+      "Papers expose flaws in global LLM leaderboards",
+      "RL for long-horizon reasoning: expressiveness key",
+      "Modular architectures dominate today's submissions"
+    ],
+    "ai-hf": [
+      "Qwen3.6 family variants hit millions of downloads",
+      "Gemma-4 31B-instruction gains traction",
+      "Sulphur-2-base enables text-to-video generation",
+      "OmniVoice offers zero-shot voice cloning",
+      "DeepSeek-V4-Pro: 946k downloads, 3.7k likes",
+      "ZAYA1-8B Apache-2.0 model gains early interest"
+    ],
+    "ai-community": [
+      "AI agents and MCP servers dominate Dev.to",
+      "Lobste.rs debates closing open-weight models",
+      "Mythos architecture reconstruction discussed",
+      "Token cost optimization practical advice shared",
+      "Agent security: short-lived credentials emphasized",
+      "Limits of free AI tools bubble up again"
+    ]
+  }
+}

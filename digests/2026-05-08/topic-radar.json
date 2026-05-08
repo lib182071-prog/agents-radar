@@ -1,0 +1,291 @@
+{
+  "generatedAt": "2026-05-08 06:18 UTC",
+  "date": "2026-05-08",
+  "topics": [
+    {
+      "source": "hn",
+      "original_title": "Mozilla says 271 vulnerabilities found by Mythos and \"almost no false positives\"",
+      "url": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/",
+      "title_cn": "Mozilla利用AI发现271个高危漏洞，零误报引发安全革命",
+      "summary_cn": "Mozilla宣布其AI安全工具Mythos在Firefox及Thunderbird中发现了271个漏洞，且几乎无任何误报。这一成果标志着AI在软件安全审计领域迈出了里程碑式的一步，同时也引发了关于AI取代人工安全测试的热议。",
+      "content_angle": "安全技术突破与行业影响分析",
+      "platform": [
+        "小红书",
+        "抖音",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "安全培训课程、AI安全工具测评、企业安全咨询服务引流",
+      "xiaohongshu_title": "270+漏洞零误报！AI安全工具Mythos让程序员瑟瑟发抖？",
+      "cover_text": "271漏洞·零误报·AI安全革命",
+      "video_hook": "如果告诉你，一个AI在一夜之间发现了271个你代码里隐藏的漏洞，而且一个都没报错，你信吗？",
+      "score": 92,
+      "reason": "数据热度高（121 points），话题具有颠覆性，易于引发程序员和科技圈讨论，适合多平台传播。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "title_cn": "Anthropic新突破：把AI的「内心独白」翻译成人类可读的文字",
+      "summary_cn": "Anthropic提出自然语言自编码器，能够将Claude模型内部的抽象表征转化为自然语言描述。这相当于给AI装上了「思想话筒」，为理解模型推理过程、提升可解释性提供了全新工具。",
+      "content_angle": "前沿AI技术解读与可解释性科普",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "AI科普付费专栏、模型可解释性课程、技术咨询",
+      "xiaohongshu_title": "AI有了读心术？Anthropic把Claude的「想法」变成了文字！",
+      "cover_text": "AI思想解码·可解释性新纪元",
+      "video_hook": "你能想象AI心里在想什么吗？现在Anthropic真的把它说出来了——看看Claude的「内心独白」长什么样？",
+      "score": 88,
+      "reason": "HN最高分249，技术新颖且概念易懂，具备硬核科普与科技新闻双重价值。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
+      "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
+      "title_cn": "Wired新研究警示：每天用AI十分钟，你的大脑正在悄悄变笨",
+      "summary_cn": "一项最新研究发现，仅使用AI工具10分钟就可能削弱用户的独立思考和问题解决能力。该结论来自Wired报道，引发关于AI依赖与认知衰退的广泛担忧。",
+      "content_angle": "社会心理学与AI依赖批判",
+      "platform": [
+        "小红书",
+        "抖音",
+        "微信视频号",
+        "知乎"
+      ],
+      "monetization_angle": "认知提升课程、反焦虑内容带货、思维训练工具推广",
+      "xiaohongshu_title": "别让AI废掉你的大脑！10分钟就能让你变「笨」？",
+      "cover_text": "10分钟·变笨·AI依赖症",
+      "video_hook": "每天用AI十分钟，你的大脑会发生什么？最新研究告诉你——会变笨。这不是标题党。",
+      "score": 86,
+      "reason": "反常识结论自带流量，Wired背书增加可信度，极易引发争议和讨论，适合全平台传播。"
+    },
+    {
+      "source": "hn",
+      "original_title": "GPT-5.5 Price Increase: What It Costs",
+      "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "title_cn": "GPT-5.5价格暴涨：OpenAI新一轮「剁手」价目表曝光",
+      "summary_cn": "OpenRouter公布GPT-5.5调用价格详细分析，相比前代模型成本大幅提升。开发者与重度用户需重新评估使用成本，部分场景可能被迫转向替代模型。",
+      "content_angle": "AI服务价格变动分析与成本对比",
+      "platform": [
+        "小红书",
+        "抖音",
+        "知乎"
+      ],
+      "monetization_angle": "AI成本优化工具推荐、替代模型测评、付费咨询",
+      "xiaohongshu_title": "GPT-5.5涨价了！比GPT-4贵多少？这份账单你看哭了没",
+      "cover_text": "GPT-5.5涨价·钱包缩水",
+      "video_hook": "OpenAI又涨价了！GPT-5.5的价格账单让人倒吸一口凉气，你的钱包还撑得住吗？",
+      "score": 84,
+      "reason": "直接触及用户钱袋子，话题性强，尤其对AI从业者和企业决策者有吸引力。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Hardening Firefox with Claude Mythos Preview",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "title_cn": "Mozilla内部揭秘：如何用Claude Mythos给Firefox打上「免死金牌」",
+      "summary_cn": "Mozilla工程团队详细介绍了其使用Claude Mythos AI工具对Firefox进行安全加固的幕后流程。从漏洞发现到修复验证，AI参与到了安全开发的每一个环节，效率提升超10倍。",
+      "content_angle": "企业级AI安全开发实践案例",
+      "platform": [
+        "知乎",
+        "B站",
+        "小红书"
+      ],
+      "monetization_angle": "安全开发在线课程、AI安全技术书籍推广",
+      "xiaohongshu_title": "Mozilla悄悄用AI给Firefox加固，漏洞发现效率暴涨10倍",
+      "cover_text": "Firefox·AI加固·10倍效率",
+      "video_hook": "你知道Firefox最新安全更新是怎么来的吗？不是人类，而是一个叫Mythos的AI在背后工作。",
+      "score": 83,
+      "reason": "技术深度与实用价值兼具，Mozilla官方背书，适合技术社区传播。"
+    },
+    {
+      "source": "hn",
+      "original_title": "OpenAI violated Canadians' privacy, watchdogs say in call for legal reform",
+      "url": "https://globalnews.ca/news/11836689/report-on-openai-expected-from-federal-provincial-privacy-watchdogs/",
+      "title_cn": "加拿大隐私监管机构裁定：OpenAI违反国民隐私权，呼吁修改法律",
+      "summary_cn": "加拿大联邦与省级隐私监督机构联合发布报告，认定OpenAI在训练和运营过程中侵犯了加拿大公民的隐私权利，并建议修改相关法律以加强对AI的监管。",
+      "content_angle": "AI合规与隐私权法律解读",
+      "platform": [
+        "小红书",
+        "抖音",
+        "知乎"
+      ],
+      "monetization_angle": "AI合规咨询、隐私保护工具推荐、法律科普账号内容",
+      "xiaohongshu_title": "OpenAI在加拿大翻车了！侵犯隐私被监管部门点名",
+      "cover_text": "OpenAI·隐私违规·加拿大",
+      "video_hook": "OpenAI在加拿大摊上大事了！隐私监管机构说他们侵犯了公民隐私，还要修改法律？",
+      "score": 80,
+      "reason": "涉及跨国监管与隐私热点，新闻价值高，容易引发公众讨论。"
+    },
+    {
+      "source": "hn",
+      "original_title": "In OpenAI trial, former CTO: Altman sowed 'chaos,' distrust among top executives",
+      "url": "https://www.reuters.com/legal/litigation/openai-trial-former-technology-chief-says-altman-sowed-chaos-distrust-among-top-2026-05-06/",
+      "title_cn": "OpenAI内斗升级：前CTO法庭爆料Altman制造混乱与信任危机",
+      "summary_cn": "OpenAI前首席技术官在法庭上作证，指控CEO Sam Altman在高层间播下不和的种子，导致公司内部混乱。这场诉讼揭示了OpenAI光鲜背后的权力斗争。",
+      "content_angle": "科技公司内部治理与舆论八卦",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站"
+      ],
+      "monetization_angle": "科技圈吃瓜流量变现、创业管理类内容",
+      "xiaohongshu_title": "OpenAI宫斗大戏：前CTO法庭怒斥Altman「制造混乱」",
+      "cover_text": "OpenAI内斗·Altman被指控",
+      "video_hook": "OpenAI的混乱远比你想象的严重，前CTO直接在法庭上说Altman在高层之间播下了不信任的种子。",
+      "score": 78,
+      "reason": "热度不高但话题极具八卦属性，容易在社交平台引发猎奇和转发。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Claude Code CVE-2026-39861:sandbox escape via symlink",
+      "url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+      "title_cn": "Claude Code再曝高危漏洞：只需点「确定」就能导致远程代码执行",
+      "summary_cn": "Claude Code存在一个严重符号链接漏洞（CVE-2026-39861），攻击者可利用用户点击「确定」按钮的行为实现沙箱逃逸与远程代码执行。Anthropic官方回应称用户「不应点击确定」。",
+      "content_angle": "AI工具安全漏洞剖析与应对建议",
+      "platform": [
+        "小红书",
+        "抖音",
+        "知乎"
+      ],
+      "monetization_angle": "安全漏洞科普、AI工具使用避坑指南、付费安全课程",
+      "xiaohongshu_title": "Claude Code致命漏洞！点一下「确定」就被人远程控制了",
+      "cover_text": "点确定=被控制·Claude漏洞",
+      "video_hook": "用Claude Code的你注意了！随便点一下「确定」，就可能被人远程控制你的电脑。",
+      "score": 76,
+      "reason": "漏洞新颖且对用户体验影响大，结合Anthropic的争议回应，容易形成爆款。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Notes on the xAI/Anthropic data center deal",
+      "url": "https://simonwillison.net/2026/May/7/xai-anthropic/",
+      "title_cn": "Elon Musk的xAI与Anthropic达成数据中心合作，Claude成本之谜终于解开",
+      "summary_cn": "Elon Musk旗下的xAI与Anthropic签署数据中心租赁协议，将为Claude提供大量算力支持。这笔交易解释了Anthropic此前巨额投资的去向，并可能影响Claude的定价策略。",
+      "content_angle": "科技商业合作分析与行业格局",
+      "platform": [
+        "知乎",
+        "小红书"
+      ],
+      "monetization_angle": "算力投资策略、AI行业分析付费专栏",
+      "xiaohongshu_title": "Elon Musk x Anthropic！数据中心合作曝光，Claude成本要降？",
+      "cover_text": "xAI×Anthropic·算力联盟",
+      "video_hook": "Elon Musk和Anthropic握手合作了？这对Claude来说意味着什么？",
+      "score": 74,
+      "reason": "两大明星公司联手，话题性足够，但信息量有限，需结合多方资料拓展。"
+    },
+    {
+      "source": "hn",
+      "original_title": "AWS gives AI agents wallets to pay for APIs and web content",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/",
+      "title_cn": "AWS给AI Agent发钱包：从此它们能自己「花钱」买API了",
+      "summary_cn": "AWS推出Bedrock AgentCore Payments功能，允许AI Agent内置钱包并与Coinbase、Stripe集成，自动支付API调用和网页内容订阅。这预示着AI Agent正式进入「自主消费」时代。",
+      "content_angle": "AI Agent商业化基础设施创新",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "Agent经济科普、支付API集成教程、云服务变现机会",
+      "xiaohongshu_title": "AI自己学会花钱了！AWS给Agent装上钱包，未来不用你付钱",
+      "cover_text": "AI钱包·自动支付·Agent经济",
+      "video_hook": "你的AI助手现在可以自己掏钱买东西了！AWS刚刚给它装了个钱包。",
+      "score": 72,
+      "reason": "概念前沿，具有较大想象空间，但具体落地细节较少，适合作为趋势解读。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "title_cn": "本地私有化深度研究：开源工具让你在笔记本上运行Deep Research",
+      "summary_cn": "local-deep-research是一个开源项目，让你能在本地运行类似OpenAI Deep Research的深度研究Agent，无需联网且保护数据隐私。它融合了搜索、阅读、推理等功能。",
+      "content_angle": "隐私保护下的AI深度研究工具教程",
+      "platform": [
+        "小红书",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "数据隐私课程、本地AI部署服务、工具使用教程变现",
+      "xiaohongshu_title": "不用联网！在笔记本上跑Deep Research，这个开源项目太强了",
+      "cover_text": "本地深度研究·隐私无忧",
+      "video_hook": "想用AI做深度研究又怕数据泄露？这个开源项目让你在本地笔记本上就能跑出Deep Research的效果。",
+      "score": 72,
+      "reason": "满足隐私刚需，实用性高，星星增长迅速，可快速上手制作教程。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "title_cn": "DeepSeek-TUI：一天获5799星的开源终端界面神器，让AI对话回归命令行",
+      "summary_cn": "DeepSeek-TUI是一个基于终端的DeepSeek交互界面，支持多会话管理、代码高亮、Markdown渲染。项目一天内暴涨5799星，体现了开发者对轻量级AI客户端的需求。",
+      "content_angle": "开源工具推荐与AI客户端对比",
+      "platform": [
+        "小红书",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "Linux/终端入门课程带货、开源项目赞助、技术测评引流",
+      "xiaohongshu_title": "一天怒涨5799星！DeepSeek终极终端UI来了，比网页版好用10倍",
+      "cover_text": "一天5799星·终端神器",
+      "video_hook": "如果你还在用网页版DeepSeek，那这个开源终端UI可能会让你重新爱上命令行。",
+      "score": 70,
+      "reason": "GitHub Trending榜首，星星数极高，但受众限于开发者，可作为硬核教程内容。"
+    },
+    {
+      "source": "devto",
+      "original_title": "Graph RAG Isn't a One-Shot Anymore — The Case for Agentic Graph RAG MCPs",
+      "url": "https://dev.to/ryantsuji/graph-rag-isnt-a-one-shot-anymore-the-case-for-agentic-graph-rag-mcps",
+      "title_cn": "Graph RAG进化：从单次查询到Agent驱动，MCP协议正在重塑知识检索",
+      "summary_cn": "开发者提出Agentic Graph RAG概念，结合MCP（模型上下文协议）使得知识图谱问答不再是单次交互，而是由多智能体协同、持续迭代的深度推理过程。",
+      "content_angle": "AI知识检索技术前沿解析",
+      "platform": [
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "RAG/知识图谱进阶课程、企业知识库解决方案推广",
+      "xiaohongshu_title": "RAG已经过时了？Agent+知识图谱+MCP才是新方向",
+      "cover_text": "Graph RAG 2.0·Agent驱动",
+      "video_hook": "你以为RAG就是查一次资料？现在有了Agent驱动的Graph RAG，它能像研究员一样反复追问。",
+      "score": 70,
+      "reason": "技术概念新颖，Dev.to反应良好，适合深度技术读者，但大众传播性稍弱。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "title_cn": "Addy Osmani开源Agent Skills：让你的AI学会100+新技能",
+      "summary_cn": "Google Chrome团队知名工程师Addy Osmani发布了一套Agent Skill库，包含了从文件操作到Web浏览的100多种可插拔技能，可无缝接入任何AI Agent框架。",
+      "content_angle": "AI Agent能力拓展与开源资源分享",
+      "platform": [
+        "小红书",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "Agent开发课程、技能包定制服务、付费教程引流",
+      "xiaohongshu_title": "Google大佬开源「技能包」，让你的AI瞬间学会100多种新能力",
+      "cover_text": "100+技能·Agent增强库",
+      "video_hook": "你的AI助手只会聊天？来看看Google工程师开源的这个「技能包」，让它瞬间学会上百种新能力。",
+      "score": 68,
+      "reason": "作者影响力+实用价值，适合程序员社区，但需要一定技术背景才能上手。"
+    },
+    {
+      "source": "devto",
+      "original_title": "Why AI agents still can't buy anything yet",
+      "url": "https://dev.to/emmanuel39hanks/why-ai-agents-still-cant-buy-anything-yet-2143",
+      "title_cn": "为什么你的AI助手至今还是「月光族」？AI自主购物五大障碍",
+      "summary_cn": "尽管AI Agent在多个领域进展神速，但自主购物能力依然缺失。文章分析了支付授权、安全信任、法律合规、用户意图理解和退款机制五个核心障碍。",
+      "content_angle": "AI Agent落地痛点分析",
+      "platform": [
+        "小红书",
+        "抖音",
+        "知乎"
+      ],
+      "monetization_angle": "AI电商解决方案、支付安全科普、金融科技内容",
+      "xiaohongshu_title": "AI自己付不了钱？这五个坑拦住所有智能体",
+      "cover_text": "AI购物五大死穴",
+      "video_hook": "你家的AI助手能帮你写文案、写代码，但为什么就是不能帮你下单买东西？",
+      "score": 66,
+      "reason": "切中当前AI Agent的短板，话题有现实意义，适合引发讨论。"
+    }
+  ]
+}
