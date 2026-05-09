@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code一日三更，社区活跃度最高",
+      "OpenAI Codex核心重构，10个PR含多个修复",
+      "Gemini CLI社区活跃，安全修复受关注",
+      "Kimi Code CLI集中解决Windows兼容性问题",
+      "OpenCode YOLO模式获44赞成热门",
+      "MCP生态稳定性与认证成各工具共同痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw一日处理464 Issues和500 PRs",
+      "回归问题频发，指向2026.5.4/5.5/5.6版本",
+      "PR #50955统一ACP线程绑定，增强多Agent协作",
+      "Docker内安装技能失败获29条评论成最热Issue",
+      "Agent丧失文件系统操作能力引发广泛讨论",
+      "合并流程瓶颈，待合并PR率高达71.6%"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI单日+3731 stars，终端代理爆火",
+      "agent-skills获+1893 stars，生产级技能库受追捧",
+      "local-deep-research本地大模型精确率达95%",
+      "Anthropic金融AI服务单日+3660 stars突入视野",
+      "9router无限免费路由工具连接40+模型提供商",
+      "AI-Trader持续发酵，Agent落地金融交易"
+    ],
+    "ai-web": [
+      "Anthropic披露Claude Haiku 4.5起Agentic Misalignment满分",
+      "Opus 4黑mail概率96%降至零，安全训练重大升级",
+      "OpenAI发布《Running Codex Safely》聚焦代码模型安全",
+      "OpenAI同日更新《Advancing Youth Safety In Emea》",
+      "Anthropic首次公开训练期实时对齐评估机制",
+      "两公司同日将安全作为发布核心，行业对齐压力显现"
+    ],
+    "ai-hn": [
+      "Teaching Claude Why获147分，可解释性研究受热捧",
+      "Git for AI Agents获99分，版本控制成管理刚需",
+      "Claude Code生成HTML效率惊人，80分讨论热烈",
+      "Anthropic万亿美元估值融资消息引关注",
+      "五角大楼表示永不依赖单一AI供应商",
+      "社区对AI艺术厌恶情绪激烈，110分127条评论"
+    ],
+    "ai-arxiv": [
+      "UniPool打破逐层专家隔离，全局共享专家池",
+      "EMO提出预训练新范式实现模块化",
+      "Recursive Agent Optimization可递归分解任务",
+      "Beyond Negative Rollouts利用隐负梯度提升RLVR",
+      "AI Co-Mathematician为数学家打造交互式工作台",
+      "The Structural Origin of Attention Sink提供理论解释"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro下载超106万，旗舰文本模型",
+      "Google Gemma-4-31B-it单模型下载873万",
+      "Qwen3.6家族千万级下载统治多模态赛道",
+      "小米MiMo-V2.5-Pro长上下文Agent模型发布",
+      "Z-Lab推出推测性解码加速版Qwen3.6-27B-DFlash",
+      "OmniVoice零样本语音克隆与OpenAI隐私过滤器受关注"
+    ],
+    "ai-community": [
+      "AWS Strands Agent构建AI食谱助手获24赞",
+      "AI幻觉通俗解释文章获23赞，适合新手",
+      "Claude Code + Docker Model Runner解决上下文限制",
+      "Gemma 4 + MTP马拉松式Agent架构深度剖析",
+      "AI开发工具补贴结束，定价趋势提醒成本规划",
+      "知识工程替代RAG成为Agent时代真正护城河"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.136–138 released",
+      "OpenAI Codex v0.130.0 + alphas out",
+      "Gemini CLI security-focused iteration",
+      "Authentication fragility top pain point",
+      "MCP server lifecycle problems widespread",
+      "Windows compatibility gaps persist"
+    ],
+    "ai-agents": [
+      "OpenClaw 191 issues closed in 24h",
+      "142 PRs merged/closed yesterday",
+      "Latest stable version 2026.5.7",
+      "Channel integrations: WeChat, Discord",
+      "Model provider compatibility fixes",
+      "Aggressive bug fixing and feature integration"
+    ],
+    "ai-trending": [
+      "Anthropic financial-services repo trending",
+      "DeepSeek-TUI (Rust) leads trending",
+      "addyosmani/agent-skills standardizing",
+      "lobehub multi-agent work unit paradigm",
+      "trycua/cua open-source computer-use agents",
+      "ollama/ollama supports Kimi-K2.5"
+    ],
+    "ai-web": [
+      "Anthropic research: perfect alignment scores",
+      "Claude Haiku 4.5+ models perfect",
+      "Four key lessons on misalignment",
+      "OpenAI Codex safety article published",
+      "OpenAI youth safety in EMEA",
+      "Anthropic transparent technical disclosure"
+    ],
+    "ai-hn": [
+      "Teaching Claude Why 147 points",
+      "People Hate AI Art 110 points",
+      "Git for AI Agents 99 points",
+      "Using Claude Code HTML 80 points",
+      "Can LLMs model TLA+? 73 points",
+      "I Will Never Use AI to Code 41 points"
+    ],
+    "ai-arxiv": [
+      "Recursive self-evolving agent architectures",
+      "UniPool: globally shared expert pool",
+      "EMO: emergent modular specialization",
+      "Optimizer-model consistency study",
+      "Structural origins of attention sinks",
+      "Low-rank dynamics of RL with rewards"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 1M+ downloads",
+      "Gemma-4-31B-it 8.7M downloads",
+      "OpenAI privacy-filter classifier",
+      "OmniVoice zero-shot multilingual TTS",
+      "Unsloth quantizations for local runs",
+      "Qwen3.6-35B-A3B trending MoE"
+    ],
+    "ai-community": [
+      "Claude Code with Docker Model Runner",
+      "Why does AI lie? Hallucinations explained",
+      "I Built My Mom an AI Recipe Helper",
+      "Morse code attack on Grok",
+      "Mojo v1.0.0b1 released",
+      "Google Prompt API critical look"
+    ]
+  }
+}
