@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code因移除经典功能爆发最大规模请愿",
+      "Qwen Code发布v0.15.10，文件操作Bug成最大痛点",
+      "OpenCode发布v1.14.46，聚焦基础交互Bug修复",
+      "Kimi Code CLI WebUI受关注，服务429错误讨论多",
+      "Pi更新机制混乱，社区贡献大量编辑器集成PR",
+      "Gemini CLI Subagent可靠性与WSL兼容性修复活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.9-beta.1，新增/think default命令",
+      "心脏跳动回退修复PR#80163被合并",
+      "渠道消息交付修复PR#79924修正配置忽略问题",
+      "多平台客户端支持成社区焦点议题",
+      "Docker环境问题引发大量用户反馈",
+      "AI代理内部状态泄漏问题受广泛关注"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills单日+3009星，Agent标准技能集",
+      "bytedance/UI-TARS-desktop获+552星，多模态桌面Agent",
+      "rohitg00/agentmemory获+533星，持久记忆方案",
+      "Chrome DevTools MCP开源，赋能AI前端调试",
+      "9router以免费AI编程概念获1000+星",
+      "DataWhale推出从零构建智能体教程"
+    ],
+    "ai-hn": [
+      "Gemini API File Search支持多模态RAG获66分",
+      "ClaudeBleed安全漏洞：Chrome扩展可劫持Claude",
+      "Adola声称减少LLM输入token70%引社区讨论",
+      "ChonkLM浏览器内运行轻量模型受关注",
+      "Probe-Detected Grokking用于DPO对齐研究",
+      "社区对Anthropic高估值与Meta裁员保持警惕"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro点赞3793，语言模型顶流",
+      "google/gemma-4-31B-it下载896万，多模态王炸",
+      "XiaomiMiMo/MiMo-V2.5-Pro小米Agent模型亮相",
+      "Qwen3.6-35B-A3B开源多模态家族生态成熟",
+      "Mistral-Medium-3.5-128B中端旗舰双语言",
+      "Zyphra/ZAYA1-8B主打Apache-2.0开源许可"
+    ],
+    "ai-community": [
+      "免费模型在10个真实Agent编码任务中胜出",
+      "越狱攻击伪装成正常对话的隐蔽手法揭秘",
+      "9router智能路由代理实现免费AI编程",
+      "去中心化AI预测市场PolyMarket引关注",
+      "机制解释性被认定为2026年突破性技术",
+      "多智能体系统现实挑战与经验教训总结"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code buddy removal incites 1,075 reactions",
+      "Windows users disproportionately affected across ecosystem",
+      "Community demands enterprise-grade reliability",
+      "Multi-agent orchestration and memory systems top wishlist",
+      "Transparency around pricing and model behavior critical",
+      "Ecosystem transitioning from novelty to production-readiness"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.5.9-beta.1 released",
+      "500 issues and 500 PRs in 24h",
+      "New chat commands /think and /fast default",
+      "181 pull requests merged in 24h",
+      "Container deployment and credential handling bugs",
+      "Dependency refresh includes Codex 0.130.0"
+    ],
+    "ai-trending": [
+      "agent-skills gains 3,009 stars in a day",
+      "agentmemory hits #1 persistent memory for agents",
+      "9router offers free AI coding via 40+ providers",
+      "hello-agents tutorial surges 1,197 stars",
+      "Anthropic financial-services repo gains 3,281 stars",
+      "chrome-devtools-mcp MCP server released"
+    ],
+    "ai-hn": [
+      "Gemini API adds multimodal RAG file search",
+      "Mochi.js Show HN scores 41 points",
+      "Meta's 8,000 layoffs framed as AI cost line",
+      "ClaudeBleed vulnerability lets extensions hijack Claude",
+      "Adola claims 70% token reduction with quality",
+      "Grok 4.3 released by xAI"
+    ],
+    "ai-hf": [
+      "Gemma-4 dense and MoE models trend",
+      "Qwen3.6 MoE surpasses 3.6M downloads",
+      "DeepSeek-V4-Pro gains 3,793 weekly likes",
+      "SulphurAI text-to-video base model released",
+      "OpenAI privacy filter gets 1.4K likes",
+      "Community creates uncensored GGUF quantized models"
+    ],
+    "ai-community": [
+      "Anthropic takes over SpaceX's 220K GPU cluster",
+      "Concern over open weights closing up",
+      "Bedrock evaluates models without training code",
+      "Free LLM wins against five paid models",
+      "Jailbreak attack hides inside normal conversations",
+      "9router routes Claude Code through free tiers"
+    ]
+  }
+}
