@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code数据丢失bug持续发酵",
+      "OpenAI Codex架构重构加速",
+      "Gemini CLI安全成新焦点",
+      "Kimi Code CLI发布v1.42.0",
+      "OpenCode发布v1.14.48",
+      "Qwen Code发布Nightly版本"
+    ],
+    "ai-agents": [
+      "OpenClaw发布3个Beta版本",
+      "修复JSONL加载内存溢出",
+      "会话锁泄露问题持续讨论",
+      "引入Telegram端到端自动化测试",
+      "Codex运行时迁移适配",
+      "配置硬编码问题仍待解决"
+    ],
+    "ai-trending": [
+      "Hermes Agent单日+1496 stars登顶",
+      "9router免费接入40+模型+803 stars",
+      "UI-TARS-desktop开源多模态Agent栈",
+      "Agentmemory持久化记忆+655 stars",
+      "ollama支持Kimi-K2.5等新模型",
+      "AutoGPT 184k stars标杆项目"
+    ],
+    "ai-web": [
+      "OpenAI启动校园学生俱乐部计划",
+      "企业AI规模化部署指南发布",
+      "Anthropic今日无任何新发布",
+      "OpenAI强化院校人才生态",
+      "OpenAI企业落地方法论持续输出",
+      "建议结合过往全量回溯分析"
+    ],
+    "ai-hn": [
+      "Claude模拟IP栈响应ping获98分",
+      "马里兰州居民分摊20亿电网费争议",
+      "Academic Research Skills for Claude Code",
+      "多Agent PR审查工具adamsreview",
+      "用户实测Claude响应延迟",
+      "LLM时间旅行调试工程实践"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro周点赞3841夺冠",
+      "Gemma-4 31B-it多模态点赞2595",
+      "Qwen3.6 MoE量化版受关注",
+      "OpenAI隐私过滤模型意外攀升",
+      "k2-fsa/OmniVoice语音克隆842赞",
+      "Mistral-Medium-3.5-128B企业优化"
+    ],
+    "ai-community": [
+      "MCP协议安全分析获18赞",
+      "PaioClaw Agent Gateway压力测试",
+      "Gemma 4在GTX1650实测",
+      "子200ms多语言聊天系统架构",
+      "AWS总结8种Agent提示词模式",
+      "3个Agent Gateway生产就绪性测试"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Gemini CLI data integrity incidents",
+      "OpenAI Codex WebSocket reliability crisis",
+      "Cross-platform parity gaps in major CLI tools",
+      "OpenAI Codex, Pi extension system refactoring",
+      "Qwen Code focuses on daemon/server mode",
+      "Permission model enforcement universal pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs updated",
+      "69 PRs merged/closed in 24 hours",
+      "Three new beta releases v2026.5.10-beta.1/2/3",
+      "QA automation with Telegram evidence capture",
+      "Active regression thread: agent session discovery failures",
+      "Critical CVSS 9.0 TLS auto-trust issue open"
+    ],
+    "ai-trending": [
+      "hermes-agent gains 1,496 stars today",
+      "agentmemory (+655) signals community hunger for memory",
+      "9router offers free access to 40+ LLM providers",
+      "UI-TARS-desktop from ByteDance (+669 stars)",
+      "ollama reaches 171,178 stars, supports new models",
+      "firecrawl AI-friendly web scraping API popular"
+    ],
+    "ai-web": [
+      "Anthropic published zero new articles today",
+      "OpenAI added two entries (metadata-only)",
+      "OpenAI Campus Network student club interest form",
+      "OpenAI enterprise scaling AI resource guide",
+      "Both entries are metadata-only, no full text",
+      "OpenAI dual focus: students and enterprises"
+    ],
+    "ai-hn": [
+      "$2B power grid bill forced on Maryland residents",
+      "Claude acts as a userspace IP stack to respond to pings",
+      "Academic Research Skills for Claude Code (81 points)",
+      "AI note-takers making lawyers nervous",
+      "Anthropic blames 'evil' portrayals for misbehavior",
+      "Big AI regulatory capture discussion thread"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 3.8K likes, 2M downloads",
+      "Qwen3.6-35B-A3B MoE: 1.7K likes, 3.9M downloads",
+      "Google Gemma-4 expands with multimodal variants",
+      "Sulphur-2-base for video generation gains traction",
+      "OmniVoice: zero-shot multilingual TTS (842 likes)",
+      "Community GGUF quantizations of Qwen and Gemma"
+    ],
+    "ai-community": [
+      "MCP security audit: what it gets right and wrong",
+      "PaioClaw stress-test reveals dangerous defaults",
+      "AI agent autonomously buys something (91 sec)",
+      "npm package with AGENTS.md file ships",
+      "Lobste.rs: quiet closing of open weights discussion",
+      "Google Prompt API and Mojo first beta released"
+    ]
+  }
+}
