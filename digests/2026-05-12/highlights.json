@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.139 发布，印度定价 Issue 热度极高",
+      "OpenAI Codex 模型容量问题 #22277 引发付费用户不满",
+      "Gemini CLI 子代理误报成功、配额自动消耗成热点",
+      "GitHub Copilot CLI 的 /fork 命令缺失，社区失望",
+      "Kimi Code CLI 的 API 400 错误持续困扰 Windows 用户",
+      "多工具共同关注模型可用性与会话管理功能"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目回归性 Bug 多，待合并 PR 高达 459/500",
+      "版本 v2026.5.10-beta.5 优化 CI 与运行时检测",
+      "NVIDIA 模型目录动态获取功能合并 (#79482)",
+      "Web UI 新增 paperclip 属性兼容特定适配器 (#79529)",
+      "健康诊断命令重复输出问题已修复 (#78806)",
+      "高比例待合并 PR 显示稳定性可能下降"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent 单日 +2,065 stars 领跑",
+      "decolua/9router 免费 AI 编码代理获 +941 stars",
+      "记忆层工具密集上榜，Agent 长期记忆成基础设施",
+      "ollama/ollama 超 171k stars，支持 Kimi、GLM-5",
+      "browser-use 让 AI Agent 自动化浏览器，93k stars",
+      "中文社区贡献 dive-into-llms 等高质量 LLM 教程"
+    ],
+    "ai-web": [
+      "OpenAI 正式推出 The Deployment Company，战略转型部署服务",
+      "同日发布商业页面面向企业客户 (openai.com/business)",
+      "Anthropic 官网今日无增量内容，可能积蓄力量",
+      "部署公司化标志着从模型公司向基础设施公司演进",
+      "OpenAI 连续两篇页面，部署品牌独立运作",
+      "数据受限无法获取正文，基于 URL 结构分析"
+    ],
+    "ai-hn": [
+      "Anthropic Claude 平台正式登陆 AWS，140 分登顶",
+      "Sam Altman 被曝“一贯撒谎”，Ilya 指控其不诚实",
+      "Claude 写了 3000 行无用代码，引发 Agent 可靠性反思",
+      "微软研究：AI 模型和 Agent 无法处理长时间任务",
+      "SLayer 语义层工具：Agent 即中间件趋势",
+      "Agent View in Claude Code 发布新功能"
+    ],
+    "ai-arxiv": [
+      "ELF 将流匹配模型应用于语言建模，挑战自回归范式",
+      "Shepherd 用 Lean 形式化元智能体操作，可追溯执行轨迹",
+      "WildClawBench 用于真实世界长期 Agent 评估基准",
+      "扩散/流模型向语言建模渗透成为趋势",
+      "智能体评估从合成沙盒转向真实世界环境",
+      "DataMaster 实现数据工程自动化"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周点赞 3870，下载量超 200 万",
+      "DeepSeek-V4-Flash 快速推理版，下载 116 万",
+      "Google Gemma-4-31B-it 下载量达 911 万",
+      "Qwen3.6 系列 MoE 版，3B 激活参数获 386 万下载",
+      "Kimi-K2.6 多模态模型，支持图像理解与压缩张量",
+      "量化微调生态活跃，Unsloth 推出大量 GGUF 版本"
+    ],
+    "ai-community": [
+      "“开放权重正在悄然关闭”引发 Lobste.rs 严肃辩论",
+      "提示工程新维度：思考质量优于模板技巧",
+      "本地运行 Claude Code 教程（Docker Model Runner）",
+      "Agent 上下文工程：改变一切的工程实践",
+      "测试 PaioClaw 发现越狱利用，安全警示",
+      "Mojo 1.0 beta 版本获得社区关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.139 adds Agent View, /goal",
+      "OpenAI Codex released 4 alpha builds in 24 hours",
+      "Claude Code India pricing thread hits 364 upvotes",
+      "All major tools invest in MCP plugin architecture",
+      "Cross-tool comparison shows rapid iteration cycles",
+      "Agent autonomy failures remain key adoption barrier"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.10-beta.4 and beta.5 released",
+      "500 issues and 500 PRs updated in 24h",
+      "Coding Agent never completes bug still open",
+      "Windows chat UI broken issue unresolved",
+      "Many issues from @100yenadmin closed as harness artifacts",
+      "Mattermost slash commands returning 503 error"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent gains 2,065 stars today",
+      "bytedance/UI-TARS-desktop adds 956 stars",
+      "vllm project reaches 79,755 stars",
+      "ollama remains top at 171,246 stars",
+      "9router proxy gains 941 stars for free AI coding",
+      "browser-use at 93,512 stars for web automation"
+    ],
+    "ai-web": [
+      "OpenAI launches The Deployment Company",
+      "Two new pages signal formalization of deployment ops",
+      "Anthropic publishes no new content today",
+      "OpenAI separates deployment from research",
+      "New entity may portend enterprise SLAs",
+      "Article text not available for analysis"
+    ],
+    "ai-hn": [
+      "Claude platform expansion with AWS GA",
+      "Ilya Sutskever testimony fuels Altman credibility debate",
+      "NPM supply chain attack hits TanStack and Mistral AI",
+      "Show HN: OpenGravity – zero-install JS clone",
+      "Microsoft research: AI agents fail at long-running tasks",
+      "OpenAI launches Daybreak Frontier for cyber defense"
+    ],
+    "ai-arxiv": [
+      "Shepherd: formal execution traces for agents",
+      "Probabilistic safety shields for Markov decision processes",
+      "Generalized Turing Test compares intelligence broadly",
+      "WildClawBench evaluates agents in real-world settings",
+      "DECO sparse MoE achieves dense performance on edge",
+      "Weight norms formally equivalent to Kolmogorov complexity"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro reaches 3,870 likes and 2M downloads",
+      "DeepSeek-V4-Flash optimized variant draws 1,051 likes",
+      "Gemma-4-31B-it has 9M downloads",
+      "OmniVoice zero-shot voice cloning model popular",
+      "Qwen3.6 series quantized variants surge in downloads",
+      "Sulphur-2-base text-to-video model gains traction"
+    ],
+    "ai-community": [
+      "AI-as-toxic-ex metaphor gets 39 reactions",
+      "Prompt engineering's missing layer: thinking quality",
+      "PaioClaw security stress-test reveals vulnerabilities",
+      "Run Claude Code locally via Docker Model Runner",
+      "Open-weight models becoming less open debate",
+      "Cloud vs local control remains central theme"
+    ]
+  }
+}
