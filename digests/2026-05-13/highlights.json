@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.140修复MCP孤儿化问题",
+      "OpenAI Codex电话验证回归，117条评论热论",
+      "Gemini CLI小任务执行超1小时遭210条吐槽",
+      "Kimi Code K2.6模型过载导致性能事故",
+      "Qwen Code v0.15.11发布，Daemon模式提案",
+      "GitHub Copilot CLI期望新增/forget命令"
+    ],
+    "ai-agents": [
+      "OpenClaw发布4个Beta版本紧急修复",
+      "Codex运行时MODULE_NOT_FOUND问题已修复",
+      "WhatsApp集成在pnpm 11下安装失败已解决",
+      "memory-wiki插件加入管理员权限控制",
+      "PR #81365解决Agent会话死锁问题",
+      "PR #75219增加可选瞬态重试提升稳定性"
+    ],
+    "ai-trending": [
+      "agentmemory单日暴增1048星定义记忆标准",
+      "ollama新增支持Kimi-K2.5、GLM-5等模型",
+      "skills项目单日3867星一键导入Claude Code",
+      "Hermes Agent以147k星领跑智能体框架",
+      "TradingAgents多Agent金融框架获74k星",
+      "vllm 79.8k星成生产级推理首选引擎"
+    ],
+    "ai-web": [
+      "Anthropic全平台零更新或预示重大发布",
+      "OpenAI发布《What Parameter Golf Taught Us》",
+      "标题隐喻模型超参数精准调优实验",
+      "OpenAI在Anthropic沉默期抢占舆论高地",
+      "开发者需警惕Anthropic API变更风险",
+      "博文涉及边际效益与效率突破思考"
+    ],
+    "ai-hn": [
+      "Voker (YC S24)为AI Agent提供分析仪表盘",
+      "Gigacatalyst嵌入式AI Builder获49分好评",
+      "ChatGPT医疗建议致死诉讼引发37条热议",
+      "GLiGuard开源模型宣称审核快16倍",
+      "Anthropic估值近9500亿美元融资传闻",
+      "Musk-OpenAI庭审细节曝光引安全讨论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro下载量达242万成新标杆",
+      "Kimi-K2.6多模态模型下载超169万",
+      "supergemma4-26b-uncensored社区微调版",
+      "HiDream-O1-Image实现思维链式图像生成",
+      "Sulphur-2-base视频生成模型黑马冲榜",
+      "Qwen3.6系列GGUF量化版社区热议"
+    ],
+    "ai-community": [
+      "Codex Chrome扩展发布即遇不可用问题",
+      "Cursor重命名函数竟消耗8400 tokens",
+      "微代码审查模式专治AI生成代码质量",
+      "语言战争被AI工具消解引深度反思",
+      "构建AI Harness实现PR自动审查与自愈",
+      "Agent记忆架构设计从无状态到持久化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "GitHub Copilot CLI v1.0.46 broke MCP",
+      "Claude Code v2.1.140 fixed /goal hangs",
+      "Gemini CLI v0.43.0 targets edit accuracy",
+      "Only Pi and OpenCode avoided patches",
+      "Session lifecycle management concerns",
+      "MCP plugin fragility common pain point"
+    ],
+    "ai-agents": [
+      "Four beta releases: v2026.5.12-beta.1–4",
+      "Fixed Codex runtime MODULE_NOT_FOUND",
+      "Spike in regression reports across tools",
+      "285 issues closed, 45 PRs merged",
+      "215 open issues, 455 open PRs",
+      "Gateway performance and UI issues on Windows"
+    ],
+    "ai-trending": [
+      "mattpocock/skills +3,867 stars today",
+      "agentmemory and openhuman cross 1k stars",
+      "rasbt/LLMs-from-scratch still active",
+      "AI-Trader and AiToEarn agent-native tools",
+      "Ollama hits 171,307 stars",
+      "vllm-project at 79,860 stars"
+    ],
+    "ai-web": [
+      "OpenAI published article: Parameter Golf",
+      "Anthropic published zero articles today",
+      "Zero Anthropic output signals strategic pause",
+      "Parameter Golf hints at benchmark gaming",
+      "No Anthropic engineering or research blog",
+      "OpenAI article metadata-only, no text captured"
+    ],
+    "ai-hn": [
+      "OpenAI sued after teen death from ChatGPT",
+      "Voker YC-backed agent analytics startup",
+      "GLiGuard open source guardrail model",
+      "Musk vs OpenAI trial: control for his kids",
+      "Natural Language Autoencoders on Claude",
+      "Community anxiety on liability and safety"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro tops with 3,910 likes",
+      "Google Gemma 4 31B IT reaches 2.6K likes",
+      "Qwen 3.6 MoE variant 1.7K likes",
+      "HiDream-O1-Image uses chain-of-thought",
+      "OmniVoice zero-shot speech cloning popular",
+      "Unsloth optimized GGUF variants released"
+    ],
+    "ai-community": [
+      "Open weights closing up discussion on Lobste.rs",
+      "Dev.to: MCP security and sandboxing buzz",
+      "Mojo v1.0.0b1 released today",
+      "DeepMind CEO: AGI ~4 years away",
+      "Micro code reviews for AI-generated code",
+      "Engineering agent memory deep dive"
+    ]
+  }
+}
