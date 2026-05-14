@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区极高，发布v2.1.141",
+      "Kimi Code模型问题引发社区强烈不满",
+      "OpenAI Codex性能与兼容性成焦点",
+      "Copilot CLI紧急发布v1.0.48-1修复",
+      "OpenCode快速迭代，新增远程访问",
+      "Qwen Code服务化与远程控制成新方向"
+    ],
+    "ai-agents": [
+      "OpenClaw极度活跃，500 Issue+500 PR",
+      "发布两个beta版本修复iMessage和协议",
+      "v2026.5.12-beta.5要求v4协议变更",
+      "合并PR#81744修复Web端Brave搜索",
+      "测试网关配对token恢复机制",
+      "待合并PR积压441条，维护压力大"
+    ],
+    "ai-trending": [
+      "agentmemory今日+1379星，记忆层新星",
+      "mattpocock/skills +3392星，最大黑马",
+      "openhuman +1696星，个人AI基础设施",
+      "AutoGPT 184k星继续领跑",
+      "ollama 171k星，本地运行首选",
+      "LLMs-from-scratch今日+821星"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude for Small Business",
+      "集成Quickbooks、HubSpot等商业工具",
+      "面向中小企业，一键安装工作流",
+      "OpenAI回应Tanstack npm供应链攻击",
+      "OpenAI发布Windows Sandbox构建文章",
+      "两大巨头战略分化：产品化vs基础加固"
+    ],
+    "ai-hn": [
+      "Anthropic订阅政策变更引广泛不满",
+      "OpenAI庭审Altman被指控习惯说谎",
+      "Claude for Small Business获240分热帖",
+      "Rars：用LLM写Rust RAR解压库",
+      "Claude-pee规避程序化使用计费",
+      "Torrix零依赖LLM可观察性工具"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro点赞3935登顶",
+      "Qwen3.6家族发布多尺寸基座与MoE",
+      "Google Gemma-4-31B-it下载近千万",
+      "SulphurAI文本生成视频模型热度高",
+      "HiDream-O1-Image引入思维链机制",
+      "Unsloth社区量化模型推动平民化"
+    ],
+    "ai-community": [
+      "MCP与Agent Skills实践扎堆涌现",
+      "一个月花$14,502在Claude Code引围观",
+      "Lambda文件系统部署AI Agent实战",
+      "Six Claude Code Skills闭环反馈",
+      "2015年老PC成功运行Gemma 4",
+      "Arize Phoenix监控Agent成本与性能"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code streaming fragility issues",
+      "Kimi K2.6 downgrade complaints",
+      "Copilot CLI HTTP/2 session errors",
+      "Multi-agent orchestration trend",
+      "Platform compatibility frustrations",
+      "Windows ARM64 underinvested area"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.12-beta.6 released",
+      "220 issues closed in 24h",
+      "iMessage media placeholder fix",
+      "Windows chat UI regression unresolved",
+      "MCP tool injection regressions",
+      "Runtime migration to Codex debated"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains +3,392 stars",
+      "CloakBrowser sees +1,835 stars",
+      "OpenHuman: private AI superintelligence",
+      "AgentMemory for persistent memory",
+      "trycua/cua: desktop agent sandbox",
+      "Ollama adds Kimi-K2.5 support"
+    ],
+    "ai-web": [
+      "Claude for Small Business launches",
+      "Pre-built workflows for QuickBooks, PayPal",
+      "OpenAI details TanStack supply chain incident",
+      "Codex sandboxed Windows environment",
+      "Anthropic challenges Microsoft Copilot",
+      "OpenAI deepens agent runtime security"
+    ],
+    "ai-hn": [
+      "Claude subscription terms backlash",
+      "User loses all Claude Design data",
+      "Claude for Small Business sparks debate",
+      "Sam Altman credibility attacked in trial",
+      "claude-pee bypasses API metering",
+      "LLMs force rethinking system design"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 3.9K likes",
+      "Qwen3.6-35B-A3B multimodal model",
+      "Gemma-4-31B-it open-weight powerhouse",
+      "OpenAI releases privacy-filter tool",
+      "OmniVoice for zero-shot voice cloning",
+      "Community GGUF quantizations from unsloth"
+    ],
+    "ai-community": [
+      "MCP longevity debated against agent skills",
+      "Claude Code costs $14,502 monthly",
+      "Mojo reaches first beta release",
+      "Swift tutorial on matrix multiplication",
+      "AWS Lambda file system for AI agents",
+      "AI bot replaces daily standups"
+    ]
+  }
+}
