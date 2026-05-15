@@ -1,0 +1,311 @@
+{
+  "generatedAt": "2026-05-15 10:00 UTC",
+  "date": "2026-05-15",
+  "topics": [
+    {
+      "source": "hn",
+      "original_title": "Codex is now in the ChatGPT mobile app",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "title_cn": "OpenAI 把 Codex 搬进 ChatGPT 手机 App，编程助手随身带",
+      "summary_cn": "OpenAI 宣布 Codex 能力已集成到 ChatGPT 移动端，用户可在手机上通过对话方式调用代码生成和执行功能，进一步降低编程门槛。",
+      "content_angle": "技术评测：移动端 Codex 的实际体验、与桌面版的差异、适用场景（如快速原型、调试辅助）。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站"
+      ],
+      "monetization_angle": "可制作“手机写代码”教程或对比视频，吸引程序员和 AI 爱好者，通过课程推广、工具推荐或平台激励变现。",
+      "xiaohongshu_title": "救命！ChatGPT 手机版居然能直接写代码了🔥",
+      "cover_text": "手机秒变编程神器？Codex 移动端实测",
+      "video_hook": "你用手机写过代码吗？现在 OpenAI 直接把 Codex 塞进了 ChatGPT 里……",
+      "score": 85,
+      "reason": "热点高（OpenAI 官方发布）、实用性强，覆盖程序员和科技爱好者人群，可评测、可教程、可吐槽，传播潜力大。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+      "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+      "title_cn": "Sam Altman 商业交易遭共和党调查，OpenAI IPO 前再添变数",
+      "summary_cn": "华尔街日报报道，美国共和党议员正在审查 Sam Altman 的商业交易，可能影响 OpenAI 即将进行的 IPO。",
+      "content_angle": "科技商业评论：Sam Altman 面临的政治风险、对 OpenAI 估值和上市进程的潜在影响、硅谷与华盛顿的博弈。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "深度解读类内容吸引投资和科技圈用户，可通过付费专栏、带货财经书籍或合作推广变现。",
+      "xiaohongshu_title": "Sam Altman 要翻车？OpenAI 上市前遭共和党调查💥",
+      "cover_text": "IPO 前夕，Altman 的“旧账”被翻出",
+      "video_hook": "OpenAI 马上就要上市了，结果 CEO Sam Altman 先被盯上了……",
+      "score": 82,
+      "reason": "强话题性（OpenAI IPO + 政治审查），流量潜力高，适合多平台传播。信息来自 WSJ，可信度高。"
+    },
+    {
+      "source": "hn",
+      "original_title": "How Claude Code works in large codebases",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "title_cn": "Anthropic 官方揭秘：Claude Code 如何搞定大型代码库",
+      "summary_cn": "Anthropic 发布博客，详解 Claude Code 在处理大型项目时的最佳实践、架构设计及上手指南，帮助开发者高效利用 AI 编程助手。",
+      "content_angle": "技术深度解析：Claude Code 在大型代码库中的上下文管理、模块化策略、与现有工程流程的集成。",
+      "platform": [
+        "B站",
+        "小红书",
+        "CSDN"
+      ],
+      "monetization_angle": "技术教程类内容，可制作系列视频或图文，通过知识付费、技术咨询或工具推广变现。",
+      "xiaohongshu_title": "终于有人讲清楚 Claude Code 在大型项目里怎么用了！",
+      "cover_text": "Claude Code 大型代码库实战指南",
+      "video_hook": "你的项目代码超过 10 万行？Claude Code 是帮你还是添乱？",
+      "score": 78,
+      "reason": "官方技术文章，实用价值高，吸引专业开发者群体，适合深度内容平台。信息准确，可做详细解读。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "url": "https://writing.antonleicht.me/p/cut-off",
+      "title_cn": "前沿 AI 即将进入“付费墙”时代：经济与安全双重限制",
+      "summary_cn": "文章指出，随着 AI 模型训练和推理成本飙升以及国家安全担忧，前沿 AI 的访问权将越来越多地被经济实力和政治因素所限制，可能出现“AI 贫富分化”。",
+      "content_angle": "社会趋势分析：AI 资源垄断、数字鸿沟加剧、各国监管政策走向、对开发者和创业者的影响。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "微信公众号"
+      ],
+      "monetization_angle": "观点类内容引发讨论，可配合热点事件做深度分析，通过广告分成、付费阅读或社群变现。",
+      "xiaohongshu_title": "你以后可能再也用不起 ChatGPT 最新版了😱",
+      "cover_text": "AI 即将成为富人的专属玩具？",
+      "video_hook": "为什么说普通人离最先进的 AI 越来越远？答案不只是钱……",
+      "score": 76,
+      "reason": "有深度的前瞻性观点，容易引发共鸣和讨论，适合传播。信息来源可靠，但为个人观点，注意标注。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Anthropic forms $200M partnership with the Gates Foundation",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "title_cn": "Anthropic 与盖茨基金会达成 2 亿美元合作，AI 用于全球健康",
+      "summary_cn": "Anthropic 宣布与比尔及梅琳达·盖茨基金会建立 2 亿美元合作伙伴关系，利用 AI 技术解决全球健康与贫困问题。",
+      "content_angle": "商业与社会：AI 巨头与慈善机构的合作模式、AI 在医疗健康领域的落地可能、对 Anthropic 品牌形象的提升。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站"
+      ],
+      "monetization_angle": "可做“AI 向善”主题内容，配合科普或案例，适合品牌合作、公益营销或知识付费。",
+      "xiaohongshu_title": "2 亿美元！盖茨基金会和 Anthropic 联手，AI 要拯救世界？",
+      "cover_text": "AI 巨头牵手慈善，2 亿美元押注全球健康",
+      "video_hook": "AI 不只是写诗和编程，Anthropic 要和盖茨基金会一起解决人类最大的难题……",
+      "score": 74,
+      "reason": "大额合作新闻，兼具商业和公益属性，覆盖面广，适合正面传播。信息来自 Anthropic 官方，可信。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Apple-OpenAI Relationship Frays, Setting Up Possible Legal Fight",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight",
+      "title_cn": "苹果与 OpenAI 关系破裂？法律战一触即发",
+      "summary_cn": "据彭博社报道，苹果与 OpenAI 的合作关系出现裂痕，可能引发法律纠纷。双方在技术整合、数据使用和商业模式上存在分歧。",
+      "content_angle": "科技产业分析：两大巨头的合作分歧原因、对 AI 生态的影响、可能的诉讼焦点。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "科技圈热门话题，适合做事件分析和预测，通过流量广告或付费专栏变现。",
+      "xiaohongshu_title": "苹果和 OpenAI 要撕破脸？🔥巨头相爱相杀",
+      "cover_text": "苹果 vs OpenAI：从蜜月到对簿公堂？",
+      "video_hook": "苹果和 OpenAI 的“婚姻”可能走到了尽头，究竟是为什么？",
+      "score": 72,
+      "reason": "强冲突性新闻，流量高，彭博社来源可靠。可结合 Apple 与 OpenAI 的历史关系做深度内容。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "title_cn": "开源项目 OpenHuman 一天狂揽 3300+ 星，人人可用的 AI 人类模型？",
+      "summary_cn": "GitHub 上 tinyhumansai/openhuman 项目今日新增 3329 星，疑似提供开源的人类模拟或数字人技术，引发社区热议。",
+      "content_angle": "开源探索：OpenHuman 是什么、核心技术亮点、与现有数字人/角色扮演 AI 的差异、潜在应用（游戏、教育、社交）。",
+      "platform": [
+        "小红书",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "开源项目评测与教程，吸引 AI 开发者和兴趣人群，可通过课程、社群或打赏变现。",
+      "xiaohongshu_title": "一天涨粉 3000+！GitHub 这个开源项目有点东西🤯",
+      "cover_text": "OpenHuman：让 AI 更像“人”的开源方案",
+      "video_hook": "有一个 GitHub 项目今天突然爆火，名字叫 OpenHuman，它到底能做什么？",
+      "score": 70,
+      "reason": "GitHub 热门项目，增速极快，代表 AI 新方向，信息有限但热度高，可做探秘类内容。"
+    },
+    {
+      "source": "devto",
+      "original_title": "AI Didn't Make Software Engineering Easier. It Made the Hard Parts Harder.",
+      "url": "https://dev.to/iampraveen/ai-didnt-make-software-engineering-easier-it-made-the-hard-parts-harder-39n4",
+      "title_cn": "AI 并没有让软件工程变简单，它让困难的部分更难了",
+      "summary_cn": "Dev.to 热门文章指出，AI 代码生成虽然提高了表面效率，但增加了调试、架构决策和长期维护的复杂度，工程师需要更深入的思考。",
+      "content_angle": "观点辩论：AI 对软件开发真实影响的反思、一线工程师的痛点、如何平衡 AI 工具的使用。",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "引发程序员群体的强烈共鸣和讨论，通过流量或付费问答、直播讨论变现。",
+      "xiaohongshu_title": "编程 AI 害了你？资深工程师的反省😤",
+      "cover_text": "AI 写代码，越写越难修？",
+      "video_hook": "有人用 AI 写代码写得很爽，可为什么这位工程师却说 AI 让工作更难了？",
+      "score": 68,
+      "reason": "话题具有普遍性和争议性，Dev.to 社区热度高，适合观点交锋类内容。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "title_cn": "Superpowers 开源项目今日获 1780 星，让 AI 拥有“超能力”？",
+      "summary_cn": "GitHub 项目 obra/superpowers 今日增长 1780 星，目前详细信息有限，但从名称推测可能是增强 AI 能力或赋予 Agent 额外功能的框架。",
+      "content_angle": "开源新项目速递：分析项目描述和代码结构、探讨其可能的应用场景（如 AI 工具链扩展）。",
+      "platform": [
+        "B站",
+        "小红书",
+        "CSDN"
+      ],
+      "monetization_angle": "技术新闻速报，吸引开发者关注，可在视频中植入工具推荐或技术社区推广。",
+      "xiaohongshu_title": "又一个 AI 超能力开源项目！Superpowers 是什么？",
+      "cover_text": "Superpowers 开源，AI 能力再升级？",
+      "video_hook": "如果 AI 能拥有“超能力”，会是什么样？这个开源项目可能给出了答案……",
+      "score": 65,
+      "reason": "今日新增星数高，但信息有限，适合以探秘或期待视角制作内容，提醒用户信息有限。"
+    },
+    {
+      "source": "devto",
+      "original_title": "AI Can Write the Code. It Still Forgets the Decisions That Matter.",
+      "url": "https://dev.to/restofstack/ai-can-write-the-code-it-still-forgets-the-decisions-that-matter-20b8",
+      "title_cn": "AI 能写代码，但会忘记那些真正重要的决策",
+      "summary_cn": "文章探讨 AI 编程助手缺乏对设计决策上下文的理解，导致长期维护中的“技术债”，强调人类工程师在架构和业务逻辑上的不可替代性。",
+      "content_angle": "技术管理视角：AI 在软件开发生命周期中的局限性、知识管理和文档的重要性。",
+      "platform": [
+        "知乎",
+        "小红书",
+        "微信公众号"
+      ],
+      "monetization_angle": "可做技术管理、团队协作类内容，吸引技术管理者，适合付费专栏或咨询。",
+      "xiaohongshu_title": "AI 写的代码，你敢用吗？专业工程师说出了真相",
+      "cover_text": "AI 写代码的“记忆缺陷”",
+      "video_hook": "AI 能帮你快速生成代码，但它可能让你在项目后期付出惨痛代价……",
+      "score": 64,
+      "reason": "与上条互补，观点有深度，适合程序员和科技决策者阅读。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "title_cn": "RuView 单日获 1715 星，一个全新的网页渲染/浏览工具？",
+      "summary_cn": "GitHub 项目 ruvnet/RuView 今日飙升 1715 星，从名称推测可能是一个新型网页渲染引擎或浏览器相关工具，详情尚待挖掘。",
+      "content_angle": "开源热点速递：RuView 的技术栈、与现有浏览器/渲染引擎的对比、对前端开发者的意义。",
+      "platform": [
+        "B站",
+        "小红书",
+        "掘金"
+      ],
+      "monetization_angle": "技术资讯类内容，吸引前端和全栈开发者，可通过知识星球或技术广告变现。",
+      "xiaohongshu_title": "一天涨粉 1700+，RuView 会取代浏览器吗？",
+      "cover_text": "RuView 爆火，新一代网页渲染工具来了？",
+      "video_hook": "又一个 GitHub 明星项目出现了！RuView 到底是什么，为什么这么多人关注？",
+      "score": 63,
+      "reason": "高热度但信息有限，适合短平快的新鲜资讯，提醒用户信息有限。"
+    },
+    {
+      "source": "devto",
+      "original_title": "What \"100% of Our Code Is Written by AI\" Actually Means",
+      "url": "https://dev.to/keithjmackay/what-100-of-our-code-is-written-by-ai-actually-means-1a1c",
+      "title_cn": "“我们的代码 100% 由 AI 编写” 到底意味着什么？",
+      "summary_cn": "作者剖析那些宣称“100% AI 写代码”的团队背后，实际仍然需要大量人工审查、调试和重构，AI 只是改变了工作流程而非替代人。",
+      "content_angle": "行业现象拆解：AI 编程的营销话术 vs 现实、对开发团队的实际影响。",
+      "platform": [
+        "小红书",
+        "知乎",
+        "B站"
+      ],
+      "monetization_angle": "揭秘类内容，吸引好奇的程序员和科技爱好者，可通过视频广告或知识付费变现。",
+      "xiaohongshu_title": "别傻了！100% 用 AI 写代码的公司都是忽悠你的😏",
+      "cover_text": "100% AI 代码？真相是……",
+      "video_hook": "你是不是也听过有人吹“我们公司代码全是 AI 写的”？今天我们来扒一扒背后的真相。",
+      "score": 61,
+      "reason": "紧跟行业热点，具有解构性，容易引发讨论。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Claude for Legal",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "title_cn": "Anthropic 推出 Claude for Legal，法律行业 AI 助手开源",
+      "summary_cn": "Anthropic 在 GitHub 上发布了 Claude for Legal 项目，专门针对法律场景优化，包括合同分析、法律研究等功能。",
+      "content_angle": "行业应用：AI 在法律领域的潜力、与传统法律服务对比、开源对律师和律所的影响。",
+      "platform": [
+        "小红书",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "可做法律科技科普或测评，吸引法律从业者和创业者，通过工具推广或付费直播变现。",
+      "xiaohongshu_title": "法律人注意！Claude 现在能帮你审合同了⚖️",
+      "cover_text": "AI 法律助手 Claude for Legal 开源",
+      "video_hook": "以后律师可能不用自己翻合同了？Anthropic 开源了一个法律专用 AI……",
+      "score": 60,
+      "reason": "细分领域工具，有明确受众（法律人士和 AI 从业者），热度中等但实用。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "title_cn": "微软开始取消 Claude Code 许可证，竞争升级？",
+      "summary_cn": "据 The Verge 报道，微软正在取消部分用户的 Claude Code 许可证，可能与 Anthropic 的竞争关系有关，引发对 AI 工具生态的担忧。",
+      "content_angle": "科技商业分析：巨头间的围堵策略、开发者依赖第三方工具的风险、替代方案。",
+      "platform": [
+        "小红书",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "科技新闻解读，吸引开发者和行业观察者，可通过付费内容或社群变现。",
+      "xiaohongshu_title": "微软出手了！你的 Claude Code 可能用不了了😱",
+      "cover_text": "微软取消 Claude 许可证，开发者怎么办？",
+      "video_hook": "微软突然开始取消 Claude Code 的许可证，是技术问题还是商业打压？",
+      "score": 59,
+      "reason": "有冲突性，来源可靠，对开发者生态有实际影响，适合快速反应类内容。"
+    },
+    {
+      "source": "devto",
+      "original_title": "I Ran SERP Feature Detection on 8 Nigerian Creator Queries. Every Single One Had an AI Overview.",
+      "url": "https://dev.to/dannwaneri/i-ran-serp-feature-detection-on-8-nigerian-creator-queries-every-single-one-had-an-ai-overview-51ko",
+      "title_cn": "测试 8 个尼日利亚创作者搜索词，每个都出现了 AI 摘要",
+      "summary_cn": "开发者通过 SERP 特征检测发现，针对非洲尼日利亚创作者的 8 个典型搜索，全部被 Google AI Overview 覆盖，反映出 AI 摘要在全球范围的渗透。",
+      "content_angle": "SEO 与 AI 趋势：AI 摘要对内容创作者的流量影响、不同地区的差异、如何应对。",
+      "platform": [
+        "小红书",
+        "微信公众号",
+        "知乎"
+      ],
+      "monetization_angle": "SEO 相关教程和案例分析，吸引内容创作者和站长，可通过课程或工具推广变现。",
+      "xiaohongshu_title": "你的搜索词被 AI 摘要截胡了吗？实测结果令人惊讶",
+      "cover_text": "AI 摘要正在“抢”你的点击量",
+      "video_hook": "作为创作者，你的内容可能正在被 AI 摘要“吃掉”流量，连非洲的案例都证实了……",
+      "score": 58,
+      "reason": "有数据支撑的 SEO 洞察，实用性强，但受众相对垂直。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Elevated error rates on Opus 4.7",
+      "url": "https://status.claude.com/incidents/8z7l5zcy0v3b",
+      "title_cn": "Claude Opus 4.7 出现较高错误率，AI 服务不稳定引关注",
+      "summary_cn": "Anthropic 状态页面显示 Claude Opus 4.7 模型出现错误率升高问题，影响部分用户，团队正在修复。",
+      "content_angle": "产品运营：AI 服务的可靠性问题、对用户的影响、企业级 AI 的稳定性挑战。",
+      "platform": [
+        "小红书",
+        "抖音"
+      ],
+      "monetization_angle": "短资讯类内容，适合快讯视频或图文，吸引 AI 用户关注，可通过流量变现。",
+      "xiaohongshu_title": "Claude 最新模型又翻车了！Opus 4.7 报错率飙升",
+      "cover_text": "Claude Opus 4.7 出 bug，你的 AI 助手还好吗？",
+      "video_hook": "如果你最近用 Claude 发现回答奇奇怪怪，不是你的问题——Opus 4.7 出故障了！",
+      "score": 52,
+      "reason": "实时故障新闻，适合快速发布，但话题性有限，时效性强。"
+    }
+  ]
+}

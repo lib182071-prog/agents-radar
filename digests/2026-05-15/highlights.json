@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.142发布，修复内存泄漏问题",
+      "OpenAI Codex发布0.131.0-alpha系列三次更新",
+      "权限安全控制成8款工具共同关注热点",
+      "GitHub Copilot CLI发布v1.0.48版本",
+      "Gemini CLI发布v0.44.0-nightly两次更新",
+      "Kimi Code CLI今日活跃17个Issue和20个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw今日发布3个版本，含v2026.5.14-beta.1",
+      "待合并PR占比93%，审查流程存在阻塞风险",
+      "核心团队修复WebSocket链接失败的回归Bug",
+      "依赖精简：将代理依赖移至专用包减少体积",
+      "Telegram轮询引入持久化本地假脱机机制",
+      "破坏性变更：非核心供应商依赖被移出核心"
+    ],
+    "ai-trending": [
+      "openhuman单日涨星3329颗，主打私有离线AI",
+      "skills类项目mattpocock/skills获2987星",
+      "Kronos：专为金融市场语言训练的基础模型",
+      "Agent持久记忆需求爆发，agentmemory获1879星",
+      "vllm-project/vllm 80k星，高吞吐推理引擎",
+      "browser-use 94k星，让AI代理操作网页"
+    ],
+    "ai-web": [
+      "Anthropic与PwC大规模部署Claude至数十万员工",
+      "发布《2028全球AI领导力两种情景》政策论文",
+      "Claude for Small Business中小企业套件推出",
+      "与盖茨基金会达成2亿美元合作",
+      "OpenAI推出Codex移动端和敏感对话功能",
+      "PwC创建基于Claude的首个独立业务单元CFO办公室"
+    ],
+    "ai-hn": [
+      "Codex进入ChatGPT移动端获333分热议",
+      "Claude Code在大代码库最佳实践文章166分",
+      "Anthropic开源法律领域工具Claude for Legal",
+      "Rust编译器制定LLM使用政策引规范讨论",
+      "Sam Altman IPO前审查与Musk诉讼成焦点",
+      "Anthropic账户秒封、许可争端等风波不断"
+    ],
+    "ai-arxiv": [
+      "MeMo将记忆模块建模为可学习模型动态吸收知识",
+      "MetaBackdoor利用位置编码做后门攻击LLM",
+      "FutureSim构建回放真实事件的仿真评估代理",
+      "OpenDeepThink用Bradley-Terry聚合并行推理",
+      "ATLAS仅用一个词切换语言与视觉推理",
+      "Widening the Gap揭示量化模型后门攻击风险"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以3962周赞登顶本周榜首",
+      "Google Gemma-4-31B-it获2642赞千万下载",
+      "Qwen3.6-35B-A3B 494万下载成多模态热门",
+      "HiDream-O1-Image等生成类新品获大量关注",
+      "OmniVoice零样本多语言TTS下载219万",
+      "Sulphur-2-base文本到视频模型领跑新秀"
+    ],
+    "ai-community": [
+      "AI让编码加速却使系统设计调试更难",
+      "AI跨会话忘记项目tradeoff，文档不可替代",
+      "多Agent发现协议DNS-SD与ACP实践",
+      "Vercel AI SDK vs Genkit中间件实战对比",
+      "SPEC-TO-SHIP多Agent流水线从需求到部署",
+      "关于‘100%代码由AI编写’的深度反思讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces crash-charging backlash.",
+      "Codex, Kimi Code also have billing crises.",
+      "MCP integration friction across major tools.",
+      "Kimi and Pi clone Claude Code features.",
+      "OpenCode and Qwen Code push experimental features.",
+      "Feature parity competition accelerates innovation."
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h.",
+      "48 issues closed, 34 PRs merged today.",
+      "New beta release externalizes provider dependencies.",
+      "Regressions reported on WebSocket connectivity.",
+      "Quality assurance lags behind feature velocity.",
+      "Three releases published today including beta."
+    ],
+    "ai-trending": [
+      "agentmemory gains +1,879 stars for persistent memory.",
+      "OpenHuman surges +3,329 for private local AI.",
+      "RuView turns WiFi into spatial intelligence.",
+      "Kronos foundation model for financial markets.",
+      "TradingAgents hits 75.6k stars.",
+      "superpowers framework for agent skill reuse."
+    ],
+    "ai-web": [
+      "Anthropic partners with PwC for Claude deployment.",
+      "$200M Gates Foundation partnership for global health.",
+      "Policy paper on US-China AI competition.",
+      "Claude for Small Business with QuickBooks integrations.",
+      "OpenAI articles on Codex remote work capabilities.",
+      "Anthropic shaping geopolitical narrative on AI governance."
+    ],
+    "ai-hn": [
+      "Codex lands on mobile with 333 points.",
+      "Anthropic's $200M Gates Foundation partnership.",
+      "Sam Altman legal turbulence ahead of IPO.",
+      "Claude Code best practices emerging.",
+      "Frontier AI access limited by cost and geopolitics.",
+      "Elevated error rates on Opus 4.7 reported."
+    ],
+    "ai-arxiv": [
+      "EntityBench for entity-consistent video generation.",
+      "FutureSim framework for adaptive agent evaluation.",
+      "MetaBackdoor exploits positional encoding as attack.",
+      "Quantization can reverse machine unlearning.",
+      "Tensor similarity metric for mechanistic interpretability.",
+      "OpenDeepThink explores parallel reasoning aggregation."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,962 likes.",
+      "Qwen3.6-35B-A3B MoE model trends.",
+      "Gemma-4-31B-it top multimodal model.",
+      "OpenAI privacy-filter shows enterprise safety interest.",
+      "Sulphur-2-base leading text-to-video diffusion.",
+      "Voice-cloning TTS models surge (OmniVoice)."
+    ],
+    "ai-community": [
+      "AI tools make hard parts of engineering harder.",
+      "AI cannot maintain multi-file project coherence.",
+      "Agent discovery protocol DNS-SD discussed.",
+      "Lobste.rs critiques AI as social technology.",
+      "Community builds workarounds with local LLMs.",
+      "What Coding Is Starting to Lose cultural critique."
+    ]
+  }
+}
