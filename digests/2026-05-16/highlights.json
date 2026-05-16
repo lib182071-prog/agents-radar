@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.143 发布",
+      "OpenAI Codex 0.131.0-alpha.21/22 活跃",
+      "Gemini CLI 社区深度互动高赞议题",
+      "GitHub Copilot CLI v1.0.49-0/1 发布",
+      "Kimi Code CLI 关键 Hook 与过载修复",
+      "OpenCode v1.15.1 发布，10 个 PR"
+    ],
+    "ai-agents": [
+      "v2026.5.16-beta.1 发布，配置路由优化",
+      "v2026.5.14-beta.2 支持 Agent 个性化配置",
+      "Codex 运行时迁移成今日焦点议题",
+      "24h 内 500 条 Issue 和 500 条 PR 活跃",
+      "大量 Bug 被迅速关闭，响应及时",
+      "新增英文和简体中文本地化引导"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 日增 +3132 星",
+      "obra/superpowers 日增 +1648 星",
+      "anthropics/skills 官方技能包 +689 星",
+      "ollama/ollama 171k 星，本地首选工具",
+      "huggingface/transformers 160k 星，AI 标准库",
+      "supertone-inc/supertonic 端侧 TTS，+719 星"
+    ],
+    "ai-web": [
+      "Anthropic 根除智能体误对齐，Claude Haiku 4.5 满分",
+      "PwC 全面部署 Claude，成立新业务部门",
+      "Anthropic 发布《2028》中美 AI 政策论文",
+      "OpenAI 探索个人金融 ChatGPT 场景",
+      "Claude 安全训练方法实现精准外科手术式修复",
+      "PwC 向数十万员工推广 Claude Code 和 Cowork"
+    ],
+    "ai-hn": [
+      "“太危险”隐藏模型疑因成本，获 146 分热议",
+      "OpenAI 通过 Plaid 连接银行账户引隐私争议",
+      "Claude Code vs Codex 全球排行榜发布",
+      "HWE Bench 新基准，GPT-5.5 排名第一",
+      "AI_glue 开源审计和治理工具发布",
+      "LLM 玩 Baba Is You 测试逻辑推理能力"
+    ],
+    "ai-arxiv": [
+      "MetaBackdoor 利用位置编码实现隐蔽后门",
+      "量化可逆转遗忘，4-bit 量化复活已忘知识",
+      "Widening the Gap：制作量化后恶意模型",
+      "FutureSim 回放世界事件评估智能体适应力",
+      "OpenDeepThink 并行采样+Bradley–Terry 聚合",
+      "Self-Distilled 自蒸馏强化学习改善长程任务"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 获 3980 赞领跑总榜",
+      "DeepSeek-V4-Flash 超 1.6M 下载量",
+      "google/gemma-4-31B-it 获 2.6k 赞，9.8M 下载",
+      "openbmb/MiniCPM-V-4.6 端侧多模态受追捧",
+      "Supertone/supertonic-3 语音合成模型爆发",
+      "SulphurAI/Sulphur-2-base 视频生成新星"
+    ],
+    "ai-community": [
+      "Hermes Agent 7 天自进化经验分享",
+      "AWS 工程师拆解模型选型与成本控制",
+      "Agent Security Stack 传输身份策略运行时",
+      "三层防御架构输入过滤执行控制审计",
+      "AI Agent 记忆三大生产陷阱及修复",
+      "AI 代码审查需多轮迭代避免遗漏"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and OpenCode lead community scale",
+      "Streaming reliability is a shared industry challenge",
+      "MCP convergence becomes a universal priority",
+      "Qwen Code introduces daemon mode innovation",
+      "Gemini CLI shows aggressive feature velocity",
+      "Sandbox hardening emerges as common priority"
+    ],
+    "ai-agents": [
+      "OpenClaw released two beta versions today",
+      "High open-PR count suggests stabilization bottleneck",
+      "Codex-vs-Pi runtime parity effort ongoing",
+      "QA lab infrastructure drives current work",
+      "Maintainer tooling improvements in beta release",
+      "CLI localization added for English and Chinese"
+    ],
+    "ai-trending": [
+      "Anthropic's skills repo surges in trending",
+      "MCP ecosystem matures with n8n-mcp",
+      "Supertonic brings on-device TTS via ONNX",
+      "RuView turns WiFi into spatial intelligence",
+      "Agents shift to composable skill architectures",
+      "vllm and ollama remain infrastructure staples"
+    ],
+    "ai-web": [
+      "Claude models achieve perfect misalignment score",
+      "Anthropic expands PwC alliance for Claude deployment",
+      "Geopolitical white paper on US-China AI leadership",
+      "OpenAI publishes Personal Finance ChatGPT listing",
+      "Alignment research post titled Teaching Claude why",
+      "Haiku 4.5 onward has 0% failure rate"
+    ],
+    "ai-hn": [
+      "Anthropic withholding model sparks cost vs safety debate",
+      "OpenAI ChatGPT bank connection raises privacy concerns",
+      "Revenue discrepancy $5B vs $19B draws skepticism",
+      "Ilya Sutskever deposition leak resurfaces tensions",
+      "Community shifts focus to corporate behavior",
+      "HWE Bench ranks GPT 5.5 on top"
+    ],
+    "ai-arxiv": [
+      "MetaBackdoor exploits positional encoding as backdoor",
+      "Quantization attacks expose security risks",
+      "FutureSim replays real events to test adaptation",
+      "OpenDeepThink scales parallel reasoning with aggregation",
+      "Pelican-Unified 1.0 unifies understanding and action",
+      "Inclusive multilingual embeddings with ML-Embed"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops downloads with 2.7M",
+      "Gemma-4-31B-it most downloaded multimodal model",
+      "Qwen3.6 MoE variant sees broad adoption",
+      "Sulphur-2-base for text-to-video trending",
+      "Unsloth community quantizations popular",
+      "k2-fsa OmniVoice for zero-shot multilingual TTS"
+    ],
+    "ai-community": [
+      "Agent security stack framework gains traction",
+      "Hermes agent self-improves skill files over time",
+      "Boring technology advocated for AI infrastructure",
+      "Discussions on agent memory and governance systems",
+      "Countercurrent against vibecoding and AI slop",
+      "Practical tutorials on testing LLM prompts"
+    ]
+  }
+}
