@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 发布 v1.15.2 和 v1.15.3 版本",
+      "Claude Code 社区活跃但聚焦系统性问题",
+      "Agent 自定义与协作成为共同关注方向",
+      "Qwen Code 架构型 PR 数量突出",
+      "Pi 发布 v0.74.1 版本",
+      "Gemini CLI 子代理假成功问题引讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.16-beta.4 安全审计抑制",
+      "新增 xAI Grok OAuth 登录认证",
+      "CLI Cron 增强超时和运行 ID 过滤",
+      "简单工具插件创作 PR 降低开发门槛",
+      "P1 安全 Bug 积压亟待解决",
+      "社区热议内部文本泄露问题"
+    ],
+    "ai-trending": [
+      "superpowers 和 openhuman 获数千 Stars",
+      "ollama 171K Stars 成本地 AI 首选",
+      "firecrawl 120K Stars 专为 Agent 设计",
+      "browser-use 94K Stars 让 AI 操作浏览器",
+      "Activepieces 整合约 400 个 MCP 服务器",
+      "本地优先、隐私保护 AI 应用成新趋势"
+    ],
+    "ai-hn": [
+      "DeepSeek-V4-Flash 让 LLM Steering 重获关注",
+      "OpenAI 与马耳他政府达成大规模合作",
+      "Codiff 本地 diff 审查工具提升审查效率",
+      "微软开源‘Strava for AI Coding’分析工具",
+      "AI Memory Reader 浏览 Claude Code 记忆",
+      "AI 编码改变编程文化引发反思"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4001 赞登顶 Hugging Face",
+      "Gemma-4-31B-it 下载量达 990 万",
+      "Sulphur-2 视频生成模型成黑马",
+      "Qwen 3.6 系列与 DeepSeek 双雄争霸",
+      "Supertone 语音模型受社区关注",
+      "MiniCPM-V-4.6 端侧多模态表现亮眼"
+    ],
+    "ai-community": [
+      "“Dead Internet Theory”在 DEV 平台上演",
+      "Gemma 4 MoE 与 Dense 模型行为相反",
+      "Claude Code 是引擎，Cursor 是座舱",
+      "Context Time Machine 追踪 Agent 会话",
+      "多 Agent 状态同步使用 AWS EFS 方案",
+      "AI 编码正在改变编程文化引反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Cross-tool comparison published today.",
+      "OpenCode and Pi shipped new releases.",
+      "Claude Code Skills framework available.",
+      "Eight tools compared for developer workflow.",
+      "Gemini CLI universal assistant focus.",
+      "Kimi Code CLI targets Moonshot AI."
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.16-beta.4 released.",
+      "140 PRs merged in 24 hours.",
+      "xAI Grok OAuth integration added.",
+      "CLI cron --wait controls added.",
+      "Security audit suppressions feature.",
+      "97 issues resolved today."
+    ],
+    "ai-trending": [
+      "openhuman gains 1,549 stars today.",
+      "RuView personal AI assistant trending.",
+      "superpowers skill framework 1,305 stars.",
+      "scientific-agent-skills for research.",
+      "supertonic on-device TTS with ONNX.",
+      "Agent skill ecosystem explosion."
+    ],
+    "ai-hn": [
+      "DeepSeek steering vectors revive interest.",
+      "OpenAI Malta deal sparks vendor lock-in debate.",
+      "OpenClaw creator's $1.3M OpenAI bill.",
+      "Codiff: open-source local diff review.",
+      "Strava for AI coding analytics launched.",
+      "AI poop analysis privacy story."
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro tops with 4,001 likes.",
+      "DeepSeek V4 Flash for high-throughput.",
+      "Gemma 4 dominates multimodal reasoning.",
+      "Qwen3.6 MoE via Unsloth GGUF.",
+      "Sulphur-2 base text-to-video 1M downloads.",
+      "OmniVoice zero-shot TTS crosses 1M."
+    ],
+    "ai-community": [
+      "Dead Internet Theory sparks debate.",
+      "Gemma 4 MoE vs dense behavior test.",
+      "Claude Code and Cursor workflow combo.",
+      "AI as social technology reflection.",
+      "xAI model deprecation with 9 days notice.",
+      "Vibecoding cultural shift discussed."
+    ]
+  }
+}
