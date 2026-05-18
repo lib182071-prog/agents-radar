@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code稳定性问题密集爆发",
+      "OpenAI Codex Token消耗#14593持续发酵",
+      "Gemini CLI发布v0.44.0-nightly",
+      "Copilot CLI Windows兼容性问题长期未解",
+      "OpenCode发布v1.15.4",
+      "Qwen Code Daemon模式关键开发期"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时新增500 Issue和PR",
+      "PR合并率仅28.6%维护者瓶颈",
+      "发布v2026.5.16-beta.5/6/7三个版本",
+      "Mac应用UI重构",
+      "Node.js最低版本提升至22.19",
+      "消息可见性修复PR #83571合并"
+    ],
+    "ai-trending": [
+      "openhuman今日新增3945 stars领跑",
+      "agent-skills获1244 stars Agent技能注册表",
+      "CLI-Anything获1047 stars让软件Agent友好",
+      "llama.cpp本地推理基石持续更新",
+      "supertonic端侧TTS引擎获827 stars",
+      "12-factor-agents方法论指导生产LLM"
+    ],
+    "ai-hn": [
+      "Semble代码搜索比grep少用98% token 365分",
+      "Claude Code辅助逆向Android恶意软件",
+      "Linux内核邮件列表被AI漏洞猎人淹没",
+      "毕业典礼嘉宾因AI言论被嘘社会反感",
+      "LLM天启四骑士危机讨论",
+      "AI手写识别在历史档案领域应用"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it下载近千万居首",
+      "DeepSeek V4 Pro和V4 Flash双星闪耀",
+      "Qwen3.6-35B-A3B多模态下载560万",
+      "Sulphur-2-base视频生成破百万下载",
+      "MiniCPM-V-4.6端侧多模态关注攀升",
+      "supergemma4量化版社区活跃"
+    ],
+    "ai-community": [
+      "AI Gateway选型清单获23赞",
+      "Claude分析回顾发现隐性模式",
+      "DeepSeek隐藏调用引透明性讨论",
+      "多智能体系统调试执行树方法论",
+      "生产验证的四个LLM工作流",
+      "RAG生产失败原因及修复模式"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and OpenAI Codex top discussion",
+      "Memory and cost transparency key challenges",
+      "Kimi Code CLI has concentrated blocker bursts",
+      "Tools converge on daemon modes and MCP",
+      "Divergence in community engagement noted",
+      "OpenCode and Pi focus on model flexibility"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs updated",
+      "Top issue #75 has 104 comments, 75 likes",
+      "Three beta releases shipped today",
+      "Mac UI redesign and Docker build arg added",
+      "Bug fixes for message delivery and security",
+      "Demand for cross-platform and secrets management"
+    ],
+    "ai-trending": [
+      "Agent skill registries explode in stars",
+      "openhuman gains +3,945 stars today",
+      "supertonic +827 for on-device TTS",
+      "12-factor-agents proposes production principles",
+      "RuView uses commodity WiFi for spatial AI",
+      "NVlabs/Sana +472 for efficient image synthesis"
+    ],
+    "ai-hn": [
+      "Semble claims 98% fewer tokens than grep",
+      "Commencement speakers booed for AI remarks",
+      "Linux security list flooded by AI bug reports",
+      "Mood split between efficiency and backlash",
+      "LLM performance by language benchmark low engagement",
+      "Anthropic cache tokenomics analysis posted"
+    ],
+    "ai-hf": [
+      "Qwen3.6 family surpasses 5M downloads",
+      "DeepSeek-V4-Pro has 4k+ likes, 3.4M downloads",
+      "Sulphur-2-base text-to-video crosses 1M downloads",
+      "Google Gemma-4-31B-it reaches 9M downloads",
+      "Quantized models (GGUF) booming from unsloth",
+      "Ring-2.6-1T is a 1T-parameter hybrid model"
+    ],
+    "ai-community": [
+      "AI gateway checklist for engineers published",
+      "Claude found three hidden retro patterns",
+      "DeepSeek running inside popular AI tools",
+      "Cost and reliability themes dominate posts",
+      "MCP and agent debugging articles trending",
+      "Battle-tested patterns for LLM workflows"
+    ]
+  }
+}

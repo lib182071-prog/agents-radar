@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-05-18 12:51 UTC",
+  "date": "2026-05-18",
+  "topics": [
+    {
+      "source": "hn",
+      "original_title": "Eric Schmidt speech about AI booed during graduation",
+      "url": "https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585",
+      "title_cn": "谷歌前CEO毕业典礼谈AI遭全场嘘声，AI焦虑已到临界点？",
+      "summary_cn": "Eric Schmidt在大学毕业典礼上发表AI主题演讲时被学生集体喝倒彩，反映出公众对AI替代就业、隐私侵蚀等问题的强烈担忧。",
+      "content_angle": "社会争议：AI乐观论调与普通人的恐惧形成对立，毕业生成抗议主力。",
+      "platform": [
+        "小红书",
+        "抖音",
+        "B站",
+        "知乎"
+      ],
+      "monetization_angle": "可结合情绪消费（如“反对AI焦虑”相关课程/社群）或技术平权产品推广。",
+      "xiaohongshu_title": "当全世界的毕业生都在对AI说“不”时，我在想什么",
+      "cover_text": "👎 谷歌前CEO被嘘：AI不是万能的",
+      "video_hook": "如果你的毕业典礼上，演讲嘉宾大谈AI取代你的工作，你会鼓掌还是喝倒彩？",
+      "score": 92,
+      "reason": "高热度事件（138 points，86 comments），中英文媒体均报道，与当前AI引发就业焦虑高度相关，适合多平台引发讨论。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Linux security mailing list 'almost unmanageable'",
+      "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
+      "title_cn": "Linus Torvalds怒喷AI漏洞猎人：Linux安全邮件列表已被淹没到无法管理",
+      "summary_cn": "Linus Torvalds指出AI驱动的自动化漏洞挖掘工具向Linux安全邮件列表发送大量低质量报告，导致真正重要的安全问题被淹没。",
+      "content_angle": "技术圈内幕：AI工具带来的信息洪流反而降低了安全维护效率，引发对AI辅助开发“副作用”的讨论。",
+      "platform": [
+        "知乎",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "可引出AI辅助代码审查工具的正确使用方式，或安全合规服务。",
+      "xiaohongshu_title": "连Linux之父都被AI搞崩溃了？这些AI工具正在制造新麻烦",
+      "cover_text": "🔥 Linus：AI让安全邮件列表崩了",
+      "video_hook": "你每天被多少AI生成的垃圾报告淹没？连Linux之父都受不了了！",
+      "score": 88,
+      "reason": "Linus自带流量，话题涉及AI的有效性争议，技术圈与泛科技人群均感兴趣。"
+    },
+    {
+      "source": "hn",
+      "original_title": "NASA still maintains some of the Voyager spacecraft code from the 70s era",
+      "url": "https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their/",
+      "title_cn": "NASA还在用70年代的语言维护旅行者号代码，全地球没几个人能读懂",
+      "summary_cn": "旅行者号探测器至今仍运行着用FORTRAN等古老语言编写的代码，只有少数老工程师能维护，面临知识断层危机。",
+      "content_angle": "怀旧与技术传承：古老编程语言的坚韧与现代AI时代形成反差，引发对技术债务和长期维护的思考。",
+      "platform": [
+        "小红书",
+        "B站",
+        "抖音"
+      ],
+      "monetization_angle": "可结合编程教育怀旧（古早语言课程）、技术考古内容付费。",
+      "xiaohongshu_title": "40年前的代码还在飞：NASA旅行者号的冷知识",
+      "cover_text": "🚀 太空代码考古：FORTRAN依然坚挺",
+      "video_hook": "如果有一天，你写的代码在50年后还在运行，而你早已退休…",
+      "score": 85,
+      "reason": "趣味性和科普价值高，航天+编程双重噱头，适合短视频和图文知识类内容。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "title_cn": "Semble：专为AI Agent设计的代码搜索工具，比grep省98%的token",
+      "summary_cn": "Semble是一个开源代码搜索工具，通过优化索引和检索策略，使AI Agent在进行代码搜索时消耗的token量仅为传统grep方式的2%。",
+      "content_angle": "技术效率：AI Agent开发中的token成本优化，工程实践案例。",
+      "platform": [
+        "知乎",
+        "B站",
+        "GitHub相关社群"
+      ],
+      "monetization_angle": "可引出AI开发工具链、Token优化课程或咨询服务。",
+      "xiaohongshu_title": "给AI Agent用的搜索神器：省98%的token，能省多少钱？",
+      "cover_text": "⚡ 代码搜索新范式：Semble",
+      "video_hook": "你的AI Agent每次搜索代码都花大把token？这个开源项目让你省下98%的费！",
+      "score": 82,
+      "reason": "技术干货，针对AI Agent开发者痛点（成本），Hacker News高分（365 points），实用性强。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Canada’s Bill C-22 would weaken protections on private messages",
+      "url": "https://opencivics-labs.github.io/dontsurveil.me/c22.html",
+      "title_cn": "加拿大C-22法案拟削弱私密信息保护，全球监控立法潮来临？",
+      "summary_cn": "加拿大正在审议的Bill C-22法案试图扩大政府对加密通信的监控权限，隐私倡导者警告这将严重削弱端到端加密保护。",
+      "content_angle": "隐私与安全：政府监控与个人隐私的长期博弈，与AI时代数据采集形成叠加效应。",
+      "platform": [
+        "知乎",
+        "微信公众号"
+      ],
+      "monetization_angle": "可引流至加密通讯工具、隐私保护产品，或付费深度分析。",
+      "xiaohongshu_title": "你的私信可能不再安全：加拿大C-22法案将改变什么",
+      "cover_text": "🔒 隐私告急：加拿大法案破解加密",
+      "video_hook": "政府说为了安全要看你聊天记录，你同意吗？加拿大正在做这件事。",
+      "score": 78,
+      "reason": "隐私话题永远有热度，95 points，且与国内“监控与反监控”形成对照，适合深度分析。"
+    },
+    {
+      "source": "hn",
+      "original_title": "The Time Bomb Went Off: AI's All-You-Can-Eat Era Just Ended in Real Time",
+      "url": "https://www.thestateofbrand.com/news/ai-subscription-price-subsidiation-ending",
+      "title_cn": "AI免费午餐结束：大模型API补贴退潮，开发者何去何从？",
+      "summary_cn": "随着AI公司取消低价补贴和免费额度，开发者依赖的廉价AI服务正在消失，标志着一个时代的终结。",
+      "content_angle": "商业趋势：AI基础设施成本回归理性，对独立开发者和创业公司影响巨大。",
+      "platform": [
+        "知乎",
+        "小红书",
+        "B站"
+      ],
+      "monetization_angle": "可推广成本优化方案、本地模型部署教程，或预测AI服务分化趋势。",
+      "xiaohongshu_title": "炸了！AI白嫖时代终结，我的项目成本翻了10倍",
+      "cover_text": "💸 AI不再廉价：免费时代结束",
+      "video_hook": "去年你还在嘲笑ChatGPT贵，今年连API都快要用不起了？",
+      "score": 76,
+      "reason": "与开发者切身利益相关，话题具有时效性和紧迫性，易引发共鸣。"
+    },
+    {
+      "source": "hn",
+      "original_title": "Reverse engineering Android malware from popular Chinese projectors",
+      "url": "https://zanestjohn.com/blog/reing-with-claude-code",
+      "title_cn": "逆向中国热门投影仪固件发现Android恶意软件，AI辅助分析立功",
+      "summary_cn": "安全研究员使用Claude Code逆向分析某中国品牌投影仪的固件，发现其中预装了恶意软件，可窃取用户数据。",
+      "content_angle": "安全探秘：硬件供应链安全风险，AI+逆向的实战案例。",
+      "platform": [
+        "知乎",
+        "B站",
+        "抖音"
+      ],
+      "monetization_angle": "可引导至智能设备安全检测服务、个人隐私防护工具。",
+      "xiaohongshu_title": "你家投影仪可能在偷数据？逆向工程师用AI揪出恶意软件",
+      "cover_text": "🔍 投影仪里的幽灵：恶意软件",
+      "video_hook": "你用的智能投影仪可能正在悄悄上传你的全部生活！",
+      "score": 74,
+      "reason": "中国品牌+恶意软件+AI辅助，话题具有地域关联性和新鲜感，安全领域易传播。"
+    },
+    {
+      "source": "devto",
+      "original_title": "DeepSeek Is Running Inside Your Favorite AI Tool – And Nobody Told You",
+      "url": "https://dev.to/harsh2644/deepseek-is-running-inside-your-favorite-ai-tool-and-nobody-told-you-5g47",
+      "title_cn": "DeepSeek正在你最爱用的AI工具里偷偷运行，没人告诉你",
+      "summary_cn": "许多热门的AI产品（包括部分闭源工具）实际上在背后调用DeepSeek等开源模型，但用户对此毫不知情，引发了透明度和合规讨论。",
+      "content_angle": "行业黑幕：AI应用供应链透明度，开源模型被“白嫖”或“洗白”现象。",
+      "platform": [
+        "知乎",
+        "小红书",
+        "抖音"
+      ],
+      "monetization_angle": "可衍生出AI使用成本优化、模型溯源工具、合规审计服务。",
+      "xiaohongshu_title": "你的AI工具可能背着你用DeepSeek？揭秘背后的猫腻",
+      "cover_text": "🤫 你的AI助手可能在偷偷换芯",
+      "video_hook": "你以为你在用GPT？其实背后可能是DeepSeek在替你干活！",
+      "score": 72,
+      "reason": "具有揭秘性和争议性，17 reactions，4 comments，与开源/闭源之争相关，容易引发讨论。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "title_cn": "OpenHuman：开源“数字人”项目，24小时获近4000星",
+      "summary_cn": "一个名为OpenHuman的GitHub项目突然爆火，旨在构建可交互的开源数字人模型，引发对AI拟人化与伦理的讨论。",
+      "content_angle": "开源新秀：数字人技术平民化，但道德风险（如deepfake、情感操控）随之而来。",
+      "platform": [
+        "知乎",
+        "B站",
+        "小红书"
+      ],
+      "monetization_angle": "可引导数字人制作教程、虚拟偶像运营、相关工具链推广。",
+      "xiaohongshu_title": "24小时内4000人star！这个开源数字人项目让所有人都能造一个“自己”",
+      "cover_text": "🤖 开源数字人：人人可造AI分身",
+      "video_hook": "如果有一天，你能创造一个完美的数字分身替你上班，你敢用吗？",
+      "score": 70,
+      "reason": "暴涨星标（3945 today），代表社区热度，数字人是当前AI赛道焦点，适合科技爱好者。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "title_cn": "CLI-Anything：用自然语言执行任意命令行操作",
+      "summary_cn": "一个将自然语言指令转化为命令行操作的开源工具，支持多平台，降低命令行使用门槛。",
+      "content_angle": "工具评测：让AI帮你操作终端，效率提升还是安全隐患？",
+      "platform": [
+        "知乎",
+        "B站",
+        "微信公众号"
+      ],
+      "monetization_angle": "可转化为命令行教程、自动化脚本课程、安全审查服务。",
+      "xiaohongshu_title": "告别背命令！这个工具让你用中文直接操作电脑终端",
+      "cover_text": "⌨️ 自然语言CLI：小白也能玩转命令行",
+      "video_hook": "再也不用记那些复杂的Linux命令了？这个AI工具让你用中文就能搞定一切！",
+      "score": 68,
+      "reason": "实用工具，1047 today stars，对开发者和高级用户有吸引力，话题性中等。"
+    },
+    {
+      "source": "devto",
+      "original_title": "Stop Briefing AI. Let It Interview You",
+      "url": "https://dev.to/usmankhan1/stop-briefing-ai-let-it-interview-you-55ef",
+      "title_cn": "别再给AI下指令了，让它来“面试”你",
+      "summary_cn": "一种新的AI交互范式：放弃传统的提示工程，改为让AI主动提问，挖掘用户真实需求，从而生成更精准的解决方案。",
+      "content_angle": "交互革命：从“人指挥AI”到“AI引导人”，反思现有AI使用习惯。",
+      "platform": [
+        "知乎",
+        "小红书"
+      ],
+      "monetization_angle": "可推广新型AI产品设计理念，或提供相关培训、咨询服务。",
+      "xiaohongshu_title": "颠覆认知：别再写prompt了，让AI来问你问题",
+      "cover_text": "🤯 让AI面试你？新玩法",
+      "video_hook": "你还在苦苦写prompt？高手已经开始让AI主动挖掘你的需求了！",
+      "score": 65,
+      "reason": "观点新颖，5 reactions，能引发对AI交互模式的讨论，适合中高端读者。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "title_cn": "微软发布《AI Agent初学者指南》，GitHub获千星",
+      "summary_cn": "微软官方推出的AI Agent入门教程，覆盖Agent架构、工具调用、记忆管理等核心概念，适合零基础开发者。",
+      "content_angle": "学习资源：大厂出品，系统化学习路径，降低Agent开发门槛。",
+      "platform": [
+        "知乎",
+        "B站",
+        "小红书"
+      ],
+      "monetization_angle": "可结合课程推广、学习社群、以及Agent开发工具链。",
+      "xiaohongshu_title": "微软官方Agent教程来了！手把手教你搭建第一个AI代理",
+      "cover_text": "📚 微软出品：AI Agent入门宝典",
+      "video_hook": "想学AI Agent却不知从何入手？微软把教程都给你整理好了！",
+      "score": 63,
+      "reason": "微软品牌+热门方向，1013 stars，对初学者有引流价值，适合知识类平台。"
+    },
+    {
+      "source": "github-trending",
+      "original_title": "tech-leads-club/agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "title_cn": "Agent Skills：技术Leader的AI Agent技能集合，获1200+星",
+      "summary_cn": "一个面向技术管理者的AI Agent技能库，包含提示模板、工作流示例和最佳实践，旨在帮助团队高效落地AI。",
+      "content_angle": "团队管理：如何让AI Agent真正提升团队效率，而非制造混乱。",
+      "platform": [
+        "知乎",
+        "微信公众号"
+      ],
+      "monetization_angle": "可转化为企业培训、管理咨询、或进阶课程。",
+      "xiaohongshu_title": "技术Leader必看：GitHub上这个Agent技能库让团队效率翻倍",
+      "cover_text": "👨‍💼 团队AI提效：Agent Skills",
+      "video_hook": "你的团队还在低效使用AI？看看顶级技术Leader都在用哪些Agent技能！",
+      "score": 60,
+      "reason": "聚焦管理者群体，1244 stars，内容实用但偏小众，适合深度阅读。"
+    }
+  ]
+}
